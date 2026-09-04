@@ -159,5 +159,5 @@
   <text x="700" y="758" class="sm">Manufacturer</text><text x="700" y="776" class="lbl">L&amp;R MFG. CO.</text>
   <text x="940" y="674" class="sm">Date</text><text x="940" y="692" class="lbl">June 12, 2026</text>
   <text x="940" y="716" class="sm">Engineer</text><text x="940" y="734" class="lbl">Hobbs R.E.</text>
-  <text x="940" y="758" class="sm">Drawing / Rev</text><text x="940" y="776" class="lbl">LR-ELEC-002 / Rev A — FIRST ISSUE</text>
+  <text x="940" y="758" class="sm">Drawing / Rev</text><text x="940" y="776" class="lbl">LR-ELEC-002 / Rev A — RELEASED</text>
 </svg>

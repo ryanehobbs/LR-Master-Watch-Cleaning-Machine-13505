@@ -398,6 +398,6 @@
   <!-- Field: Drawing / Rev -->
   <text x="967" y="764" class="txt-meta-lbl">Drawing / Rev</text>
   <text x="967" y="779" class="txt-meta-val">LR-ELEC-003 / Rev A</text>
-  <text x="967" y="791" class="txt-sub" font-size="9.5px">FIRST ISSUE &#8212; as-built + commissioned</text>
+  <text x="967" y="791" class="txt-sub" font-size="9.5px">RELEASED &#8212; as-built + commissioned</text>
 
 </svg>

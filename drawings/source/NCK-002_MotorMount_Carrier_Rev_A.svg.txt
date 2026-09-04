@@ -318,6 +318,6 @@
 
   <!-- Metadata Field: Status -->
   <text x="1075" y="728" class="txt-meta-hdr">Status</text>
-  <text x="1075" y="748" class="txt-meta-body" font-size="11.5px">FIRST ISSUE</text>
+  <text x="1075" y="748" class="txt-meta-body" font-size="11.5px">RELEASED</text>
 
 </svg>

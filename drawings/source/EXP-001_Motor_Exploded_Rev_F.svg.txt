@@ -60,7 +60,7 @@
     <text x="915" y="2073" class="header-text">L&amp;R MFG. CO. — MASTER CLEANING MACHINE</text>
     
     <text x="660" y="2105" class="label-text">DRAWING TITLE:</text>
-    <text x="660" y="2123" class="value-text" font-weight="bold">MOTOR ASSEMBLY EXPLED PROFILE (REV F)</text>
+    <text x="660" y="2123" class="value-text" font-weight="bold">MOTOR ASSEMBLY EXPLODED PROFILE (REV F)</text>
     
     <text x="665" y="2152" class="label-text">ENGINEER:</text>
     <text x="665" y="2170" class="value-text">Hobbs R.E.</text>
