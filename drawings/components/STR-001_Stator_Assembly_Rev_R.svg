@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+    <defs>
+        <style>
+            .header-text { font-family: sans-serif; font-weight: bold; font-size: 16px; fill: #111; text-anchor: middle; letter-spacing: 1px; }
+            .label-text { font-family: sans-serif; font-weight: bold; font-size: 10px; fill: #333; }
+            .value-text { font-family: monospace; font-size: 12px; fill: #111; }
+            .notes-text { font-family: sans-serif; font-size: 10px; fill: #111; }
+            .grid-label { font-family: sans-serif; font-weight: bold; font-size: 10px; fill: #666; text-anchor: middle; }
+            .disclaimer-text { font-family: sans-serif; font-style: italic; font-size: 9px; fill: #666; text-anchor: middle; }
+        </style>
+
+        <marker id="arr-up" markerWidth="10" markerHeight="10" refX="5" refY="0" orient="auto">
+            <path d="M0,10 L5,0 L10,10 Z" fill="#111" />
+        </marker>
+        <marker id="arr-dn" markerWidth="10" markerHeight="10" refX="5" refY="10" orient="auto">
+            <path d="M0,0 L5,10 L10,0 Z" fill="#111" />
+        </marker>
+    
+        <marker id="arr-l" markerWidth="10" markerHeight="10" refX="0" refY="5" orient="auto">
+            <path d="M10,0 L0,5 L10,10 Z" fill="#111" />
+        </marker>
+        <marker id="arr-r" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto">
+            <path d="M0,0 L10,5 L0,10 Z" fill="#111" />
+        </marker>
+
+        <pattern id="hatch-yoke" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+           
+            <line x1="0" y1="0" x2="0" y2="10" stroke="#333" stroke-width="1.5" />
+        </pattern>
+        <pattern id="hatch-shoe" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)">
+            <line x1="0" y1="0" x2="0" y2="5" stroke="#333" stroke-width="1" />
+        </pattern>
+        <pattern id="crosshatch-coil" patternUnits="userSpaceOnUse" width="8" height="8">
+            <path d="M0,0 L8,8 M8,0 L0,8" stroke="#666" stroke-width="1" />
+        </pattern>
+    </defs>
+
+ 
+    <rect width="1200" height="800" fill="#f8f9fa" />
+
+    <rect x="15" y="15" width="1170" height="770" fill="none" stroke="#111" stroke-width="1" />
+    <rect x="35" y="35" width="1130" height="730" fill="none" stroke="#111" stroke-width="2" />
+
+    <line x1="320" y1="15" x2="320" y2="35" stroke="#111" stroke-width="1" />
+    <line x1="600" y1="15" x2="600" y2="35" stroke="#111" stroke-width="1" />
+    <line x1="880" y1="15" x2="880" y2="35" stroke="#111" stroke-width="1" />
+    <text x="177" y="28" class="grid-label">A</text>
+    <text x="460" y="28" class="grid-label">B</text>
+    <text x="740" y="28" class="grid-label">C</text>
+    <text x="1020" y="28" class="grid-label">D</text>
+
+    <line x1="15" y1="230" x2="35" 
+y2="230" stroke="#111" stroke-width="1" />
+    <line x1="15" y1="425" x2="35" y2="425" stroke="#111" stroke-width="1" />
+    <line x1="15" y1="620" x2="35" y2="620" stroke="#111" stroke-width="1" />
+    <text x="25" y="137" class="grid-label">1</text>
+    <text x="25" y="332" class="grid-label">2</text>
+    <text x="25" y="527" class="grid-label">3</text>
+
+    <line x1="1165" y1="230" x2="1185" y2="230" stroke="#111" stroke-width="1" />
+    <line x1="1165" y1="425" x2="1185" y2="425" stroke="#111" stroke-width="1" />
+    <line x1="1165" y1="620" x2="1185" y2="620" stroke="#111" stroke-width="1" />
+
+    <line x1="320" y1="765" x2="320" y2="785" stroke="#111" stroke-width="1" />
+    <line x1="600" y1="765" x2="600" y2="785" stroke="#111" 
+stroke-width="1" />
+    <line x1="880" y1="765" x2="880" y2="785" stroke="#111" stroke-width="1" />
+
+    <line x1="600" y1="35" x2="600" y2="620" stroke="#ccc" stroke-width="1" stroke-dasharray="15,5,5,5" />
+    <line x1="35" y1="327" x2="1165" y2="327" stroke="#ccc" stroke-width="1" stroke-dasharray="15,5,5,5" />
+
+    <text x="317" y="100" font-family="sans-serif" font-weight="bold" font-size="14" fill="#111" text-anchor="middle" letter-spacing="2">EXTERNAL TOP PLAN VIEW</text>
+    <text x="882" y="100" font-family="sans-serif" font-weight="bold" font-size="14" fill="#111" text-anchor="middle" letter-spacing="2">CROSS SECTIONAL PROFILE</text>
+
+    <g transform="translate(317, 327)">
+        <circle cx="0" cy="0" r="115" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="10,5" />
+        
+     
+        <g stroke="#111" stroke-width="2">
+            <path d="M -42 -72 
+                     C -85 -65, -95 -30, -95 0 
+                     C -95 30, -85 65, -42 72 
+                     C -60 
+50, -75 25, -75 0 
+                     C -75 -25, -60 -50, -42 -72 Z" 
+                  fill="url(#crosshatch-coil)" stroke-width="1.5" />
+                  
+            <path d="M 42 -72 
+            
+                     C 85 -65, 95 -30, 95 0 
+                     C 95 30, 85 65, 42 72 
+                     C 60 50, 75 25, 75 0 
+                     C 75 -25, 60 -50, 42 -72 
+Z" 
+                  fill="url(#crosshatch-coil)" stroke-width="1.5" />
+        </g>
+
+        <path d="M -65 -135 
+                 A 150 150 0 0 1 65 -135 
+                 A 20 20 0 0 1 100 -80 
+         
+                 A 150 150 0 0 0 100 80 
+                 A 20 20 0 0 1 65 135 
+                 A 150 150 0 0 1 -65 135 
+                 A 20 20 0 0 1 -100 80 
+         
+                 A 150 150 0 0 0 -100 -80 
+                 A 20 20 0 0 1 -65 -135 Z 
+                 M 0 -120 
+                 A 120 120 0 0 0 -60 -103.9 
+             
+                 A 30 30 0 0 0 -85 -70 
+                 L -42 -65 
+                 A 77.3 77.3 0 0 0 -42 65 
+                 L -85 70 
+                 A 30 30 0 0 0 
+-60 103.9 
+                 A 120 120 0 0 0 0 120 
+                 A 120 120 0 0 0 60 103.9 
+                 A 30 30 0 0 0 85 70 
+                 L 42 65 
+   
+                  A 77.3 77.3 0 0 0 42 -65 
+                 L 85 -70 
+                 A 30 30 0 0 0 60 -103.9 
+                 A 120 120 0 0 0 0 -120 Z" 
+       
+               fill="url(#hatch-yoke)" stroke="#111" stroke-width="2" fill-rule="evenodd" />
+
+        <g stroke="#111" stroke-width="2">
+            <circle cx="-81.3" cy="-81.3" r="5" fill="#f8f9fa" stroke-width="1.5" />
+            <circle cx="81.3" cy="-81.3" r="5" fill="#f8f9fa" stroke-width="1.5" />
+            <circle cx="-81.3" cy="81.3" r="5" fill="#f8f9fa" stroke-width="1.5" />
+            <circle cx="81.3" cy="81.3" r="5" fill="#f8f9fa" stroke-width="1.5" />
+       
+        </g>
+
+        <circle cx="0" cy="0" r="75.25" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="4,4" />
+
+        <line x1="-150" y1="-120" x2="-180" y2="-120" stroke="#111" stroke-width="1" />
+        <text x="-185" y="-116" font-family="monospace" font-size="12" text-anchor="end">STR-002/3 YOKE</text>
+        
+        <line x1="-80" y1="-60" x2="-140" y2="-80" stroke="#111" stroke-width="1" />
+        <text x="-145" y="-84" font-family="monospace" font-size="12" text-anchor="end">STR-004 FIELD</text>
+
+        <line x1="-45" y1="20" x2="-120" y2="40" stroke="#111" stroke-width="1" />
+  
+        <text x="-125" y="44" font-family="monospace" font-size="12" text-anchor="end">STR-006 POLE SHOE</text>
+    </g>
+
+    <g transform="translate(882, 327)">
+        <line x1="0" y1="-120" x2="0" y2="120" stroke="#999" stroke-width="1" stroke-dasharray="10,4,2,4" />
+
+        <g stroke="#111" stroke-width="2">
+            <rect x="-110" y="-36.8" width="10" height="73.6" fill="url(#hatch-yoke)" />
+            <rect x="-100" y="-82.5" width="20" height="165" fill="url(#crosshatch-coil)" />
+            <rect x="-80" y="-36.8" 
+width="2.7" height="73.6" fill="url(#hatch-yoke)" />
+        </g>
+
+        <g stroke="#111" stroke-width="2">
+            <rect x="77.3" y="-36.8" width="2.7" height="73.6" fill="url(#hatch-yoke)" />
+            <rect x="80" y="-82.5" width="20" height="165" fill="url(#crosshatch-coil)" />
+            <rect x="100" y="-36.8" width="10" height="73.6" fill="url(#hatch-yoke)" />
+        </g>
+
+        <g stroke="#111" stroke-width="1.5">
+       
+             <line x1="-120" y1="-36.8" x2="-160" y2="-36.8" />
+            <line x1="-120" y1="36.8" x2="-160" y2="36.8" />
+            <line x1="-145" y1="-36.8" x2="-145" y2="36.8" marker-start="url(#arr-up)" marker-end="url(#arr-dn)" />
+        </g>
+        <text x="-150" y="0" font-family="monospace" font-size="12" fill="#111" text-anchor="middle" transform="rotate(-90, -150, 0)">0.736" (CONFIRMED)</text>
+
+        <g stroke="#111" stroke-width="1.5">
+            <line x1="-120" y1="-82.5" x2="-200" y2="-82.5" />
+ 
+            <line x1="-120" y1="82.5" x2="-200" y2="82.5" />
+            <line x1="-185" y1="-82.5" x2="-185" y2="82.5" marker-start="url(#arr-up)" marker-end="url(#arr-dn)" />
+        </g>
+        <text x="-190" y="0" font-family="monospace" font-size="12" fill="#111" text-anchor="middle" transform="rotate(-90, -190, 0)">1.650" (EST.)</text>
+
+        <line x1="112" y1="0" x2="140" y2="0" stroke="#111" stroke-width="1" />
+        <text x="145" y="4" font-family="monospace" font-size="12" text-anchor="start">OUTER YOKE WALL</text>
+
+        <line 
+x1="102" y1="-50" x2="140" y2="-60" stroke="#111" stroke-width="1" />
+        <text x="145" y="-62" font-family="monospace" font-size="12" text-anchor="start">STR-005 FIELD POCKET</text>
+    </g>
+
+    <line x1="35" y1="620" x2="1165" y2="620" stroke="#111" stroke-width="2" />
+    
+    <rect x="45" y="630" width="530" height="120" fill="#fff" stroke="#111" stroke-width="2" />
+    <text x="55" y="648" class="label-text">NOTES &amp;
+SPECIFICATIONS:</text>
+    <text x="55" y="665" class="notes-text">1. MATERIAL: Laminated electrical steel core (0.736" stack), cloth-wound copper coils.</text>
+    <text x="55" y="680" class="notes-text">2. YOKE GEOMETRY: 3.000" OD unified core features aggressive concave inward side waists.</text>
+    <text x="55" y="695" class="notes-text">3.
+COILS (STR-004/005): Long crescents shifted inward to tightly hug 0.045" pole shoes.</text>
+    <text x="55" y="710" class="notes-text">4. MOUNTING: Four points on 2.300" bolt circle;
+2 pass-through, 2 threaded (STR-008).</text>
+    <text x="55" y="725" class="notes-text">5.
+CLEARANCE: Air gap to armature core derived at ~0.020" from center axis.</text>
+    <text x="55" y="740" class="notes-text">6. METROLOGY ANCHOR: Dimensional properties synced directly with reference specimen S/N 13505.</text>
+
+    <rect x="585" y="630" width="570" height="120" fill="#fff" stroke="#111" stroke-width="2" />
+    
+    <line x1="585" y1="660" x2="1155" y2="660" stroke="#111" stroke-width="2" />
+    <line x1="585" y1="705" x2="1155" y2="705" stroke="#111" stroke-width="1" />
+    
+    <line x1="755" y1="660" x2="755" y2="750" stroke="#111" stroke-width="1" />
+    <line x1="965" y1="660" x2="965" y2="750" stroke="#111" stroke-width="1" />
+    <line x1="1065" y1="705" 
+x2="1065" y2="750" stroke="#111" stroke-width="1" />
+
+    <text x="870" y="650" class="header-text">L&amp;R PRECISION CLEANING MACHINE — MASTER</text>
+    
+    <text x="595" y="675" class="label-text">MANUFACTURER:</text>
+    <text x="595" y="695" class="value-text" font-weight="bold">L&amp;R MFG. CO.</text>
+    
+    <text x="765" y="675" class="label-text">DRAWING TITLE:</text>
+    <text x="765" y="695" class="value-text" font-weight="bold" font-size="10px" textLength="185" lengthAdjust="spacingAndGlyphs">STATOR FIELD ASSEMBLY COMPONENT SHEET (REV R)</text>
+    
+    <text x="975" y="675" class="label-text">PART NUMBER / ID:</text>
+    <text x="975" y="695" class="value-text" font-weight="bold" fill="#ff3333">STR-001</text>
+
+    <text x="595" y="720" class="label-text">ENGINEER:</text>
+    <text 
+x="595" y="740" class="value-text">Hobbs R.E.</text>
+    
+    <text x="765" y="720" class="label-text">METADATA CONTROL:</text>
+    <text x="765" y="735" class="value-text" font-size="10px">SCALE: 1:1 TRUE SCALE</text>
+    <text x="765" y="748" class="value-text" font-size="10px">SERIAL NUMBER: S/N 13505</text>
+    
+    <text x="975" y="720" class="label-text">DATE:</text>
+    <text x="975" y="740" class="value-text">June 12, 2026</text>
+    
+    <text x="1075" y="720" class="label-text">STATUS:</text>
+    <text x="1075" y="740" class="value-text" font-weight="bold" fill="#228b22">RELEASED</text>
+
+    <text x="600" y="760" class="disclaimer-text">REPRODUCTION DOCUMENT — Not an original L&amp;R Mfg. Co. technical publication.
+Reverse-engineered from direct physical measurement of specimen S/N 13505. Curated by Hobbs R.E., 2026. For restoration reference only.</text>
+</svg>

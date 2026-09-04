@@ -1,0 +1,70 @@
+# Base Casting (BAS-001) Refinish & Cast-Letter Restoration Sequence
+
+> **REPRODUCTION DOCUMENT** — restoration procedure for specimen S/N 13505. Curated by Hobbs R.E., 2026. Best-judgment method (no factory refinish spec exists).
+
+Detailed cosmetic-refinish workflow for the **stripped BAS-001 base casting** — heavy metalwork, epoxy inlay to rebuild worn cast lettering (**"OFF"** on the tongue + the **"L&R MASTER"** smile-arc = BAS-005), seal, and the VHT wrinkle topcoat matching the motor housings (R-2). Slots into control-unit roadmap **Phase 1 (prep) → Phase 2 (paint)**, after Citristrip.
+
+## Operator sequence (as provided 2026-06-27)
+**Phase 1 — Heavy metalwork & structural prep**
+1. **Internal grinding** — grind interior raised burrs around the center-post holes flush (so the rechromed post NCK-001 seats cleanly; ties to the BAS-006 fit note).
+2. **External leveling** — file heavy factory casting lines; palm-sand the wide flat exterior areas.
+3. **Initial trace** — Dremel 108 bit, lightly trace the faint "OFF" boundaries to keep guidelines visible.
+4. **Chemical clean** — degrease inside + out (acetone or IPA); remove all aluminum dust + oils.
+
+**Phase 2 — Base seal & epoxy inlay**
+5. **Anchor coat** — thin coat VHT Self-Etching Primer over the whole housing, in + out; 30–60 min dry.
+6. **J-B Weld fill** — J-B Weld **High Heat** epoxy: pack deep exterior pits, smooth casting lines, build a flat "plaque" over the "OFF" area; cure 24 h.
+7. **Block sanding** — hard block + 220-grit; sand the cured epoxy flush with the surrounding aluminum.
+
+**Phase 3 — Sculpting & sealing the letters**
+8. **Pre-carve** — Dremel 108 + a drop of WD-40; re-carve the "OFF" trenches into the smooth epoxy/aluminum inlay.
+9. **High-build sealer** — 2–3 coats VHT Engine Enamel Primer (in + out); fills micro-pinholes, seals the carvings.
+10. **Letter color coat** — spray the "OFF" area the finished letter color (gloss white/silver/red high-temp enamel); paint deep into trenches; 24 h dry.
+
+**Phase 4 — Masking & the wrinkle finish**
+11. **Liquid mask** — fine brush/Q-tip; thin Vaseline (or liquid mask) into the trenches + on the letter faces only.
+12. **Interior finishing** (optional) — mask exterior, spray smooth (non-wrinkle) VHT engine paint over the interior primer.
+13. **VHT wrinkle** — 3 heavy cross-hatched coats of wrinkle paint over the exterior.
+14. **Heat + sun bake** — flash 20 min in shade; heat gun in sweeping circles to draw uniform wrinkle; then 3–4 h in hot sun to fully cure.
+15. **Wipe reveal** — after fully cool, firmly wipe the "OFF" area with microfiber; wrinkle paint over the greasy mask slides off, revealing the pre-painted letters.
+
+---
+
+## ✅ DECISION 2026-07-11 — LETTERS STAY MONOCHROME (factory-correct)
+Operator decision: **do NOT do a separate letter color-fill / wipe-back.** The cast relief lettering ("L&R MASTER" arc + "OFF" + "ON->") gets shot with the same VHT wrinkle as the whole casting and left that way — raised letters read by relief + shadow, not by contrasting color. This is how the factory did it (as-cast relief, single finish). **This SUPERSEDES all the "color letters last / wipe-back" steps below** (old steps 10, 11, 15 and the wipe-back row in the recoat table). No Vaseline mask, no Testors fill, no wipe reveal — just even wrinkle over the letters like the rest of the part.
+
+## ⚠️ CLAUDE TECHNICAL REVIEW (best-judgment — read before executing)
+**🔴 Steps 11/15 — Vaseline mask under a HIGH-HEAT wrinkle cure is the biggest risk. RECOMMEND CHANGING.**
+Petroleum jelly melts ~105 °F and thins; the wrinkle cure is ~350 °F (heat gun) + sun bake → the Vaseline **liquefies and can wick/migrate into the surrounding wrinkle paint**, causing fisheyes / un-wrinkled contaminated patches / adhesion failure (petroleum is the classic paint-adhesion enemy).
+- **PREFERRED ALTERNATIVE: do the letters LAST.** Wrinkle-coat + fully cure the whole housing first, THEN fill the "OFF"/"L&R MASTER" recesses with color via **paint-fill wipe-back** (the validated CTL-002 knob method) — no mask, no contamination, wrinkle stays pristine.
+- If keeping a mask, use a **mechanical high-temp mask** removed after cure, not petroleum.
+
+**🟡 Steps 5→6 REORDERED (confirmed w/ operator) — J-B Weld bonds best to ABRADED BARE METAL, not primer. FILL FIRST, PRIME AFTER.** Corrected stack (bottom→top): (a) metalwork; (b) **key the fill areas to bright bare aluminum + degrease**; (c) **J-B Weld High Heat on bare metal → cure**; (d) **sand flush → carve letters**; (e) **degrease again**; (f) **etch primer over the WHOLE housing** (locks the bare aluminum + seals over the cured epoxy); (g) **enamel high-build primer**; (h) → color / letters / wrinkle. *(Scuff the glassy cured epoxy before priming so the etch primer keys; degrease right before the etch coat.)* Net: epoxy grabs bare metal (strongest bond) AND the etch primer still protects every exposed-aluminum spot because it goes over the fill. Supersedes the original "etch primer then epoxy" order.
+
+**🟢 Step 6 — J-B Weld HIGH HEAT is the correct filler (upgrade over "Bondo").** Polyester body filler can shrink/outgas/soften at the 350 °F wrinkle bake; J-B Weld High Heat (~450–550 °F) survives it. (Roadmap updated: prefer J-B Weld High Heat over Bondo for the heat-cure context.)
+
+**🟢 Steps 13–14 — keep IDENTICAL to the motor-housing R-2 process** (same VHT wrinkle product, 3-coat crosshatch, ~350 °F draw, cure) so the base texture MATCHES the already-finished housings — cohesion across the machine.
+
+**Notes:** (1) do the **final degrease right before priming with SOLVENT (IPA/acetone), NOT Citranox** — solvent flashes off residue-free; after all sanding/carving dust. (2) The sequence names "OFF" — give the **"L&R MASTER" relief (BAS-005)** the same letter treatment. (3) Consider a **practice Dremel carve on scrap J-B Weld** first — Step 8 is freehand and unforgiving.
+
+## Recoat windows & timing (VHT aerosol rule)
+**Golden rule for all VHT/Dupli-Color aerosols: recoat WITHIN ~30 min, OR wait 48 h (then scuff). Never recoat in the 30 min → 48 h dead zone** — the fresh solvent re-softens a half-cured skin underneath = wrinkle/lift (same failure as the epoxy-margin risk). Warm SoCal sun shortens every flash time below.
+
+| Transition | Wait | Notes |
+|---|---|---|
+| Etch primer → enamel primer | Flash **10–20 min** (touch-dry), then recoat within the 30-min window | Do both primers back-to-back in ONE session. Miss the window → wait 48 h + scuff with gray Scotch-Brite before enamel. |
+| Enamel primer coat → next enamel coat | **A few min** apart (light flash), all inside 30 min | 2–3 build coats total. |
+| Enamel primer → block-sand | Let fully cure first (**several hrs+**, or overnight) | Only if leveling; not mandatory. |
+| Primer → VHT wrinkle | Wrinkle goes over cured primer; **re-mask holes with BAKE-PROOF plugs first** (green tape fails at 350°F) | Match motor-housing R-2 texture. |
+| Wrinkle coat → next wrinkle coat | Per R-2: 3-coat crosshatch, coats a few min apart, then ~350°F heat-draw | Keep IDENTICAL to motor housings. |
+| Wrinkle fully cured → letter color (wipe-back) | Wrinkle **fully cured + cool** before filling letters | No Vaseline mask; wipe-back fill only. |
+
+*(Confirm against the actual can label — VHT print the specific recoat/cure times; the 30-min / 48-h rule is the VHT/Dupli-Color default when the can is unavailable.)*
+
+## Progress log
+- **2026-06-27:** BAS-001 stripped to bare aluminum; rough areas ground/sanded smooth; cleaned w/ **Citranox** + scrubbed, **rinsed under tap water a few min** (detergent flushed — epoxy-bond concern resolved), dried; **J-B Weld epoxy applied over the "OFF" area** (on bare metal — correct order). ✅ Fill-on-bare-metal step done. NEXT: 24 h cure → block-sand flush (knock down the epoxy peak; skim/prime any pinholes) → carve "OFF" (leave BARE — no pre-color) → **final SOLVENT degrease** (not Citranox) → etch primer (soon, before Al re-oxidizes) → enamel high-build primer → wrinkle → **color the carved letters LAST via wipe-back**. ⚠️ Citranox is alkaline/water-based — ensure it was rinsed + dried well under the epoxy (watch for lifting when sanding). Base brackets (BAS-008) + PLT-001 disk stripped in the same batch. **Photos filed** → `photos/base-refinish/` (BR-01…BR-05, see that folder's `figure-index.md`): BR-01 stripped plan, BR-02 J-B Weld "OFF" fill macro, BR-03 3/4, BR-04 post-boss side, BR-05 wells/relief plan.
+- **2026-07-08:** J-B Weld cured; **"OFF" lettering recut** with Dremel flex-shaft + #008 bit (Step 8 done); **cured epoxy block-sanded flush** (Step 7 done). Remaining epoxy is where it filled cast lines/pits — good. ✅ Fill + carve + flush-sand complete. **NEXT (locked order):** (1) final SOLVENT degrease — IPA/acetone, NOT Citranox — + tack cloth (remove sand dust/oils); confirm epoxy faces are matte (scuff if glossy); blow out the recut "OFF" trenches; (2) **etch primer** — thin anchor coat over whole housing, get it on before bare Al re-oxidizes; (3) **VHT engine enamel high-build primer** 2–3 coats; (4) **VHT wrinkle** 3-coat crosshatch + ~350°F heat draw (match motor-housing R-2 texture); (5) **color "OFF" + "L&R MASTER" (BAS-005) LAST via wipe-back** after wrinkle cures — no Vaseline mask. ⚠️ Watch epoxy margins on the first etch coat for lift/fisheye (tell-tale for trapped Citranox/water).
+- **2026-07-08 (cont.):** Prep complete — initial sanding, dust blow-out, **IPA solvent cleanse**, and **hole masking done** (green tape/putty plugs in all fastener holes + post socket BAS-006 + the 3 small parts BAS-008/carrier/PLT-001; wells left open). ✅ Ready for etch primer. ⚠️ **RE-MASK BEFORE WRINKLE:** green painter's tape/putty is rated ~250°F — fine for the air-dry PRIMER coats, but it will bake on/scorch at the ~350°F wrinkle stage. Before the wrinkle coat, swap to bake-proof masks (silicone high-temp plugs / stainless bolts threaded in / polyimide-Kapton tape). Post socket (BAS-006): keep plugged; test-fit rechromed NCK-001 (thicker) before final assembly, lap if snug. R-5 ground spot: no need to reserve now — scrape to bright bare Al at reassembly.
+- **2026-07-09:** ✅ **Etch primer + VHT enamel primer complete, inside + outside** — BAS-001 casting + NCK-002 carrier + PLT-001 disk + BAS-008 tang all in uniform grey primer; coverage clean (no runs), wells done, "OFF/L&R MASTER/ON" relief crisp. Primer curing; **VHT wrinkle ~24–48 h out.** PRE-WRINKLE CHECKLIST: (1) ⚠️ **swap green tape → bake-proof masks** (silicone plugs / stainless bolts / Kapton) — green tape fails at the ~350°F wrinkle bake; (2) **light scuff (gray Scotch-Brite) + tack wipe** — primer will be fully cured / past recoat window, so key it mechanically; (3) **wells decision: wrinkle exterior ONLY**, leave wells in primer (or smooth topcoat); mask well bores if jar/heater-cylinder fit is tight (texture eats clearance); (4) **warm part + can, midday sun**; (5) **wrinkle goes HEAVY** (3-coat crosshatch vert/horiz/thick) + ~350°F heat-draw — match motor-housing R-2 texture; (6) letters stay MONOCHROME — shoot wrinkle over them, no separate color fill (factory-correct decision 2026-07-11).
+- **2026-07-11 — ✅ VHT WRINKLE APPLIED (paint day).** Parts pre-warmed in SoCal sun. Masks: blue tape + cardboard plugs on fit surfaces (BAS-006 square socket, screw holes, NCK-002 square bore + mount holes, PLT-001 holes); feet/exterior exposed. **All coats applied to all 4 parts** (BAS-001 base + NCK-002 carrier + PLT-001 disk + BAS-008 tang) at **12:35 PM PST**. Heat-gun draw: **~5–10 min, oscillating/moving**, backed off each area the moment crinkle grain formed, then stopped all heat. **Now curing in direct sun.** Letters shot monochrome (no wipe-back), per decision. **NEXT:** sun-bake 3–4 h min (all afternoon ideal) → bring inside before dusk → let sit undisturbed **48–72 h** for full hardness/off-gas → then pull masks WARM (re-warm any stubborn tape), verify fit surfaces clean → test-fit rechromed NCK-001 in BAS-006 socket → mock up assembly to capture the last open dim (**BAS-008 installed tang projection height**). ⚠️ Full chemical cure ~5–7 days; no hard reassembly contact / no clamping against the fresh wrinkle for 24 h+.
+- **2026-07-11 (eve) — CURED-RESULT ASSESSMENT (in-sun photos, ~5 h into cure).** Overall: ✅ **GOOD, keeper — no full re-do.** Coverage complete, color right, no bare/thin spots. **Lettering reads great** (OFF / ON-> / L&R MASTER crisp by relief shadow — monochrome decision validated). **Issue = grain NON-uniform:** horizontal + most faces have heavy coarse grain (matches motor housings R-2), but VERTICAL faces (heater-well front face, parts of the tube, upper tongue by the neck) went **smoother/glossier/finer** — classic wrinkle-on-vertical: paint sagged/pooled thicker → thick wrinkle draws a flatter, glossier grain. NOT a wrinkle failure (texture everywhere); it's a **sheen + grain-size variation** (matte-coarse vs glossy-smooth) that catches the eye. Also minor proud clumps around the screw-hole bosses + lettering. **FINISH PLAN (after full cure, 72 h+ / full week for heavy spots):** (1) **light OVERALL gray Scotch-Brite pass** (ultra-fine gray only; test on a foot/underside first) — the key move is knocking gloss off the pooled areas so sheen matches the matte coarse areas; once sheen is uniform, grain-size variation reads as intentional/factory-like. (2) knock down the proud boss/letter clumps in the same pass. (3) **re-evaluate the 2-3 glossiest faces** (heater-well front face is the worst) — ONLY if still bugging after padding, spot-scuff + **light re-shoot + heat-gun draw** to add grain (wrinkle recoats onto itself). Expectation: uniform matte from padding gets ~90% there without re-spraying. ⚠️ Wait for hardness before padding (soft film smears/tears). Root-cause note for any future wrinkle: lighter coats on vertical faces to avoid sag/pool. **NEXT after finish pass:** pull masks warm → test-fit rechromed NCK-001 in BAS-006 → mock assembly → BAS-008 installed tang height → Phase 2 COMPLETE.

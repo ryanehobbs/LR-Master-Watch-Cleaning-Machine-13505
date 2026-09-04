@@ -1,0 +1,422 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 3600" width="100%" height="100%">
+    <defs>
+        <style>
+            .header-text { font-family: sans-serif; font-weight: bold; font-size: 16px; fill: #111; text-anchor: middle; letter-spacing: 1px; }
+            .label-text { font-family: sans-serif; font-weight: bold; font-size: 11px; fill: #111; }
+            .value-text { font-family: monospace; font-size: 12px; fill: #111; }
+            .disclaimer-text { font-family: sans-serif; font-style: italic; font-size: 9px; fill: #666; text-anchor: middle; }
+            
+            .wireframe-ellipse { stroke: #475569; stroke-width: 1.5; fill: none; }
+            .wireframe-edge { stroke: #475569; stroke-width: 1.5; stroke-dasharray: 4, 2; fill: none; }
+            .sphere-profile { stroke: #475569; stroke-width: 1; fill: none; opacity: 0.5; }
+            
+            .solid-outline { stroke: #0f172a; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+            .v-segment { stroke: #0f172a; stroke-width: 1; opacity: 0.4; }
+            .copper-v-segment { stroke: #7c2d12; stroke-width: 1.2; opacity: 0.7; }
+            .stator-hole { stroke: #0f172a; stroke-width: 1; fill: #1e293b; }
+            .vent-dark { fill: #1e293b; stroke: #0f172a; stroke-width: 1; }
+            
+            .centerline-main { stroke: #0369a1; stroke-width: 1.5; stroke-dasharray: 20, 5, 5, 5; fill: none; }
+            .bounding-rail-outer { stroke: #cbd5e1; stroke-width: 1; stroke-dasharray: 6, 6; fill: none; }
+            .bounding-rail-inner { stroke: #e2e8f0; stroke-width: 1; stroke-dasharray: 4, 4; fill: none; }
+            .leader { stroke: #64748b; stroke-width: 1.5; fill: none; }
+        </style>
+        
+        <linearGradient id="shade-alum" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#94a3b8" />
+            <stop offset="20%" stop-color="#f1f5f9" />
+            <stop offset="65%" stop-color="#cbd5e1" />
+            <stop offset="100%" stop-color="#475569" />
+        </linearGradient>
+
+        <linearGradient id="shade-shaft" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#94a3b8" />
+            <stop offset="25%" stop-color="#f8fafc" />
+            <stop offset="70%" stop-color="#cbd5e1" />
+            <stop offset="100%" stop-color="#475569" />
+        </linearGradient>
+
+        <linearGradient id="shade-brass" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#ca8a04" />
+            <stop offset="30%" stop-color="#fef08a" />
+            <stop offset="75%" stop-color="#eab308" />
+            <stop offset="100%" stop-color="#854d0e" />
+        </linearGradient>
+
+        <linearGradient id="shade-copper" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#9a3412" />
+            <stop offset="25%" stop-color="#fdb374" />
+            <stop offset="70%" stop-color="#ea580c" />
+            <stop offset="100%" stop-color="#7c2d12" />
+        </linearGradient>
+
+        <linearGradient id="shade-iron" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#334155" />
+            <stop offset="30%" stop-color="#94a3b8" />
+            <stop offset="65%" stop-color="#64748b" />
+            <stop offset="100%" stop-color="#1e293b" />
+        </linearGradient>
+
+        <linearGradient id="shade-bronze" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#a16207" />
+            <stop offset="20%" stop-color="#fef08a" />
+            <stop offset="65%" stop-color="#d97706" />
+            <stop offset="100%" stop-color="#7c2d12" />
+        </linearGradient>
+        
+        <linearGradient id="shade-rubber" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#111111" />
+            <stop offset="20%" stop-color="#3a3a3a" />
+            <stop offset="65%" stop-color="#222222" />
+            <stop offset="100%" stop-color="#000000" />
+        </linearGradient>
+
+        <linearGradient id="shade-phenolic" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#451a03" />
+            <stop offset="25%" stop-color="#b45309" />
+            <stop offset="70%" stop-color="#78350f" />
+            <stop offset="100%" stop-color="#451a03" />
+        </linearGradient>
+        
+        <pattern id="wire-mesh" width="6" height="6" patternUnits="userSpaceOnUse">
+            <path d="M 0 0 L 6 6 M 6 0 L 0 6" stroke="#666" stroke-width="0.6"/>
+            <path d="M 0 3 L 6 3 M 3 0 L 3 6" stroke="#888" stroke-width="0.3"/>
+        </pattern>
+        
+        <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+            <circle cx="5" cy="5" r="4" fill="#64748b" />
+        </marker>
+    </defs>
+
+    <rect width="1200" height="3600" fill="#f8f9fa" />
+    <rect x="20" y="20" width="1160" height="3560" fill="none" stroke="#111" stroke-width="2" />
+    
+    <line x1="600" y1="50" x2="600" y2="3400" class="centerline-main" />
+    <line x1="472" y1="50" x2="472" y2="3400" class="bounding-rail-outer" />
+    <line x1="728" y1="50" x2="728" y2="3400" class="bounding-rail-outer" />
+    <line x1="480" y1="50" x2="480" y2="3400" class="bounding-rail-inner" />
+    <line x1="720" y1="50" x2="720" y2="3400" class="bounding-rail-inner" />
+
+    <g id="solid-UH-001">
+        <path d="M 472,225 L 432,225 L 432,259 L 472,259 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="432" cy="242" rx="10.0" ry="17.0" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="432" cy="242" rx="6.0" ry="10.0" fill="#1e293b" class="solid-outline" />
+
+        <path d="M 728,225 L 768,225 L 768,259 L 728,259 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="768" cy="242" rx="10.0" ry="17.0" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="768" cy="242" rx="6.0" ry="10.0" fill="#1e293b" class="solid-outline" />
+
+        <path d="M 472,312 L 472,362 A 128,73.9 0 0 0 728,362 L 728,312 C 728,240 648,150 648,150 A 48,27.7 0 0 0 552,150 C 552,150 472,240 472,312 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="362" rx="128.0" ry="73.9" fill="none" class="solid-outline" />
+        <ellipse cx="600" cy="150" rx="48.0" ry="27.7" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="150" rx="18.4" ry="10.6" fill="#1e293b" class="solid-outline" />
+
+        <path d="M 535,210 C 531,215 528,230 532,245 C 536,250 544,248 546,238 C 544,220 539,212 535,210 Z" class="vent-dark" />
+        <path d="M 575,190 C 572,194 570,208 573,222 C 577,226 583,224 585,215 C 583,200 579,192 575,190 Z" class="vent-dark" />
+        <path d="M 580,315 L 580,335 A 20,11.5 0 0 0 620,335 L 620,315 A 20,11.5 0 0 1 580,315 Z" fill="#1e293b" class="solid-outline" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 600,150 L 500,100 L 420,100" />
+        <text x="410" y="100" class="label-text" text-anchor="end">UH-008 SHAFT CLEARANCE OPENING (Ø0.460")</text>
+    
+        <path class="leader" marker-start="url(#dot)" d="M 533,235 L 420,235 L 370,215" />
+        <text x="360" y="215" class="label-text" text-anchor="end">UH-007 TEARDROP VENTILATION PORTS (x4)</text>
+        <path class="leader" marker-start="url(#dot)" d="M 432,242 L 340,242 L 290,260" />
+        <text x="280" y="260" class="label-text" text-anchor="end">UH-003 INTEGRAL BRUSH PORTS (Ø0.530" OD)</text>
+        <path class="leader" marker-start="url(#dot)" d="M 472,335 L 360,335 L 310,355" />
+        <text x="300" y="355" class="label-text" text-anchor="end">UH-001 MAIN BELL DOME (Ø3.200")</text>
+    </g>
+
+    <g id="solid-STR-001">
+        <path d="M 495,642 L 495,606 A 35,20.2 0 0 1 565,606 L 565,642 Z" fill="url(#shade-copper)" class="solid-outline" />
+        <ellipse cx="530" cy="606" rx="35.0" ry="20.2" fill="url(#shade-copper)" class="solid-outline" />
+        <path d="M 635,642 L 635,606 A 35,20.2 0 0 1 705,606 L 705,642 Z" fill="url(#shade-copper)" class="solid-outline" />
+        <ellipse cx="670" cy="606" rx="35.0" ry="20.2" fill="url(#shade-copper)" class="solid-outline" />
+
+        <path d="M 480,642 L 480,701 A 120,69.3 0 0 0 720,701 L 720,642 A 120,69.3 0 0 1 480,642 Z" fill="url(#shade-iron)" class="solid-outline" />
+        <ellipse cx="600" cy="642" rx="120.0" ry="69.3" fill="url(#shade-iron)" class="solid-outline" />
+        <ellipse cx="600" cy="657" rx="120.0" ry="69.3" fill="none" stroke="#1e293b" stroke-width="1" opacity="0.4" />
+        <ellipse cx="600" cy="672" rx="120.0" ry="69.3" fill="none" stroke="#1e293b" stroke-width="1" opacity="0.4" />
+        <ellipse cx="600" cy="687" rx="120.0" ry="69.3" fill="none" stroke="#1e293b" stroke-width="1" opacity="0.4" />
+
+        <ellipse cx="535.0" cy="604.4" rx="5.0" ry="2.9" class="stator-hole" />
+        <ellipse cx="665.0" cy="604.4" rx="5.0" ry="2.9" class="stator-hole" />
+        <ellipse cx="535.0" cy="679.6" rx="5.0" ry="2.9" class="stator-hole" />
+        <ellipse cx="665.0" cy="679.6" rx="5.0" ry="2.9" class="stator-hole" />
+
+        <path d="M 495,701 L 495,738 A 35,20.2 0 0 0 565,738 L 565,701 Z" fill="url(#shade-copper)" class="solid-outline" />
+        <ellipse cx="530" cy="738" rx="35.0" ry="20.2" fill="none" class="solid-outline" />
+        <path d="M 635,701 L 635,738 A 35,20.2 0 0 0 705,738 L 705,701 Z" fill="url(#shade-copper)" class="solid-outline" />
+        <ellipse cx="670" cy="738" rx="35.0" ry="20.2" fill="none" class="solid-outline" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 480,671 L 380,671 L 330,650" />
+        <text x="320" y="650" class="label-text" text-anchor="end">STR-002 UNIFIED CORE STACK (0.736")</text>
+        <path class="leader" marker-start="url(#dot)" d="M 680,620 L 770,620 L 820,600" />
+        <text x="830" y="600" class="label-text" text-anchor="start">STR-005 RIGHT FIELD COIL (1.650")</text>
+    </g>
+
+    <g id="solid-BRG-001">
+        <path d="M 583.6,825 L 583.6,835 A 16.4,9.5 0 0 0 616.4,835 L 616.4,825 Z" fill="url(#shade-bronze)" class="solid-outline" />
+        <ellipse cx="600" cy="835" rx="16.4" ry="9.5" fill="none" class="solid-outline" />
+        <circle cx="600" cy="808" r="22.4" fill="url(#shade-bronze)" class="solid-outline" />
+        <ellipse cx="600" cy="808" rx="22.4" ry="12.9" fill="none" stroke="#7c2d12" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" />
+        <path d="M 583.6,781 L 583.6,791 A 16.4,9.5 0 0 0 616.4,791 L 616.4,781 Z" fill="url(#shade-bronze)" class="solid-outline" />
+        <ellipse cx="600" cy="781" rx="16.4" ry="9.5" fill="url(#shade-bronze)" class="solid-outline" />
+        <ellipse cx="600" cy="781" rx="10.0" ry="5.8" fill="#1e293b" class="solid-outline" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 583.6,786 L 450,786 L 400,770" />
+        <text x="390" y="770" class="label-text" text-anchor="end">BRG-005 TOP COLLAR (Ø0.410")</text>
+        <path class="leader" marker-start="url(#dot)" d="M 622.4,808 L 720,808 L 770,790" />
+        <text x="780" y="790" class="label-text" text-anchor="start">BRG-003 SPHERICAL BALL (Ø0.560")</text>
+    </g>
+
+    <g id="solid-ARM-013-STACK">
+        <path d="M 581,950 L 581,954 A 19.0,11.0 0 0 0 619,954 L 619,950 Z" fill="url(#shade-phenolic)" class="solid-outline" />
+        <ellipse cx="600" cy="950" rx="19.0" ry="11.0" fill="url(#shade-phenolic)" class="solid-outline" />
+        
+        <path d="M 581,956 L 581,960 A 19.0,11.0 0 0 0 619,960 L 619,956 Z" fill="url(#shade-phenolic)" class="solid-outline" />
+        <ellipse cx="600" cy="956" rx="19.0" ry="11.0" fill="url(#shade-phenolic)" class="solid-outline" />
+        
+        <path d="M 581,962 L 581,966 A 19.0,11.0 0 0 0 619,966 L 619,962 Z" fill="url(#shade-phenolic)" class="solid-outline" />
+        <ellipse cx="600" cy="962" rx="19.0" ry="11.0" fill="url(#shade-phenolic)" class="solid-outline" />
+        
+        <path d="M 581,968 L 581,972 A 19.0,11.0 0 0 0 619,972 L 619,968 Z" fill="url(#shade-phenolic)" class="solid-outline" />
+        <ellipse cx="600" cy="968" rx="19.0" ry="11.0" fill="url(#shade-phenolic)" class="solid-outline" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 619,961 L 730,961 L 780,950" />
+        <text x="790" y="950" class="label-text" text-anchor="start">ARM-013 PHENOLIC x4</text>
+    </g>
+
+    <g id="solid-ARM-001">
+        <path d="M 590,1115 L 590,1183 A 10,5.8 0 0 0 610,1183 L 610,1115 Z" fill="url(#shade-shaft)" class="solid-outline" />
+        <ellipse cx="600" cy="1115" rx="10.0" ry="5.8" fill="url(#shade-shaft)" class="solid-outline" />
+        <path d="M 561.2,1183 L 561.2,1193 A 38.8,22.4 0 0 0 638.8,1193 L 638.8,1183 Z" fill="url(#shade-brass)" class="solid-outline" />
+        <ellipse cx="600" cy="1183" rx="38.8" ry="22.4" fill="url(#shade-brass)" class="solid-outline" />
+        
+        <path d="M 561.2,1193 L 561.2,1225 A 38.8,22.4 0 0 0 638.8,1225 L 638.8,1193 Z" fill="url(#shade-copper)" class="solid-outline" />
+        <ellipse cx="600" cy="1193" rx="38.8" ry="22.4" fill="url(#shade-copper)" class="solid-outline" />
+        <line x1="575" y1="1203" x2="575" y2="1235" class="copper-v-segment" />
+        <line x1="587" y1="1210" x2="587" y2="1242" class="copper-v-segment" />
+        <line x1="600" y1="1212" x2="600" y2="1244" class="copper-v-segment" />
+        <line x1="613" y1="1210" x2="613" y2="1242" class="copper-v-segment" />
+        <line x1="625" y1="1203" x2="625" y2="1235" class="copper-v-segment" />
+
+        <path d="M 561.2,1225 L 539.8,1250 A 60.2,34.8 0 0 0 660.2,1250 L 638.8,1225 A 38.8,22.4 0 0 1 561.2,1225 Z" fill="url(#shade-copper)" class="solid-outline" />
+        <path d="M 539.8,1250 L 539.8,1312 A 60.2,34.8 0 0 0 660.2,1312 L 660.2,1250 Z" fill="url(#shade-iron)" class="solid-outline" />
+        <ellipse cx="600" cy="1250" rx="60.2" ry="34.8" fill="url(#shade-iron)" class="solid-outline" />
+        <ellipse cx="600" cy="1265" rx="60.2" ry="34.8" class="wireframe-ellipse" stroke="#1e293b" />
+        <ellipse cx="600" cy="1280" rx="60.2" ry="34.8" class="wireframe-ellipse" stroke="#1e293b" />
+        <ellipse cx="600" cy="1295" rx="60.2" ry="34.8" class="wireframe-ellipse" stroke="#1e293b" />
+
+        <path d="M 539.8,1312 L 548.0,1343 A 52.0,30.0 0 0 0 652.0,1343 L 660.2,1312 A 60.2,34.8 0 0 1 539.8,1312 Z" fill="url(#shade-copper)" class="solid-outline" />
+        <ellipse cx="600" cy="1312" rx="60.2" ry="34.8" fill="none" class="solid-outline" />
+
+        <path d="M 548.0,1343 L 548.0,1369 A 52.0,30.0 0 0 0 652.0,1369 L 652.0,1343 Z" fill="url(#shade-shaft)" class="solid-outline" />
+        <ellipse cx="600" cy="1343" rx="52.0" ry="30.0" fill="url(#shade-shaft)" class="solid-outline" />
+        <line x1="565" y1="1352" x2="565" y2="1378" class="v-segment" />
+        <line x1="582" y1="1358" x2="582" y2="1384" class="v-segment" />
+        <line x1="600" y1="1360" x2="600" y2="1386" class="v-segment" />
+        <line x1="618" y1="1358" x2="618" y2="1384" class="v-segment" />
+        <line x1="635" y1="1352" x2="635" y2="1378" class="v-segment" />
+
+        <path d="M 577.6,1369 L 577.6,1377 A 22.4,12.9 0 0 0 622.4,1377 L 622.4,1369 Z" fill="url(#shade-brass)" class="solid-outline" />
+        <ellipse cx="600" cy="1369" rx="22.4" ry="12.9" fill="url(#shade-brass)" class="solid-outline" />
+
+        <path d="M 588.8,1377 L 588.8,1541 A 11.2,6.5 0 0 0 611.2,1541 L 611.2,1377 Z" fill="url(#shade-shaft)" class="solid-outline" />
+        <ellipse cx="600" cy="1377" rx="11.2" ry="6.5" fill="url(#shade-shaft)" class="solid-outline" />
+        <ellipse cx="600" cy="1541" rx="11.2" ry="6.5" fill="none" class="solid-outline" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 561,1209 L 430,1209 L 380,1230" />
+        <text x="370" y="1230" class="label-text" text-anchor="end">ARM-006 COMMUTATOR (Ø0.970")</text>
+        <path class="leader" marker-start="url(#dot)" d="M 539.8,1281 L 420,1281 L 370,1300" />
+        <text x="360" y="1300" class="label-text" text-anchor="end">ARM-002 ARMATURE CORE (Ø1.505")</text>
+        <path class="leader" marker-start="url(#dot)" d="M 652,1356 L 750,1356 L 800,1375" />
+        <text x="810" y="1375" class="label-text" text-anchor="start">ARM-007 COOLING FAN (Ø1.300")</text>
+    </g>
+
+    <g id="solid-ARM-PHENOLIC-STACK">
+        <path d="M 574.8,1560 L 574.8,1563 A 25.2,14.6 0 0 0 625.2,1563 L 625.2,1560 Z" fill="url(#shade-phenolic)" class="solid-outline" />
+        <ellipse cx="600" cy="1560" rx="25.2" ry="14.6" fill="url(#shade-phenolic)" class="solid-outline" />
+        
+        <path d="M 574.8,1567 L 574.8,1570 A 25.2,14.6 0 0 0 625.2,1570 L 625.2,1567 Z" fill="url(#shade-phenolic)" class="solid-outline" />
+        <ellipse cx="600" cy="1567" rx="25.2" ry="14.6" fill="url(#shade-phenolic)" class="solid-outline" />
+        
+        <path d="M 574.8,1574 L 574.8,1577 A 25.2,14.6 0 0 0 625.2,1577 L 625.2,1574 Z" fill="url(#shade-phenolic)" class="solid-outline" />
+        <ellipse cx="600" cy="1574" rx="25.2" ry="14.6" fill="url(#shade-phenolic)" class="solid-outline" />
+        
+        <path d="M 580,1584 L 580,1587 A 20.0,11.6 0 0 0 620,1587 L 620,1584 Z" fill="url(#shade-phenolic)" class="solid-outline" />
+        <ellipse cx="600" cy="1584" rx="20.0" ry="11.6" fill="url(#shade-phenolic)" class="solid-outline" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 625.2,1568.5 L 730,1568.5 L 780,1555" />
+        <text x="790" y="1555" class="label-text" text-anchor="start">ARM-011 PHENOLIC WASHER x3</text>
+        
+        <path class="leader" marker-start="url(#dot)" d="M 620,1585.5 L 730,1585.5 L 780,1595" />
+        <text x="790" y="1595" class="label-text" text-anchor="start">ARM-012 PHENOLIC WASHER x1</text>
+    </g>
+
+    <g id="solid-BRG-002">
+        <path d="M 583.8,1667 L 583.8,1677 A 16.2,9.4 0 0 0 616.2,1677 L 616.2,1667 Z" fill="url(#shade-bronze)" class="solid-outline" />
+        <ellipse cx="600" cy="1677" rx="16.2" ry="9.4" fill="none" class="solid-outline" />
+        <circle cx="600" cy="1649" r="22.4" fill="url(#shade-bronze)" class="solid-outline" />
+        <ellipse cx="600" cy="1649" rx="22.4" ry="12.9" fill="none" stroke="#7c2d12" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" />
+        <path d="M 582.4,1621 L 582.4,1631 A 17.6,10.2 0 0 0 617.6,1631 L 617.6,1621 Z" fill="url(#shade-bronze)" class="solid-outline" />
+        <ellipse cx="600" cy="1621" rx="17.6" ry="10.2" fill="url(#shade-bronze)" class="solid-outline" />
+        <ellipse cx="600" cy="1621" rx="11.2" ry="6.5" fill="#1e293b" class="solid-outline" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 582.4,1626 L 450,1626 L 400,1610" />
+        <text x="390" y="1610" class="label-text" text-anchor="end">BRG-005 TOP COLLAR (Ø0.440")</text>
+        <path class="leader" marker-start="url(#dot)" d="M 622.4,1649 L 720,1649 L 770,1631" />
+        <text x="780" y="1631" class="label-text" text-anchor="start">BRG-003 SPHERICAL BALL (Ø0.560")</text>
+    </g>
+
+    <g id="solid-LH-001">
+        <path d="M 480,1957 L 480,1963.4 A 120,69.3 0 0 0 720,1963.4 L 720,1957 A 120,69.3 0 0 1 480,1957 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="1957" rx="120.0" ry="69.3" fill="url(#shade-alum)" class="solid-outline" />
+
+        <ellipse cx="508" cy="1957" rx="8.0" ry="4.6" class="stator-hole" />
+        <ellipse cx="692" cy="1957" rx="8.0" ry="4.6" class="stator-hole" />
+
+        <path d="M 480,1963.4 C 485,2010 540,2053 570,2053 A 30,17.3 0 0 0 630,2053 C 660,2053 715,2010 720,1963.4 A 120,69.3 0 0 1 480,1963.4 Z" fill="url(#shade-alum)" class="solid-outline" />
+
+        <path d="M 570,2053 L 570,2093 A 30,17.3 0 0 0 630,2093 L 630,2053 A 30,17.3 0 0 1 570,2053 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="2053" rx="30.0" ry="17.3" fill="none" class="solid-outline" />
+        <ellipse cx="600" cy="2093" rx="30.0" ry="17.3" fill="none" class="solid-outline" />
+
+        <ellipse cx="600" cy="2093" rx="20.0" ry="11.5" fill="#1e293b" class="solid-outline" />
+
+        <path d="M 588.3,2093 L 588.3,2173 A 11.7,6.7 0 0 0 611.7,2173 L 611.7,2093 Z" fill="url(#shade-brass)" class="solid-outline" />
+        <ellipse cx="600" cy="2173" rx="11.7" ry="6.7" fill="none" class="solid-outline" />
+        <ellipse cx="600" cy="2173" rx="9.9" ry="5.7" fill="#1e293b" class="solid-outline" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 480,1960 L 380,1960 L 330,1940" />
+        <text x="320" y="1940" class="label-text" text-anchor="end">FLG-001 MATING FLANGE FACE (Ø3.000")</text>
+        <path class="leader" marker-start="url(#dot)" d="M 520,2010 L 410,2010 L 360,2030" />
+        <text x="350" y="2030" class="label-text" text-anchor="end">LH-001 ORGANIC BOWL SHELL</text>
+        <path class="leader" marker-start="url(#dot)" d="M 570,2073 L 450,2073 L 400,2060" />
+        <text x="390" y="2060" class="label-text" text-anchor="end">LH-005 INTEGRAL MOUNT FOOT (Ø0.750")</text>
+        <path class="leader" marker-start="url(#dot)" d="M 611.7,2133 L 720,2133 L 770,2150" />
+        <text x="780" y="2150" class="label-text" text-anchor="start">LH-006 BRASS OIL FEED TUBE (1.000" PROTRUSION)</text>
+    </g>
+
+    <g id="solid-ARM-010">
+        <path d="M 568.5,2240 L 568.5,2250 A 31.5,18.2 0 0 0 631.5,2250 L 631.5,2240 Z" fill="url(#shade-brass)" class="solid-outline" />
+        <ellipse cx="600" cy="2240" rx="31.5" ry="18.2" fill="url(#shade-brass)" class="solid-outline" />
+        <path d="M 567.5,2250 L 567.5,2260 A 32.5,18.8 0 0 0 632.5,2260 L 632.5,2250 Z" fill="url(#shade-brass)" class="solid-outline" />
+        <ellipse cx="600" cy="2250" rx="32.5" ry="18.8" fill="url(#shade-brass)" class="solid-outline" />
+        <ellipse cx="600" cy="2260" rx="32.5" ry="18.8" fill="none" class="solid-outline" />
+        <ellipse cx="600" cy="2260" rx="11.2" ry="6.5" fill="#1e293b" class="solid-outline" />
+        
+        <path class="leader" marker-start="url(#dot)" d="M 632.5,2255 L 750,2255 L 800,2235" />
+        <text x="810" y="2230" class="label-text" text-anchor="start">ARM-010 LOWER JOURNAL THRUST WASHER</text>
+        <text x="810" y="2245" class="label-text" fill="#666" text-anchor="start">OD 0.8125" / 0.7825" | THK 0.1075" (CONF)</text>
+    </g>
+
+    <g id="solid-PLT-DECK">
+        <path d="M 493,2350 L 493,2406 A 15,8.6 0 0 0 523,2406 L 523,2350 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="508" cy="2350" rx="15" ry="8.6" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="508" cy="2350" rx="8" ry="4.6" fill="#1e293b" class="solid-outline" />
+        <ellipse cx="508" cy="2406" rx="15" ry="8.6" fill="none" class="solid-outline" />
+        
+        <path d="M 677,2350 L 677,2406 A 15,8.6 0 0 0 707,2406 L 707,2350 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="692" cy="2350" rx="15" ry="8.6" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="692" cy="2350" rx="8" ry="4.6" fill="#1e293b" class="solid-outline" />
+        <ellipse cx="692" cy="2406" rx="15" ry="8.6" fill="none" class="solid-outline" />
+
+        <path d="M 480,2406 L 480,2411 A 120,69.3 0 0 0 720,2411 L 720,2406 A 120,69.3 0 0 1 480,2406 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="2406" rx="120" ry="69.3" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="2411" rx="120" ry="69.3" fill="none" class="solid-outline" />
+        <ellipse cx="600" cy="2406" rx="60" ry="34.6" fill="#1e293b" class="solid-outline" />
+
+        <path d="M 460,2411 L 472,2476 A 128,74 0 0 0 728,2476 L 740,2411 A 140,80.8 0 0 1 460,2411 Z" fill="url(#shade-rubber)" class="solid-outline" />
+        <ellipse cx="600" cy="2476" rx="128" ry="74" fill="none" class="solid-outline" />
+
+        <path d="M 450,2480 L 470,2450 A 130,75 0 0 0 730,2450 L 750,2480" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6,4" fill="none" />
+        <ellipse cx="600" cy="2450" rx="130" ry="75" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6,4" fill="none" />
+        <text x="770" y="2470" class="label-text" fill="#94a3b8" text-anchor="start">GLASS JAR MOUTH</text>
+
+        <path class="leader" marker-start="url(#dot)" d="M 493,2378 L 400,2378 L 350,2360" />
+        <text x="340" y="2355" class="label-text" text-anchor="end">PLT-004 MOUNT STANDOFF TUBES</text>
+        <text x="340" y="2370" class="label-text" fill="#666" text-anchor="end">L 0.6990" | OD 0.3765" | BORE 0.2020" (CONF)</text>
+
+        <path class="leader" marker-start="url(#dot)" d="M 480,2408 L 400,2408 L 350,2408" />
+        <text x="340" y="2405" class="label-text" text-anchor="end">PLT-001 PLATFORM DISK (OD 3.0085" | BORE 0.370")</text>
+        <text x="340" y="2418" class="label-text" fill="#666" text-anchor="end">2x FLG-002 TIE-BOLTS | 4x PLT-005 RIVETS w/ PLT-006 WASHERS</text>
+
+        <path class="leader" marker-start="url(#dot)" d="M 465,2443 L 400,2443 L 350,2460" />
+        <text x="340" y="2455" class="label-text" text-anchor="end">PLT-002 TAPERED JAR SEAL GASKET</text>
+        <text x="340" y="2470" class="label-text" fill="#666" text-anchor="end">TAPER DOWN INTO JAR | WIDE 3.5015" | SEAT 0.1805" (CONF)</text>
+    </g>
+
+    <g id="solid-SPN-002">
+        <path d="M 580,2600 L 580,2800 A 20,11.5 0 0 0 620,2800 L 620,2600 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="2600" rx="20" ry="11.5" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="2600" rx="11.2" ry="6.5" fill="#1e293b" class="solid-outline" />
+
+        <path d="M 618,2620 L 626,2620 L 626,2626 L 618,2626 Z" fill="#475569" class="solid-outline" />
+
+        <path d="M 478,2800 L 478,2815 A 122,70.4 0 0 0 722,2815 L 722,2800 A 122,70.4 0 0 1 478,2800 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="2800" rx="122" ry="70.4" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="2815" rx="122" ry="70.4" fill="none" class="solid-outline" />
+        
+        <path d="M 600,2800 L 520,2840 A 10,5 0 0 0 530,2850 L 600,2810 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <path d="M 600,2800 L 680,2840 A 10,5 0 0 1 670,2850 L 600,2810 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <path d="M 600,2800 L 600,2730 A 10,5 0 0 1 610,2730 L 610,2810 Z" fill="url(#shade-alum)" class="solid-outline" />
+        
+        <path class="leader" marker-start="url(#dot)" d="M 620,2680 L 750,2680 L 800,2660" />
+        <text x="810" y="2655" class="label-text" text-anchor="start">SPN-002 BASKET DRIVE SPINDLE</text>
+        <text x="810" y="2670" class="label-text" fill="#666" text-anchor="start">L 3.05" | BODY OD 0.5065" | RING 2.703" | PINS 2.92" BCD (CONF)</text>
+
+        <path class="leader" marker-start="url(#dot)" d="M 626,2623 L 750,2623 L 800,2603" />
+        <text x="810" y="2608" class="label-text" text-anchor="start">SPN-005 SPINDLE SET SCREW</text>
+    </g>
+
+    <g id="solid-BSK">
+        <path d="M 488,2900 L 488,2908 A 112,64.6 0 0 0 712,2908 L 712,2900 A 112,64.6 0 0 1 488,2900 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="2900" rx="112" ry="64.6" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="2900" rx="8" ry="4.6" fill="#1e293b" class="solid-outline" />
+
+        <path d="M 488,2930 L 488,2950 A 112,64.6 0 0 0 712,2950 L 712,2930 A 112,64.6 0 0 1 488,2930 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="2930" rx="112" ry="64.6" fill="none" class="solid-outline" />
+        
+        <path d="M 488,2940 L 496,2940 L 496,2930" fill="none" stroke="#1e293b" stroke-width="2" />
+        <path d="M 712,2940 L 704,2940 L 704,2930" fill="none" stroke="#1e293b" stroke-width="2" />
+
+        <path d="M 488,2950 L 488,3100 A 112,64.6 0 0 0 712,3100 L 712,2950 Z" fill="url(#wire-mesh)" stroke="#475569" stroke-width="2" />
+        <path d="M 488,3100 L 488,3108 A 112,64.6 0 0 0 712,3108 L 712,3100 A 112,64.6 0 0 1 488,3100 Z" fill="url(#shade-alum)" class="solid-outline" />
+        <ellipse cx="600" cy="3108" rx="112" ry="64.6" fill="none" class="solid-outline" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 712,2904 L 750,2904 L 800,2880" />
+        <text x="810" y="2880" class="label-text" text-anchor="start">BSK-003 BASKET LID / COVER</text>
+
+        <path class="leader" marker-start="url(#dot)" d="M 712,3025 L 750,3025 L 800,3005" />
+        <text x="810" y="3000" class="label-text" text-anchor="start">BSK-002 MESH BASKET</text>
+        <text x="810" y="3015" class="label-text" fill="#666" text-anchor="start">OD 2.8025" | H 2.25" (CONF)</text>
+    </g>
+
+    <text x="335" y="3545" class="disclaimer-text">REPRODUCTION DOCUMENT — Not an original L&amp;R Mfg. Co. technical publication.</text>
+    <text x="335" y="3560" class="disclaimer-text">Reverse-engineered from direct physical measurement of specimen S/N 13505. Curated by Hobbs R.E., 2026. For restoration reference only.</text>
+
+    <rect x="650" y="3450" width="530" height="130" fill="#fff" stroke="#111" stroke-width="2" />
+    <line x1="650" y1="3485" x2="1180" y2="3485" stroke="#111" stroke-width="2" />
+    <line x1="650" y1="3535" x2="1180" y2="3535" stroke="#111" stroke-width="1" />
+    
+    <line x1="765" y1="3535" x2="765" y2="3580" stroke="#111" stroke-width="1" />
+    <line x1="875" y1="3535" x2="875" y2="3580" stroke="#111" stroke-width="1" />
+    <line x1="1065" y1="3535" x2="1065" y2="3580" stroke="#111" stroke-width="1" />
+
+    <text x="915" y="3473" class="header-text">L&amp;R MFG. CO. — MASTER CLEANING MACHINE</text>
+    
+    <text x="660" y="3505" class="label-text">DRAWING TITLE:</text>
+    <text x="660" y="3523" class="value-text" font-weight="bold">3D AXONOMETRIC EXPLODED ASSEMBLY SHOWCASE (REV F)</text>
+    
+    <text x="665" y="3552" class="label-text">ENGINEER:</text>
+    <text x="665" y="3570" class="value-text">Hobbs R.E.</text>
+    
+    <text x="775" y="3552" class="label-text">DATE:</text>
+    <text x="775" y="3570" class="value-text">June 12, 2026</text>
+  
+    <text x="885" y="3552" class="label-text">METADATA CONTROL:</text>
+    <text x="885" y="3570" class="value-text">Rev F: added ARM-013 x4 phenolic upper-journal end-float washer stack on the upper journal; model nomenclature corrected to Master.</text>
+    
+    <text x="1075" y="3552" class="label-text">STATUS:</text>
+    <text x="1075" y="3570" class="value-text" font-weight="bold" fill="#228b22">RELEASED</text>
+</svg>

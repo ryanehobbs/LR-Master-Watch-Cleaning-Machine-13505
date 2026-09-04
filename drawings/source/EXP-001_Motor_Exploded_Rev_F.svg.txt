@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 2200" width="100%" height="100%">
+    <defs>
+        <style>
+            .header-text { font-family: sans-serif; font-weight: bold; font-size: 16px; fill: #111; text-anchor: middle; letter-spacing: 1px; }
+            .label-text { font-family: sans-serif; font-weight: bold; font-size: 11px; fill: #111; }
+            .value-text { font-family: monospace; font-size: 12px; fill: #111; }
+            .grid-label { font-family: sans-serif; font-weight: bold; font-size: 10px; fill: #666; text-anchor: middle; }
+            .disclaimer-text { font-family: sans-serif; font-style: italic; font-size: 9px; fill: #666; text-anchor: middle; }
+            
+            .outline { stroke: #000; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+            .fill-alum { fill: #e2e8f0; }
+            .fill-iron { fill: #64748b; }
+            .fill-copper { fill: #b45309; }
+            .fill-comm { fill: #ea580c; }
+            .fill-bronze { fill: #d97706; opacity: 0.8; }
+            .fill-brass { fill: #facc15; }
+            .fill-rubber { fill: #333333; }
+            .fill-phenolic { fill: #78350f; opacity: 0.8; }
+            
+            .centerline-main { stroke: #0369a1; stroke-width: 1.5; stroke-dasharray: 20, 5, 5, 5; fill: none; }
+            .centerline-bolt { stroke: #64748b; stroke-width: 1; stroke-dasharray: 10, 4, 2, 4; fill: none; }
+            .leader { stroke: #334155; stroke-width: 1.5; fill: none; }
+        </style>
+
+        <pattern id="hatch-iron" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <line x1="0" y1="0" x2="0" y2="8" stroke="#334155" stroke-width="1.5" />
+        </pattern>
+        <pattern id="hatch-copper" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+            <line x1="0" y1="0" x2="0" y2="6" stroke="#78350f" stroke-width="1" opacity="0.6" />
+        </pattern>
+        <pattern id="hatch-bronze" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <line x1="0" y1="0" x2="0" y2="6" stroke="#92400e" stroke-width="1" />
+            <line x1="0" y1="0" x2="6" y2="0" stroke="#92400e" stroke-width="1" />
+        </pattern>
+        <pattern id="wire-mesh" width="6" height="6" patternUnits="userSpaceOnUse">
+            <path d="M 0 0 L 6 6 M 6 0 L 0 6" stroke="#666" stroke-width="0.6"/>
+            <path d="M 0 3 L 6 3 M 3 0 L 3 6" stroke="#888" stroke-width="0.3"/>
+        </pattern>
+
+        <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+            <circle cx="5" cy="5" r="4" fill="#334155" />
+        </marker>
+    </defs>
+
+    <rect width="1200" height="2200" fill="#f8f9fa" />
+
+    <rect x="20" y="20" width="1160" height="2160" fill="none" stroke="#111" stroke-width="2" />
+    
+    <text x="335" y="2145" class="disclaimer-text">REPRODUCTION DOCUMENT — Not an original L&amp;R Mfg. Co. technical publication.</text>
+    <text x="335" y="2160" class="disclaimer-text">Reverse-engineered from direct physical measurement of specimen S/N 13505. Curated by Hobbs R.E., 2026. For restoration reference only.</text>
+
+    <rect x="650" y="2050" width="530" height="130" fill="#fff" stroke="#111" stroke-width="2" />
+    <line x1="650" y1="2085" x2="1180" y2="2085" stroke="#111" stroke-width="2" />
+    <line x1="650" y1="2135" x2="1180" y2="2135" stroke="#111" stroke-width="1" />
+    
+    <line x1="765" y1="2135" x2="765" y2="2180" stroke="#111" stroke-width="1" />
+    <line x1="875" y1="2135" x2="875" y2="2180" stroke="#111" stroke-width="1" />
+    <line x1="1065" y1="2135" x2="1065" y2="2180" stroke="#111" stroke-width="1" />
+
+    <text x="915" y="2073" class="header-text">L&amp;R MFG. CO. — MASTER CLEANING MACHINE</text>
+    
+    <text x="660" y="2105" class="label-text">DRAWING TITLE:</text>
+    <text x="660" y="2123" class="value-text" font-weight="bold">MOTOR ASSEMBLY EXPLED PROFILE (REV F)</text>
+    
+    <text x="665" y="2152" class="label-text">ENGINEER:</text>
+    <text x="665" y="2170" class="value-text">Hobbs R.E.</text>
+    
+    <text x="775" y="2152" class="label-text">DATE:</text>
+    <text x="775" y="2170" class="value-text">June 12, 2026</text>
+    
+    <text x="885" y="2152" class="label-text">METADATA CONTROL:</text>
+    <text x="885" y="2170" class="value-text">Rev F: inserted ARM-013 x4 phenolic washer stack between BRG-001 and the ARM-001 upper journal; model nomenclature corrected to Master.</text>
+    
+    <text x="1075" y="2152" class="label-text">STATUS:</text>
+    <text x="1075" y="2170" class="value-text" font-weight="bold" fill="#228b22">RELEASED</text>
+
+    <line x1="600" y1="50" x2="600" y2="2000" class="centerline-main" />
+    <line x1="508" y1="100" x2="508" y2="1500" class="centerline-bolt" />
+    <line x1="692" y1="100" x2="692" y2="1500" class="centerline-bolt" />
+
+    <g id="UH-001">
+        <path d="M 472,332 L 472,220 C 472,120 728,120 728,220 L 728,332 Z" class="outline fill-alum" />
+        <rect x="472" y="322" width="256" height="10" class="outline fill-alum" />
+        <path d="M 570,128 L 630,128 L 630,120 L 570,120 Z" class="outline fill-alum" />
+        <line x1="508" y1="200" x2="508" y2="332" stroke="#fff" stroke-width="6" stroke-dasharray="10,4" />
+        <line x1="692" y1="200" x2="692" y2="332" stroke="#fff" stroke-width="6" stroke-dasharray="10,4" />
+        
+        <path class="leader" marker-start="url(#dot)" d="M 500,160 L 400,160 L 350,140" />
+        <text x="340" y="140" class="label-text" text-anchor="end">UH-001 UPPER MOTOR HOUSING</text>
+    </g>
+
+    <g id="STR-001">
+        <rect x="480" y="380" width="240" height="59" class="outline" fill="url(#hatch-iron)" />
+        <rect x="530" y="375" width="40" height="69" class="outline" fill="url(#hatch-copper)" />
+        <rect x="630" y="375" width="40" height="69" class="outline" fill="url(#hatch-copper)" />
+        <rect x="570" y="380" width="60" height="59" fill="#f8f9fa" />
+        <circle cx="508" cy="409.5" r="4" fill="#f8f9fa" class="outline" />
+        <circle cx="692" cy="409.5" r="4" fill="#f8f9fa" class="outline" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 700,409 L 800,409 L 850,390" />
+        <text x="860" y="390" class="label-text" text-anchor="start">STR-001 STATOR FIELD ASSEMBLY</text>
+        
+        <path class="leader" marker-start="url(#dot)" d="M 670,390 L 750,340 L 850,340" />
+        <text x="860" y="340" class="label-text" text-anchor="start">STR-005 RIGHT FIELD COIL</text>
+    </g>
+
+    <g id="BRG-001">
+        <circle cx="600" cy="507" r="22.5" class="outline" fill="url(#hatch-bronze)" />
+        <rect x="584" y="480" width="32" height="54" class="outline" fill="url(#hatch-bronze)" />
+        <rect x="590" y="480" width="20" height="54" fill="#f8f9fa" class="outline" stroke-dasharray="4,2" />
+        
+        <path class="leader" marker-start="url(#dot)" d="M 577,507 L 450,507 L 400,490" />
+        <text x="390" y="490" class="label-text" text-anchor="end">BRG-001 UPPER BEARING (0.560" BALL)</text>
+    </g>
+
+    <g id="ARM-013-STACK">
+        <rect x="578" y="546" width="44" height="3" class="outline fill-phenolic" />
+        <rect x="578" y="549" width="44" height="3" class="outline fill-phenolic" />
+        <rect x="578" y="552" width="44" height="3" class="outline fill-phenolic" />
+        <rect x="578" y="555" width="44" height="3" class="outline fill-phenolic" />
+        
+        <path class="leader" marker-start="url(#dot)" d="M 622,550 L 750,550 L 800,540" />
+        <text x="810" y="545" class="label-text" text-anchor="start">ARM-013 PHENOLIC x4</text>
+    </g>
+
+    <g id="ARM-001">
+        <rect x="590" y="580" width="20" height="68" class="outline fill-alum" />
+        <rect x="561" y="648" width="78" height="10" class="outline fill-brass" />
+        <rect x="561" y="658" width="78" height="32" class="outline fill-comm" />
+    
+        <line x1="576" y1="658" x2="576" y2="690" stroke="#7c2d12" stroke-width="1.5" />
+        <line x1="592" y1="658" x2="592" y2="690" stroke="#7c2d12" stroke-width="1.5" />
+        <line x1="608" y1="658" x2="608" y2="690" stroke="#7c2d12" stroke-width="1.5" />
+        <line x1="624" y1="658" x2="624" y2="690" stroke="#7c2d12" stroke-width="1.5" />
+
+        <polygon points="561,690 639,690 660,728 540,728" class="outline" fill="url(#hatch-copper)" />
+        <rect x="540" y="728" width="120" height="62" class="outline" fill="url(#hatch-iron)" />
+        <line x1="540" y1="740" x2="660" y2="740" stroke="#000" stroke-width="1.5" />
+        <line x1="540" y1="755" x2="660" y2="755" stroke="#000" stroke-width="1.5" />
+        <line x1="540" y1="770" x2="660" y2="770" stroke="#000" stroke-width="1.5" />
+
+        <polygon points="540,790 660,790 652,821 548,821" class="outline" fill="url(#hatch-copper)" />
+        <rect x="548" y="821" width="104" height="26" class="outline fill-alum" />
+        <line x1="565" y1="821" x2="565" y2="847" stroke="#000" stroke-width="1" />
+        <line x1="582" y1="821" x2="582" y2="847" stroke="#000" stroke-width="1" />
+        <line x1="618" y1="821" x2="618" y2="847" stroke="#000" stroke-width="1" />
+        <line x1="635" y1="821" x2="635" y2="847" stroke="#000" stroke-width="1" />
+
+        <rect x="577" y="847" width="46" height="8" class="outline fill-brass" />
+        <rect x="588.8" y="855" width="22.4" height="150" class="outline fill-alum" />
+        
+        <path class="leader" marker-start="url(#dot)" d="M 640,674 L 750,674 L 800,660" />
+        <text x="810" y="660" class="label-text" text-anchor="start">ARM-006 COMMUTATOR</text>
+        
+        <path class="leader" marker-start="url(#dot)" d="M 660,759 L 750,759 L 800,770" />
+        <text x="810" y="770" class="label-text" text-anchor="start">ARM-002 ARMATURE CORE</text>
+        
+        <path class="leader" marker-start="url(#dot)" d="M 652,834 L 750,834 L 800,850" />
+        <text x="810" y="850" class="label-text" text-anchor="start">ARM-007 COOLING FAN</text>
+        
+        <path class="leader" marker-start="url(#dot)" d="M 600,950 L 750,950 L 800,970" />
+        <text x="810" y="970" class="label-text" text-anchor="start">SHF-003 LOWER JOURNAL (Ø0.280")</text>
+    </g>
+
+    <g id="ARM-PHENOLIC-WASHER-STACK">
+        <rect x="575" y="1012" width="50" height="4" class="outline fill-phenolic" />
+        <rect x="575" y="1016" width="50" height="4" class="outline fill-phenolic" />
+        <rect x="575" y="1020" width="50" height="4" class="outline fill-phenolic" />
+        
+        <rect x="580" y="1024" width="40" height="4" class="outline fill-phenolic" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 625,1016 L 750,1016 L 800,1010" />
+        <text x="810" y="1010" class="label-text" text-anchor="start">ARM-011 PHENOLIC WASHER x3</text>
+
+        <path class="leader" marker-start="url(#dot)" d="M 620,1026 L 750,1026 L 800,1035" />
+        <text x="810" y="1035" class="label-text" text-anchor="start">ARM-012 PHENOLIC WASHER x1</text>
+    </g>
+
+    <g id="BRG-002">
+        <circle cx="600" cy="1078" r="22.5" class="outline" fill="url(#hatch-bronze)" />
+        <rect x="582" y="1050" width="35" height="56" class="outline" fill="url(#hatch-bronze)" />
+        <rect x="588.8" y="1050" width="22.4" height="56" fill="#f8f9fa" class="outline" stroke-dasharray="4,2" />
+        
+        <path class="leader" marker-start="url(#dot)" d="M 577,1078 L 450,1078 L 400,1060" />
+        <text x="390" y="1060" class="label-text" text-anchor="end">BRG-002 LOWER BEARING</text>
+    </g>
+
+    <g id="LH-001">
+        <rect x="480" y="1150" width="240" height="10" class="outline fill-alum" />
+        <path d="M 480,1160 C 480,1260 720,1260 720,1160 Z" class="outline fill-alum" />
+        <rect x="580" y="1255" width="40" height="30" class="outline fill-alum" />
+        <rect x="550" y="1260" width="30" height="20" class="outline fill-alum" />
+        <line x1="508" y1="1150" x2="508" y2="1200" stroke="#fff" stroke-width="6" stroke-dasharray="10,4" />
+        <line x1="692" y1="1150" x2="692" y2="1200" stroke="#fff" stroke-width="6" stroke-dasharray="10,4" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 500,1200 L 400,1200 L 350,1180" />
+        <text x="340" y="1180" class="label-text" text-anchor="end">LH-001 LOWER MOTOR HOUSING</text>
+        
+        <path class="leader" marker-start="url(#dot)" d="M 560,1270 L 400,1270 L 350,1250" />
+        <text x="340" y="1250" class="label-text" text-anchor="end">LH-002 OIL WICK PORT</text>
+    </g>
+
+    <g id="ARM-010">
+        <rect x="567.5" y="1310" width="65" height="10" class="outline fill-brass" />
+        <rect x="568.5" y="1320" width="63" height="10" class="outline fill-brass" />
+        
+        <path class="leader" marker-start="url(#dot)" d="M 632,1315 L 750,1315 L 800,1330" />
+        <text x="810" y="1325" class="label-text" text-anchor="start">ARM-010 LOWER JOURNAL THRUST WASHER</text>
+        <text x="810" y="1340" class="label-text" fill="#666" text-anchor="start">OD 0.8125" / 0.7825" | THK 0.1075" (CONF)</text>
+    </g>
+
+    <g id="PLT-DECK">
+        <rect x="493" y="1320" width="30" height="56" class="outline fill-alum" />
+        <rect x="677" y="1320" width="30" height="56" class="outline fill-alum" />
+        
+        <rect x="480" y="1376" width="240" height="5" class="outline fill-alum" />
+        
+        <path d="M 460,1381 L 740,1381 L 728,1446 L 472,1446 Z" class="outline fill-rubber" />
+        
+        <path d="M 450,1460 L 470,1430 L 730,1430 L 750,1460" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6,4" fill="none" />
+        <text x="760" y="1455" class="label-text" fill="#94a3b8" text-anchor="start">GLASS JAR MOUTH</text>
+
+        <path class="leader" marker-start="url(#dot)" d="M 493,1348 L 400,1348 L 350,1330" />
+        <text x="340" y="1325" class="label-text" text-anchor="end">PLT-004 MOUNT STANDOFF TUBES</text>
+        <text x="340" y="1340" class="label-text" fill="#666" text-anchor="end">L 0.6990" | OD 0.3765" (CONF)</text>
+
+        <path class="leader" marker-start="url(#dot)" d="M 480,1378 L 400,1378 L 350,1378" />
+        <text x="340" y="1372" class="label-text" text-anchor="end">PLT-001 PLATFORM DISK (OD 3.0085" | BORE 0.370")</text>
+        <text x="340" y="1386" class="label-text" fill="#666" text-anchor="end">2x FLG-002 TIE-BOLTS | 4x PLT-005 RIVETS w/ PLT-006 WASHERS</text>
+
+        <path class="leader" marker-start="url(#dot)" d="M 465,1413 L 400,1413 L 350,1430" />
+        <text x="340" y="1425" class="label-text" text-anchor="end">PLT-002 TAPERED JAR SEAL GASKET</text>
+        <text x="340" y="1440" class="label-text" fill="#666" text-anchor="end">TAPER DOWN INTO JAR | WIDE OD 3.5015" | NARROW 3.2015" (CONF)</text>
+    </g>
+
+    <g id="SPN-002">
+        <rect x="580" y="1500" width="40" height="200" class="outline fill-alum" />
+        <rect x="478" y="1700" width="244" height="15" class="outline fill-alum" />
+        
+        <path d="M 580,1650 C 530,1670 490,1700 490,1700 L 580,1700 Z" class="outline fill-alum" />
+        <path d="M 620,1650 C 670,1670 710,1700 710,1700 L 620,1700 Z" class="outline fill-alum" />
+        
+        <rect x="620" y="1520" width="6" height="10" class="outline" fill="#475569" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 620,1580 L 750,1580 L 800,1560" />
+        <text x="810" y="1555" class="label-text" text-anchor="start">SPN-002 BASKET DRIVE SPINDLE</text>
+        <text x="810" y="1570" class="label-text" fill="#666" text-anchor="start">L 3.05" | BODY OD 0.5065" | RING 2.703" | PINS 2.92" BCD (CONF)</text>
+        
+        <path class="leader" marker-start="url(#dot)" d="M 626,1525 L 750,1525 L 800,1505" />
+        <text x="810" y="1510" class="label-text" text-anchor="start">SPN-005 SPINDLE SET SCREW</text>
+    </g>
+
+    <g id="BSK">
+        <rect x="488" y="1800" width="224" height="8" class="outline fill-alum" />
+        <rect x="488" y="1808" width="224" height="20" class="outline fill-alum" />
+        <rect x="488" y="1828" width="224" height="150" class="outline" fill="url(#wire-mesh)" />
+        <rect x="488" y="1978" width="224" height="8" class="outline fill-alum" />
+
+        <rect x="500" y="1808" width="8" height="12" fill="#fff" class="outline" />
+        <rect x="692" y="1808" width="8" height="12" fill="#fff" class="outline" />
+
+        <path class="leader" marker-start="url(#dot)" d="M 712,1804 L 750,1804 L 800,1780" />
+        <text x="810" y="1780" class="label-text" text-anchor="start">BSK-003 BASKET LID / COVER</text>
+
+        <path class="leader" marker-start="url(#dot)" d="M 712,1880 L 750,1880 L 800,1860" />
+        <text x="810" y="1855" class="label-text" text-anchor="start">BSK-002 MESH BASKET</text>
+        <text x="810" y="1870" class="label-text" fill="#666" text-anchor="start">OD 2.8025" | H 2.25" (CONF)</text>
+    </g>
+
+</svg>

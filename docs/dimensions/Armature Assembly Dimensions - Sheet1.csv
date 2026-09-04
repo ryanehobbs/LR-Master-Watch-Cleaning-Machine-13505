@@ -1,0 +1,17 @@
+REPRODUCTION DOCUMENT — Not an original L&R Mfg. Co. technical publication. Reverse-engineered from direct physical measurement of specimen S/N 13505. Curated by Hobbs R.E. 2026. For restoration reference only.,,,,,,,
+Feature Component,Part ID,Stack Length,Confidence,Diameter (Start),Diameter (End),Nearest Standard (Length),Nearest Standard (Diameter)
+Upper Journal,SHF-002,0.845",SYN,0.250",—,0.84375 (27/32),0.2500 (1/4) exact
+Brass Shaft Collar Upper,ARM-008,0.130",CONFIRMED,0.970",—,0.1250 (1/8),0.96875 (31/32)
+Commutator,ARM-006,0.405",CONFIRMED,0.970",—,0.40625 (13/32),0.96875 (31/32)
+Winding Overhang Commutator End,ARM-004,0.480",SYN,0.970",1.300",0.484375 (31/64),"Start=0.96875 (31/32), End=1.296875 (1-19/64)"
+Armature Core (Lamination Stack),ARM-002,0.775",CONFIRMED,1.505",—,0.78125 (25/32),1.5000 (1-1/2)
+Winding Overhang Fan End,ARM-005,0.385",SYN,1.300",0.300",0.390625 (25/64),"Start=1.296875 (1-19/64), End=0.296875 (19/64)"
+Cooling Fan,ARM-007,0.325",CONFIRMED,1.300",—,0.328125 (21/64),1.296875 (1-19/64)
+Brass Shaft Collar Lower,ARM-009,0.100",CONFIRMED,0.560",—,0.09375 (3/32),0.5625 (9/16)
+Lower Journal,SHF-003,1.875",SYN,0.280",—,1.8750 (1-7/8) exact,0.2813 (9/32)
+Overall Assembly Length,ARM-001,5.320",CONFIRMED,—,—,5.3125 (5-5/16),—
+Lower Journal Thrust Washer (stepped; NOT in OAL stack — external slip-on),ARM-010,thickness 0.1075",CONFIRMED,0.8125" (outer step OD),0.7825" (inner step OD),—,bore 0.2800 (9/32) slip-fits SHF-003; rides outside lower housing on fan/basket end; overall thickness 0.1075"
+Lower Journal Thrust/Spacer Washer Large (red fiber; x3; internal — on top of lower bearing),ARM-011,thickness 0.0170" each,CONFIRMED,0.630" (OD),0.2850" (bore),—,"QTY 3; bore 0.2850 slip-fits SHF-003; PHENOLIC insulating washer (thermoset resin), non-conductive, oil/heat-resistant (non-metal CONFIRMED 2026-06-19; phenolic ID 2026-06-20); colors vary tan/red/amber; end-float shim so fan ARM-007 clears housing floor"
+Lower Journal Thrust/Spacer Washer Small (x1; internal — closest to lower bearing),ARM-012,thickness 0.0160",CONFIRMED,0.500" (OD),0.2850" (bore),—,"QTY 1; bore 0.2850 slip-fits SHF-003; smallest of bottom stack, seats on lower bearing top collar; 4-washer stack total 0.0650"""
+Upper Journal Thrust/Spacer Washer (phenolic; x4; UPPER journal, against BRG-001),ARM-013,thickness 0.0175" each,CONFIRMED,0.4705" (OD),0.2500" (bore),—,"QTY 4; bore 0.2500 = upper journal SHF-002 Ø0.250" slip-fit; PHENOLIC non-conductive (same material as ARM-011/012); upper-end end-float stack (mirror of lower); found 2026-06-21; VERIFY all-4-identical vs 3+1 size split; install on final join"
+SYN ADJUSTMENT NOTE: Raw bench measurements summed to 5.720". OAL confirmed 5.320" (0.400" delta). Adjustment logic: Upper Journal reduced 0.130" (ARM-008 brass spacer was double-counted inside journal); Lower Journal reduced 0.100" (ARM-009 double-counted); remaining 0.170" split equally across both winding overhangs (soft measurement boundaries). All SYN values are candidates for CONFIRMED on re-measurement.,,,,,,,

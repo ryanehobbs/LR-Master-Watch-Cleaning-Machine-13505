@@ -1,0 +1,51 @@
+REPRODUCTION DOCUMENT — Not an original L&R Mfg. Co. technical publication. Reverse-engineered from direct physical inspection of specimen S/N 13505. Curated by Hobbs R.E. 2026. For restoration reference only.,,,,,,
+AS-FOUND control-unit wiring map. Source: operator contact-point trace 2026-06-25 (controlunit_wiring_dictation_raw.txt + labeled photos). Terminals use industry RefDes-Terminal naming. Confidence (OBSERVED) = traced by eye; upgrade to (CONFIRMED) after DMM ring-out. Values + position-dependent terminals (RV1 wiper/end; DS1 tip/shell; S1 COM/NO/NC) still to be metered.,,,,,,
+,,,,,,
+REFERENCE DESIGNATORS,,,,,,
+RefDes,Component,Part ID,Terminals,,,
+P1,Line cord / plug,CTL-008,P1-L (line/hot) · P1-N (neutral) · [P1-PE ground @ rewire],,,
+RV1,Rheostat (IRC) speed control,CTL-001,**425 OHMS (CONFIRMED, stamped on body)**; metered ~394 ohm max (aged). 2-terminal rheostat (wiper+end). Full CCW=OPEN/OL=motor OFF; CW sweep ~394 ohm (slow) -> ~50 ohm (fast). NOT a 750 ohm pot. Green wire=wiper(->motor M1-A1); white wire=end(->neutral). Wiper lug=on moving arm (ID visually).,,,
+S1,Plunger switch (motor reverse; momentary),CTL-003,**4 TERMINALS — RESOLVED 2026-06-25 (operator sketch, contacts a/b/c/d).** A-side (specs/Type-3392 plate): **d**=top-left, **b**=bottom-left. B-side (Arrow H&H plate): **c**=top-right, **a**=bottom-right. **d & b jumpered by RED BRAID (both = HOT common, N2); BULB taps d.** **a = motor WHITE (M1-S1) = FORWARD leg (N4); c = motor BLACK (M1-S2) = REVERSE leg (N6).** = transfer switch: hot(d/b) routed to a(OUT=fwd) or c(IN=rev). ✅ Truth table CONFIRMED 2026-06-25: OUT closes hot->a(white); IN closes hot->c(black). Maker ARROW H&H, MADE IN USA, UL insp'd, TYPE 3392 1A 125VAC (spec plate = A-side; photo-confirmed 2026-06-25). ⚠️R-5 rewire: plunger carries MOTOR current — verify motor running current <1A (universal motors spike on start) or uprate the reversing switch.,,,
+S2,Toggle switch (heater on/off),CTL-004,S2-COM (line) · S2-NO (load). Side-mounted toggle. **Maker: ARROW-HART & HEGEMAN (Arrow H&H), MADE IN USA, UL insp'd; rated 3A 250V** — black bakelite box w/ round emblem. (Same maker as S1; heavier rating than S1's 1A/125V. Heater branch ~0.6A = ample margin.),,,
+DS1,Indicator lamp (pilot),CTL-005,DS1-TIP (center) · DS1-SHELL. **Installed = 120 V / 6 W, China, C 01/18 (~2018) — CONFIRMED** — line-voltage pilot, parallel w/ heater. Non-original (recent replacement). Spares=12V/6W Taiwan (do NOT fit this circuit).,,,
+R1,Heater resistor (ceramic),CTL-007,R1-1 · R1-2 (non-polar). **Marked: OHMITE, P/N 33974, 220 ohm +/-10%** (vitreous-enamel tubular) — STAMP CONFIRMS metered 220 ohm. = the HEATER (not a lamp dropper — DS1 is a 120V pilot, parallel). Across line: 0.55A / ~65W in the heater well. Rated ~55W REF; runs hot by design.,,,
+M1,Motor (universal series; reversible),MTR-001 / CTL-009 loom,M1-S1 · M1-S2 (series-field ends) · M1-A1 · M1-A2 (armature brushes; A2 = internal field center-tap brush),,,
+,,,,,,
+SEGMENT LIST,,,,,,
+Seg,From terminal,To terminal,Wire color,Node,As-traced (old),Confidence
+W-01,P1-N,RV1-CCW,white,N1,MAINS-white -> RHEO-B,OBSERVED
+W-02,P1-L,R1-1,black,N2,MAINS-black -> HEATER-A,OBSERVED
+W-03,RV1-CCW,S2-COM,black,N1,RHEO-B -> TOGGLE-A,OBSERVED
+W-04,S2-NO,R1-2,black,N3,TOGGLE-B -> HEATER-B,OBSERVED
+W-05,R1-1,DS1-SHELL,black,N2,HEATER-A -> LAMP-B,OBSERVED
+W-06,DS1-TIP,R1-2,black,N3,LAMP-A -> HEATER-B,OBSERVED
+W-07,DS1-SHELL,S1-d,black (bulb wire),N2,bulb hot taps plunger contact d (top-left A),OBSERVED
+W-07b,S1-d,S1-b,red braided jumper,N2,plunger A-side d<->b jumpered (both hot),OBSERVED
+W-08,S1-a,M1-S1,white,N4,plunger a (bottom-right B) -> motor WHITE = FORWARD leg (closed when OUT),CONFIRMED
+W-09,S1-c,M1-S2,black,N6,plunger c (top-right B) -> motor BLACK = REVERSE leg (closed when IN),CONFIRMED
+W-10,RV1-W,M1-A1,green,N5,RHEO-A -> MOTOR-C(green),OBSERVED
+,,,,,,
+NODE LEGEND (merged terminals),,,,,,
+Node,Role,Members,,,,
+N1,NEUTRAL rail,P1-N / RV1-CCW / S2-COM,,,,
+N2,HOT rail,P1-L / R1-1 / DS1-SHELL / S1-d / S1-b (d<->b jumpered red braid),,,,
+N3,Heater+lamp return,R1-2 / DS1-TIP / S2-NO,,,,
+N4,FORWARD field leg,S1-a / M1-S1 (white) — energized when plunger OUT,,,,
+N5,Motor armature/speed leg,RV1-W / M1-A1 (green),,,,
+N6,REVERSE field leg,S1-c / M1-S2 (black) — energized when plunger IN,,,,
+,,,,,,
+CIRCUIT SUMMARY,,,,,,
+Motor,HOT(N2) -> plunger d/b (hot common) -> [OUT: contact a -> white M1-S1 = FORWARD | IN: contact c -> black M1-S2 = REVERSE] -> field coil -> M1-A2(internal tap) -> armature -> M1-A1(green) -> RV1 wiper(speed) -> P1-N. Plunger = transfer switch routing hot to one field lead; swapping leads reverses. CONFIRMED by truth table 2026-06-25.,,,,,
+Heater,P1-L(N2) -> R1 -> N3 -> S2(toggle) -> P1-N(N1).,,,,,
+Lamp+Heater,CONFIRMED PARALLEL (as-traced): DS1 (120V pilot) and R1 (heater) BOTH span N2(hot)<->N3, switched to neutral by S2. P1-L -> [R1 || DS1] -> S2 -> P1-N. No dropper needed.,,,,,
+DS1 rating,**INSTALLED bulb = 120 V / 6 W, CHINA, date code C 01/18 (~Jan 2018) — CONFIRMED under magnification 2026-06-25 off the actual in-unit bulb.** -> 0.05 A, ~2400 ohm, line-voltage pilot, PARALLEL w/ heater (matches as-traced wiring). ⚠️ Bulb is a recent (~2018) NON-ORIGINAL replacement. (The earlier 12V reading was from a SPARE, not the installed bulb.),,,,,
+DS1 spares,**Spare bulbs (came with unit) = 12 V / 6 W, TAIWAN — DO NOT MATCH this circuit.** A 12V bulb in the current PARALLEL/line wiring would blow instantly. ⚠️ Do not install the 12V spares as-is. **Most likely explanation (operator): the 12V spares are simply WRONG bulbs — bought for a DIFFERENT/later L&R variant that uses 12V pilots, by someone who didn't realize they don't fit this unit.** So the spares are NOT evidence about this unit's original config (no rewire implied). This unit's original lamp-branch intent remains UNKNOWN (only E-1690 would settle series-vs-parallel original).,,,,,
+R1 role,R1 = 220 ohm HEATER (not a dropper). Across line: 0.55 A / ~65 W dissipated in the heater well. Rated ~55W (REF) — runs hot by design (it IS the heat source).,,,,,
+Note,No master switch — N2 (hot) live whenever P1 plugged. RV1 = motor ON/OFF + speed; S2 = heater+pilot ON/OFF. Heater-branch current ~0.6 A (R1 0.55A + DS1 0.05A) — under S2's 1A rating.,,,,,
+,,,,,,
+OPEN ITEMS (resolve at DMM ring-out),,,,,,
+1,DS1 voltage rating,,RESOLVED: **120V/6W** (0.05A, ~2400 ohm) — corrected from 12V misread. DS1 = line-voltage pilot, PARALLEL with R1 (as-traced is CORRECT, no mislabel). R1 = pure 220 ohm heater. Still assign DS1-TIP/SHELL physically at bench.,,,
+2,S1 truth table,,✅ CONFIRMED 2026-06-25. Transfer switch: OUT -> hot(b/d) closes to a(white)=FORWARD (c open); IN -> hot closes to c(black)=REVERSE (a open). Readings: c<->hot IN=1.3-3 ohm closed/OUT=OL; a<->hot OUT=2-3 ohm closed/IN=OL. ⇒ a=white=M1-S1=FORWARD; c=black=M1-S2=REVERSE. Closed R high/fluctuating (1.3-3 ohm)=dirty contacts -> clean (DeoxIt+burnish) at rebuild.,,,
+3,RV1 wiper ID,,VALUE DONE 2026-06-25: OFF(OL) full-CCW -> ~50 ohm full-CW; max ~394 ohm. Remaining: ID which physical lug is the moving wiper (visual). Confirm reading was isolated (one leg lifted) not in-circuit.,,,
+4,R1 value,,DONE 2026-06-25: 220 ohm CONFIRMED. With 12V/6W lamp: 0.5A / 110V across R1 / 55W. R1 = dropper + heater. CLOSED.,,,
+5,Chassis isolation,,Every node to chassis = OL expected; confirm no short.,,,

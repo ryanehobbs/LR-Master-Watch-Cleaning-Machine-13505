@@ -1,0 +1,29 @@
+Ai Agents
+
+Goal: Create a open source project pertaining to L&R Watch Cleaning Restoration that I can publish to GitHub.
+
+Gemini
+
+* Will be used to draft mechanical drawings
+* Back and forth can be done via markup
+* Help draft vintage L&R workshop manual based on our restoration project
+** Requires accurate measurement readings
+** Procedure explanations for evaluation, removal, installation etc. 
+
+Claude
+
+* Will be used to draft electrical layouts
+* Test plans for electrical work
+* Procedure for break down and restoration steps this means how we removed finish, how we applied VHT.
+* Tracking project steps and status it knows what we have done and what is left to do
+
+
+Current Status
+
+* Motor housing has been refinished
+* Need to punch out felt washers and re-install bearings. But before that I want to accurately acquire measurements for workshop manual.
+
+
+Gaps
+* I need a better way to document steps/procedures for when I took something apart. What tools did I use, what tricks did I apply.  
+* Need to ensure starting with motor housing I document how re-installation is done.

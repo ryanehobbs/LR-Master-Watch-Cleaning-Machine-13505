@@ -1,0 +1,345 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+    <defs>
+        <style>
+            .header-text { font-family: sans-serif; font-weight: bold; font-size: 16px; fill: #111; text-anchor: middle; letter-spacing: 1px; }
+            .label-text { font-family: sans-serif; font-weight: bold; font-size: 10px; fill: #333; }
+            .value-text { font-family: monospace; font-size: 12px; fill: #111; }
+            .notes-text { font-family: sans-serif; font-size: 10px; fill: #111; }
+            .grid-label { font-family: sans-serif; font-weight: bold; font-size: 10px; fill: #666; text-anchor: middle; }
+            .disclaimer-text { font-family: sans-serif; font-style: italic; font-size: 9px; fill: #666; text-anchor: middle; }
+        </style>
+        
+        <pattern id="threadHatch" width="4" height="20" patternUnits="userSpaceOnUse">
+            <line x1="0" y1="5" x2="4" y2="0" stroke="#475569" stroke-width="1" />
+            <line x1="0" y1="15" x2="4" y2="10" stroke="#475569" stroke-width="1" />
+        </pattern>
+
+        <pattern id="denseHatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <line x1="0" y1="0" x2="0" y2="4" stroke="#64748b" stroke-width="1" />
+        </pattern>
+
+        <linearGradient id="brassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fef08a" />
+            <stop offset="30%" stop-color="#eab308" />
+            <stop offset="70%" stop-color="#ca8a04" />
+            <stop offset="100%" stop-color="#854d0e" />
+        </linearGradient>
+        
+        <marker id="arr-l" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 10 0 L 0 5 L 10 10 z" fill="#0369a1"/>
+        </marker>
+        <marker id="arr-r" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#0369a1"/>
+        </marker>
+    </defs>
+
+    <rect width="1200" height="800" fill="#f8f9fa" />
+
+    <rect x="15" y="15" width="1170" height="770" fill="none" stroke="#111" stroke-width="1" />
+    <rect x="35" y="35" width="1130" height="730" fill="none" stroke="#111" stroke-width="2" />
+
+    <line x1="320" y1="15" x2="320" y2="35" stroke="#111" stroke-width="1" />
+    <line x1="600" y1="15" x2="600" y2="35" stroke="#111" stroke-width="1" />
+    <line x1="880" y1="15" x2="880" y2="35" stroke="#111" stroke-width="1" />
+    <text x="177" y="28" class="grid-label">A</text>
+    <text x="460" y="28" class="grid-label">B</text>
+    <text x="740" y="28" class="grid-label">C</text>
+    <text x="1020" y="28" class="grid-label">D</text>
+
+    <line x1="15" y1="152" x2="35" y2="152" stroke="#111" stroke-width="1" />
+    <line x1="15" y1="267" x2="35" y2="267" stroke="#111" stroke-width="1" />
+    <line x1="15" y1="382" x2="35" y2="382" stroke="#111" stroke-width="1" />
+    <line x1="15" y1="497" x2="35" y2="497" stroke="#111" stroke-width="1" />
+    <line x1="15" y1="620" x2="35" y2="620" stroke="#111" stroke-width="1" />
+    <text x="25" y="100" class="grid-label">1</text>
+    <text x="25" y="215" class="grid-label">2</text>
+    <text x="25" y="330" class="grid-label">3</text>
+    <text x="25" y="445" class="grid-label">4</text>
+    <text x="25" y="560" class="grid-label">5</text>
+
+    <line x1="1165" y1="152" x2="1185" y2="152" stroke="#111" stroke-width="1" />
+    <line x1="1165" y1="267" x2="1185" y2="267" stroke="#111" stroke-width="1" />
+    <line x1="1165" y1="382" x2="1185" y2="382" stroke="#111" stroke-width="1" />
+    <line x1="1165" y1="497" x2="1185" y2="497" stroke="#111" stroke-width="1" />
+    <line x1="1165" y1="620" x2="1185" y2="620" stroke="#111" stroke-width="1" />
+
+    <line x1="320" y1="765" x2="320" y2="785" stroke="#111" stroke-width="1" />
+    <line x1="600" y1="765" x2="600" y2="785" stroke="#111" stroke-width="1" />
+    <line x1="880" y1="765" x2="880" y2="785" stroke="#111" stroke-width="1" />
+
+    <line x1="600" y1="35" x2="600" y2="620" stroke="#ccc" stroke-width="1" stroke-dasharray="15,5,5,5" />
+    
+    <line x1="35" y1="152" x2="1165" y2="152" stroke="#ccc" stroke-width="1" stroke-dasharray="15,5,5,5" />
+    <line x1="35" y1="267" x2="1165" y2="267" stroke="#ccc" stroke-width="1" stroke-dasharray="15,5,5,5" />
+    <line x1="35" y1="382" x2="1165" y2="382" stroke="#ccc" stroke-width="1" stroke-dasharray="15,5,5,5" />
+    <line x1="35" y1="497" x2="1165" y2="497" stroke="#ccc" stroke-width="1" stroke-dasharray="15,5,5,5" />
+
+    <g id="part-flg-002" transform="translate(60, 40) scale(0.80)">
+        <text x="10" y="20" fill="#0f172a" font-family="sans-serif" font-size="12" font-weight="bold">ITEM 1: FLG-002 HOUSING MAIN TIE-BOLT (2X TOTAL)</text>
+        <text x="10" y="35" fill="#c2410c" font-family="sans-serif" font-size="10" font-weight="bold">NOTE: FLG-002 also passes through the two PLT-004 standoff tubes to clamp the platform deck.</text>
+        
+        <line x1="20" y1="100" x2="310" y2="100" stroke="#94a3b8" stroke-width="1" stroke-dasharray="10,4,2,4" />
+        
+        <rect x="30" y="75" width="35" height="50" rx="3" fill="#f8fafc" stroke="#0f172a" stroke-width="2" />
+        <rect x="30" y="94" width="12" height="12" fill="#475569" stroke="#0f172a" stroke-width="1" />
+        
+        <rect x="65" y="86" width="140" height="28" fill="#f1f5f9" stroke="#0f172a" stroke-width="1.5" />
+        <rect x="205" y="86" width="75" height="28" fill="url(#threadHatch)" stroke="#0f172a" stroke-width="1.5" />
+        <line x1="280" y1="89" x2="280" y2="111" stroke="#0f172a" stroke-width="1.5" />
+
+        <g stroke="#0369a1" stroke-width="1" fill="#0369a1" font-family="monospace" font-size="11">
+            <line x1="30" y1="70" x2="30" y2="55" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="65" y1="70" x2="65" y2="55" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="40" y1="60" x2="55" y2="60" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+            <text x="47.5" y="52" text-anchor="middle" font-weight="bold">0.350"</text>
+
+            <line x1="65" y1="120" x2="65" y2="145" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="280" y1="120" x2="280" y2="145" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="75" y1="135" x2="270" y2="135" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+            <text x="172.5" y="129" text-anchor="middle" font-weight="bold">SHANK OAL: 3.090" (CONFIRMED)</text>
+        </g>
+    </g>
+
+    <g id="part-lh-006-tube" transform="translate(620, 40) scale(0.80)">
+        <text x="10" y="20" fill="#0f172a" font-family="sans-serif" font-size="12" font-weight="bold">ITEM 2: LH-006 PROTRUDING BRASS OIL TUBE (1X TOTAL)</text>
+        
+        <line x1="30" y1="95" x2="320" y2="95" stroke="#94a3b8" stroke-width="1" stroke-dasharray="10,4,2,4" />
+        
+        <path d="M 40,65 L 75,65 L 75,125 L 40,125" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+        <text x="58" y="115" fill="#94a3b8" font-family="sans-serif" font-size="9" text-anchor="middle">LH-005 BOSS</text>
+
+        <rect x="55" y="79" width="20" height="32" fill="#ca8a04" stroke="#0f172a" stroke-width="1.5" opacity="0.5" />
+        <rect x="75" y="79" width="165" height="32" fill="url(#brassGradient)" stroke="#0f172a" stroke-width="2" />
+        
+        <path d="M 240,76 L 246,76 L 246,114 L 240,114 Z" fill="#ca8a04" stroke="#0f172a" stroke-width="1.5" />
+        <ellipse cx="246" cy="95" rx="2" ry="16" fill="#451a03" />
+
+        <g stroke="#0369a1" stroke-width="1" fill="#0369a1" font-family="monospace" font-size="11">
+            <line x1="246" y1="76" x2="275" y2="76" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="246" y1="114" x2="275" y2="114" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="270" y1="86" x2="270" y2="104" marker-start="url(#arr-r)" marker-end="url(#arr-l)"/>
+            <text x="282" y="99" text-anchor="start" font-weight="bold">OD Ø0.293" (CONF)</text>
+
+            <line x1="75" y1="79" x2="75" y2="45" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="246" y1="76" x2="246" y2="45" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="85" y1="50" x2="236" y2="50" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+            <text x="160" y="44" text-anchor="middle" font-weight="bold">PROTRUSION LEN: 1.000" (CONFIRMED)</text>
+        </g>
+    </g>
+
+    <g id="part-uh-004" transform="translate(60, 155) scale(0.80)">
+        <text x="10" y="20" fill="#0f172a" font-family="sans-serif" font-size="12" font-weight="bold">ITEM 3: UH-004 INSULATED BRUSH CAP PLUG (2X TOTAL)</text>
+        
+        <g transform="translate(80, 85)">
+            <circle cx="0" cy="0" r="45" fill="#f8fafc" stroke="#0f172a" stroke-width="2" />
+            <circle cx="0" cy="0" r="38" fill="none" stroke="#475569" stroke-width="1" stroke-dasharray="2,2" />
+            <rect x="-30" y="-5" width="60" height="10" fill="#334155" stroke="#0f172a" stroke-width="1" />
+            <text x="0" y="58" fill="#475569" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">PLAN VIEW FACE</text>
+        </g>
+
+        <g transform="translate(240, 85)">
+            <path d="M -45,-25 L 45,-25 L 45,-10 L 35,20 L -35,20 L -45,-10 Z" fill="#f1f5f9" stroke="#0f172a" stroke-width="2" />
+            <rect x="-30" y="-25" width="60" height="10" fill="none" stroke="#475569" stroke-width="1" stroke-dasharray="3,3" />
+            <text x="0" y="38" fill="#475569" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">SIDE PROFILE</text>
+        </g>
+
+        <g stroke="#0369a1" stroke-width="1" fill="#0369a1" font-family="monospace" font-size="11">
+            <line x1="35" y1="85" x2="35" y2="155" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="125" y1="85" x2="125" y2="155" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="45" y1="147" x2="115" y2="147" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+            <text x="80" y="141" text-anchor="middle" font-weight="bold">OD Ø0.560" (SYN)</text>
+        </g>
+    </g>
+
+    <g id="part-uh-005" transform="translate(620, 155) scale(0.80)">
+        <text x="10" y="20" fill="#0f172a" font-family="sans-serif" font-size="12" font-weight="bold">ITEM 4: UH-005 LOCKING SET-SCREW (2X TOTAL)</text>
+        
+        <line x1="40" y1="90" x2="240" y2="90" stroke="#94a3b8" stroke-width="1" stroke-dasharray="10,4,2,4" />
+        
+        <rect x="70" y="70" width="85" height="40" fill="url(#threadHatch)" stroke="#0f172a" stroke-width="2" />
+        <path d="M 70,80 L 85,80 L 85,100 L 70,100 Z" fill="#475569" stroke="#0f172a" stroke-width="1.2" />
+        <rect x="155" y="75" width="10" height="30" fill="#cbd5e1" stroke="#0f172a" stroke-width="1.5" />
+
+        <g stroke="#0369a1" stroke-width="1" fill="#0369a1" font-family="monospace" font-size="11">
+            <line x1="70" y1="65" x2="70" y2="40" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="165" y1="65" x2="165" y2="40" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="80" y1="47" x2="155" y2="47" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+            <text x="117.5" y="40" text-anchor="middle" font-weight="bold">LEN: 0.312" (5/16)</text>
+            
+            <text x="117.5" y="130" text-anchor="middle" font-weight="bold" fill="#0369a1">THREAD: M4 / #8-32 EQUIV.</text>
+        </g>
+    </g>
+
+    <g id="part-plt-004" transform="translate(60, 270) scale(0.80)">
+        <text x="10" y="20" fill="#0f172a" font-family="sans-serif" font-size="12" font-weight="bold">ITEM 5: PLT-004 MOUNT STANDOFF TUBE (2X TOTAL)</text>
+        <text x="10" y="35" fill="#475569" font-family="sans-serif" font-size="10">NOTE: FLG-002 housing bolts pass THROUGH these tubes; they set platform-deck standoff.</text>
+        
+        <line x1="30" y1="90" x2="280" y2="90" stroke="#94a3b8" stroke-width="1" stroke-dasharray="10,4,2,4" />
+        
+        <rect x="60" y="70" width="160" height="40" fill="url(#denseHatch)" stroke="#0f172a" stroke-width="1.5" />
+        <rect x="60" y="80" width="160" height="20" fill="#ffffff" stroke="#0f172a" stroke-width="1.5" />
+        <line x1="60" y1="90" x2="220" y2="90" stroke="#0f172a" stroke-width="1" stroke-dasharray="8,4"/>
+
+        <g stroke="#0369a1" stroke-width="1" fill="#0369a1" font-family="monospace" font-size="11">
+            <line x1="60" y1="65" x2="60" y2="45" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="220" y1="65" x2="220" y2="45" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="70" y1="52" x2="210" y2="52" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+            <text x="140" y="45" text-anchor="middle" font-weight="bold">LEN: 0.6990" (CONFIRMED)</text>
+
+            <line x1="220" y1="70" x2="250" y2="70" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="220" y1="110" x2="250" y2="110" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="240" y1="80" x2="240" y2="100" marker-start="url(#arr-r)" marker-end="url(#arr-l)"/>
+            <text x="250" y="95" text-anchor="start" font-weight="bold">OD 0.3765" (CONF)</text>
+
+            <line x1="140" y1="95" x2="140" y2="125" stroke="#94a3b8" stroke-width="0.75"/>
+            <text x="140" y="135" text-anchor="middle" font-weight="bold">BORE ID: 0.2020" (CONFIRMED) | WALL ~0.087" (SYN)</text>
+        </g>
+    </g>
+
+    <g id="part-spn-005" transform="translate(620, 270) scale(0.80)">
+        <text x="10" y="20" fill="#0f172a" font-family="sans-serif" font-size="12" font-weight="bold">ITEM 6: SPN-005 SPINDLE SET SCREW (1X TOTAL)</text>
+        <text x="10" y="35" fill="#475569" font-family="sans-serif" font-size="10">NOTE: Locks armature lower journal (SHF-003) inside the basket drive spindle (SPN-002).</text>
+        
+        <line x1="40" y1="90" x2="200" y2="90" stroke="#94a3b8" stroke-width="1" stroke-dasharray="10,4,2,4" />
+        
+        <rect x="70" y="75" width="40" height="30" fill="url(#threadHatch)" stroke="#0f172a" stroke-width="2" />
+        <path d="M 70,80 L 60,80 L 60,100 L 70,100 Z" fill="#475569" stroke="#0f172a" stroke-width="1.2" />
+        <rect x="110" y="75" width="8" height="30" fill="#cbd5e1" stroke="#0f172a" stroke-width="1.5" />
+        <rect x="114" y="83" width="4" height="14" fill="#0f172a" />
+
+        <g stroke="#0369a1" stroke-width="1" fill="#0369a1" font-family="monospace" font-size="11">
+            <line x1="60" y1="70" x2="60" y2="50" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="118" y1="70" x2="118" y2="50" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="70" y1="57" x2="108" y2="57" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+            <text x="89" y="50" text-anchor="middle" font-weight="bold">LEN: 0.185" (CONF)</text>
+
+            <text x="100" y="125" text-anchor="middle" font-weight="bold" fill="#0369a1">THREAD: 1/4-20 (RH) | DRIVE: SLOTTED</text>
+        </g>
+    </g>
+
+    <g id="part-spn-006" transform="translate(60, 385) scale(0.80)">
+        <text x="10" y="20" fill="#0f172a" font-family="sans-serif" font-size="12" font-weight="bold">ITEM 7: SPN-006 BASKET RETENTION SPRING (1X TOTAL)</text>
+        <text x="10" y="35" fill="#475569" font-family="sans-serif" font-size="10">NOTE: 3-prong steel spring at the spindle impeller hub; basket secures against it.</text>
+        
+        <line x1="30" y1="85" x2="280" y2="85" stroke="#94a3b8" stroke-width="1" stroke-dasharray="10,4,2,4" />
+        
+        <g transform="translate(120, 85)">
+            <g transform="rotate(0)"><rect x="-5" y="-40" width="10" height="40" fill="#94a3b8" stroke="#0f172a" stroke-width="1.5"/></g>
+            <g transform="rotate(120)"><rect x="-5" y="-40" width="10" height="40" fill="#94a3b8" stroke="#0f172a" stroke-width="1.5"/></g>
+            <g transform="rotate(240)"><rect x="-5" y="-40" width="10" height="40" fill="#94a3b8" stroke="#0f172a" stroke-width="1.5"/></g>
+            <circle cx="0" cy="0" r="12" fill="#cbd5e1" stroke="#0f172a" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="4" fill="#ffffff" stroke="#0f172a" stroke-width="1"/>
+        </g>
+
+        <g stroke="#0369a1" stroke-width="1" fill="#0369a1" font-family="monospace" font-size="11">
+            <line x1="80" y1="75" x2="80" y2="50" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="160" y1="75" x2="160" y2="50" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="90" y1="57" x2="150" y2="57" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+            <text x="120" y="50" text-anchor="middle" font-weight="bold">SPREAD: 1.91" (CONF)</text>
+
+            <text x="120" y="140" text-anchor="middle" font-weight="bold">LEGS: 0.24"H x 0.95"L x 0.0265" THICK (CONF)</text>
+        </g>
+    </g>
+
+    <g id="part-spn-007" transform="translate(620, 385) scale(0.80)">
+        <text x="10" y="20" fill="#0f172a" font-family="sans-serif" font-size="12" font-weight="bold">ITEM 8: SPN-007 SPRING RETAINING SCREW (1X TOTAL)</text>
+        <text x="10" y="35" fill="#475569" font-family="sans-serif" font-size="10">NOTE: Brass slotted dome head screw; fastens SPN-006 to the spindle hub.</text>
+        
+        <line x1="40" y1="85" x2="240" y2="85" stroke="#94a3b8" stroke-width="1" stroke-dasharray="10,4,2,4" />
+        
+        <path d="M 70,70 C 50,70 50,100 70,100 Z" fill="url(#brassGradient)" stroke="#0f172a" stroke-width="2" />
+        <rect x="52" y="83" width="4" height="4" fill="#451a03" />
+        <rect x="70" y="77" width="60" height="16" fill="url(#threadHatch)" stroke="#0f172a" stroke-width="1.5" />
+
+        <g stroke="#0369a1" stroke-width="1" fill="#0369a1" font-family="monospace" font-size="11">
+            <line x1="60" y1="65" x2="60" y2="50" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="130" y1="73" x2="130" y2="50" stroke="#94a3b8" stroke-width="0.75"/>
+            <line x1="70" y1="57" x2="120" y2="57" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+            <text x="95" y="50" text-anchor="middle" font-weight="bold">LEN: 0.465" (CONF)</text>
+
+            <text x="110" y="125" text-anchor="middle" font-weight="bold">HEAD: Ø0.265" | THREAD: #6-32 (CONF)</text>
+        </g>
+    </g>
+
+    <g id="part-plt-005" transform="translate(60, 500) scale(0.80)">
+        <text x="10" y="20" fill="#0f172a" font-family="sans-serif" font-size="12" font-weight="bold">ITEM 9: PLT-005 GASKET DECK FASTENER (4X TOTAL)</text>
+        <text x="10" y="35" fill="#475569" font-family="sans-serif" font-size="10">NOTE: Original = Rivet. Restoration = stainless M4-0.7 x 10mm flat-head Phillips screw + hex nut.</text>
+        <text x="10" y="47" fill="#475569" font-family="sans-serif" font-size="10">NOTE: Restoration specifically reuses the original PLT-006 washers.</text>
+
+        <line x1="40" y1="90" x2="240" y2="90" stroke="#94a3b8" stroke-width="1" stroke-dasharray="10,4,2,4" />
+        
+        <path d="M 70,80 C 55,80 55,100 70,100 Z" fill="#cbd5e1" stroke="#0f172a" stroke-width="1.5" />
+        <rect x="70" y="86" width="60" height="8" fill="#e2e8f0" stroke="#0f172a" stroke-width="1.5" />
+
+        <g stroke="#0369a1" stroke-width="1" fill="#0369a1" font-family="monospace" font-size="11">
+            <text x="110" y="125" text-anchor="middle" font-weight="bold">ORIGINAL RIVET (DESIGN OF RECORD)</text>
+        </g>
+    </g>
+
+    <g id="part-plt-006" transform="translate(620, 500) scale(0.80)">
+        <text x="10" y="20" fill="#0f172a" font-family="sans-serif" font-size="12" font-weight="bold">ITEM 10: PLT-006 GASKET DECK WASHER (4X TOTAL)</text>
+        <text x="10" y="35" fill="#475569" font-family="sans-serif" font-size="10">NOTE: Original washer. Retained for use with restoration M4 hardware.</text>
+        
+        <line x1="40" y1="90" x2="300" y2="90" stroke="#94a3b8" stroke-width="1" stroke-dasharray="10,4,2,4" />
+
+        <circle cx="100" cy="90" r="28" fill="#e2e8f0" stroke="#0f172a" stroke-width="1.5" />
+        <circle cx="100" cy="90" r="10" fill="#f8fafc" stroke="#0f172a" stroke-width="1.5" />
+        
+        <rect x="220" y="62" width="6" height="56" fill="#e2e8f0" stroke="#0f172a" stroke-width="1.5" />
+        <line x1="223" y1="60" x2="223" y2="120" stroke="#0f172a" stroke-width="1" stroke-dasharray="4,2"/>
+
+        <g stroke="#0369a1" stroke-width="1" fill="#0369a1" font-family="monospace" font-size="11">
+            <text x="100" y="140" text-anchor="middle" font-weight="bold">OD Ø0.4385" (CONF)</text>
+            <text x="100" y="152" text-anchor="middle" font-weight="bold">ID Ø0.1570" (CONF)</text>
+            <text x="223" y="140" text-anchor="middle" font-weight="bold">THICK: 0.0415" (CONF)</text>
+        </g>
+    </g>
+
+    <line x1="35" y1="620" x2="1165" y2="620" stroke="#111" stroke-width="2" />
+    
+    <rect x="45" y="630" width="530" height="135" fill="#fff" stroke="#111" stroke-width="2" />
+    <text x="55" y="645" class="label-text">NOTES &amp; SPECIFICATIONS:</text>
+    <text x="55" y="660" class="notes-text">1. SCOPE: Ancillary hardware schedule mapping structural fasteners, plugs, and spindle hardware.</text>
+    <text x="55" y="672" class="notes-text">2. TIE-BOLTS (FLG-002): Pass through stator yoke to clamp upper and lower housings.</text>
+    <text x="55" y="684" class="notes-text">3. OIL TUBE (LH-006): Brass tube pressed into lower casting; houses lubricating wick.</text>
+    <text x="55" y="696" class="notes-text">4. BRUSH CAPS (UH-004) / SET SCREWS (UH-005): Plugs and retainers for carbon motor brushes.</text>
+    <text x="55" y="708" class="notes-text">5. STANDOFFS (PLT-004): Flange bolts route inside these to structure the platform deck assembly.</text>
+    <text x="55" y="720" class="notes-text">6. SPINDLE HARDWARE: SPN-005 (set screw) + SPN-006 (3-prong spring) + SPN-007 (brass retention screw).</text>
+    <text x="55" y="732" class="notes-text">7. METROLOGY: Dimensions marked (EST.) or (SYN) pending direct bench confirmation.</text>
+    <text x="55" y="744" class="notes-text">8. DECK FASTENERS (PLT-005): Original rivets drilled out; replaced with M4 hardware.</text>
+
+    <rect x="585" y="630" width="570" height="135" fill="#fff" stroke="#111" stroke-width="2" />
+    
+    <line x1="585" y1="660" x2="1155" y2="660" stroke="#111" stroke-width="2" />
+    <line x1="585" y1="710" x2="1155" y2="710" stroke="#111" stroke-width="1" />
+    
+    <line x1="755" y1="660" x2="755" y2="765" stroke="#111" stroke-width="1" />
+    <line x1="965" y1="660" x2="965" y2="765" stroke="#111" stroke-width="1" />
+    <line x1="1065" y1="710" x2="1065" y2="765" stroke="#111" stroke-width="1" />
+
+    <text x="870" y="650" class="header-text">L&amp;R PRECISION CLEANING MACHINE — MASTER</text>
+    
+    <text x="595" y="680" class="label-text">MANUFACTURER:</text>
+    <text x="595" y="700" class="value-text" font-weight="bold">L&amp;R MFG. CO.</text>
+    
+    <text x="765" y="680" class="label-text">DRAWING TITLE:</text>
+    <text x="765" y="700" class="value-text" font-weight="bold" font-size="10px" textLength="185" lengthAdjust="spacingAndGlyphs">EXTERNAL HARDWARE SCHEDULE (REV G)</text>
+    
+    <text x="975" y="680" class="label-text">PART NUMBER / ID:</text>
+    <text x="975" y="700" class="value-text" font-weight="bold" fill="#ff3333">HW-001</text>
+
+    <text x="595" y="725" class="label-text">ENGINEER:</text>
+    <text x="595" y="745" class="value-text">Hobbs R.E.</text>
+    
+    <text x="765" y="725" class="label-text">METADATA CONTROL:</text>
+    <text x="765" y="740" class="value-text" font-size="10px">SCALE: NOT TO SCALE</text>
+    <text x="765" y="753" class="value-text" font-size="10px">SERIAL NUMBER: S/N 13505</text>
+    
+    <text x="975" y="725" class="label-text">DATE:</text>
+    <text x="975" y="745" class="value-text">June 12, 2026</text>
+    
+    <text x="1075" y="725" class="label-text">STATUS:</text>
+    <text x="1075" y="745" class="value-text" font-weight="bold" fill="#228b22">RELEASED</text>
+
+    <text x="600" y="780" class="disclaimer-text">REPRODUCTION DOCUMENT — Not an original L&amp;R Mfg. Co. technical publication. Reverse-engineered from direct physical measurement of specimen S/N 13505. Curated by Hobbs R.E., 2026. For restoration reference only.</text>
+</svg>

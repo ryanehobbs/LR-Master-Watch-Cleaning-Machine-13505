@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <marker id="arr-l" markerWidth="10" markerHeight="10" refX="0" refY="5" orient="auto">
+      <path d="M 10 0 L 0 5 L 10 10 Z" fill="#000"/>
+    </marker>
+    <marker id="arr-r" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#000"/>
+    </marker>
+    <marker id="arr-head" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#000"/>
+    </marker>
+    <pattern id="wire-mesh" width="6" height="6" patternUnits="userSpaceOnUse">
+      <path d="M 0 0 L 6 6 M 6 0 L 0 6" stroke="#666" stroke-width="0.6"/>
+      <path d="M 0 3 L 6 3 M 3 0 L 3 6" stroke="#888" stroke-width="0.3"/>
+    </pattern>
+    <pattern id="solid-metal" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#aaa" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="#ffffff"/>
+
+  <rect x="20" y="20" width="1160" height="760" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="25" y="25" width="1150" height="750" fill="none" stroke="#000" stroke-width="1"/>
+
+  <text x="12" y="150" font-family="sans-serif" font-size="12" text-anchor="middle">A</text>
+  <text x="12" y="350" font-family="sans-serif" font-size="12" text-anchor="middle">B</text>
+  <text x="12" y="550" font-family="sans-serif" font-size="12" text-anchor="middle">C</text>
+  <text x="12" y="750" font-family="sans-serif" font-size="12" text-anchor="middle">D</text>
+
+  <text x="1188" y="150" font-family="sans-serif" font-size="12" text-anchor="middle">A</text>
+  <text x="1188" y="350" font-family="sans-serif" font-size="12" text-anchor="middle">B</text>
+  <text x="1188" y="550" font-family="sans-serif" font-size="12" text-anchor="middle">C</text>
+  <text x="1188" y="750" font-family="sans-serif" font-size="12" text-anchor="middle">D</text>
+
+  <text x="200" y="15" font-family="sans-serif" font-size="12" text-anchor="middle">1</text>
+  <text x="600" y="15" font-family="sans-serif" font-size="12" text-anchor="middle">2</text>
+  <text x="1000" y="15" font-family="sans-serif" font-size="12" text-anchor="middle">3</text>
+
+  <text x="200" y="795" font-family="sans-serif" font-size="12" text-anchor="middle">1</text>
+  <text x="600" y="795" font-family="sans-serif" font-size="12" text-anchor="middle">2</text>
+  <text x="1000" y="795" font-family="sans-serif" font-size="12" text-anchor="middle">3</text>
+
+  <rect x="25" y="25" width="1150" height="40" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="600" y="52" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">BSK-002 MESH BASKET &amp; BSK-003 LID ASSEMBLY (REV D)</text>
+
+  <line x1="300" y1="90" x2="300" y2="600" stroke="#000" stroke-width="1" stroke-dasharray="25,5,5,5"/>
+  <text x="300" y="110" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">1. FRONT ELEVATION</text>
+
+  <rect x="160" y="195" width="280" height="15" fill="#e0e0e0" stroke="#000" stroke-width="2"/>
+  <rect x="296" y="195" width="8" height="15" fill="#fff" stroke="#000" stroke-width="1"/>
+  
+  <rect x="160" y="210" width="280" height="40" fill="#cccccc" stroke="#000" stroke-width="2"/>
+  <line x1="160" y1="215" x2="440" y2="215" stroke="#999" stroke-width="1"/>
+  <line x1="160" y1="245" x2="440" y2="245" stroke="#999" stroke-width="1"/>
+  <rect x="290" y="210" width="20" height="15" fill="#fff" stroke="#000" stroke-width="1"/>
+
+  <rect x="165" y="250" width="270" height="260" fill="url(#wire-mesh)" stroke="#000" stroke-width="1.5"/>
+
+  <rect x="165" y="510" width="270" height="15" fill="#cccccc" stroke="#000" stroke-width="1.5"/>
+
+  <line x1="160" y1="540" x2="160" y2="580" stroke="#999" stroke-width="1"/>
+  <line x1="440" y1="540" x2="440" y2="580" stroke="#999" stroke-width="1"/>
+  <line x1="160" y1="565" x2="440" y2="565" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="300" y="555" font-family="sans-serif" font-size="12" text-anchor="middle">OD Ø 2.8025" (CONFIRMED)</text>
+
+  <line x1="140" y1="210" x2="100" y2="210" stroke="#999" stroke-width="1"/>
+  <line x1="140" y1="525" x2="100" y2="525" stroke="#999" stroke-width="1"/>
+  <line x1="110" y1="210" x2="110" y2="525" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="100" y="367" font-family="sans-serif" font-size="12" transform="rotate(-90 100 367)" text-anchor="middle">HEIGHT 2.25" (CONFIRMED)</text>
+
+  <line x1="440" y1="202" x2="480" y2="202" stroke="#000" stroke-width="1"/>
+  <text x="485" y="198" font-family="sans-serif" font-size="11">BSK-003 LID / COVER</text>
+  <text x="485" y="210" font-family="sans-serif" font-size="11">OD Ø 2.70" | THK 0.086" (CONF)</text>
+
+  <line x1="440" y1="230" x2="480" y2="230" stroke="#000" stroke-width="1"/>
+  <text x="485" y="226" font-family="sans-serif" font-size="11">TOP COLLAR</text>
+  <text x="485" y="238" font-family="sans-serif" font-size="11">(SOLID METAL)</text>
+
+  <line x1="435" y1="380" x2="480" y2="380" stroke="#000" stroke-width="1"/>
+  <text x="485" y="376" font-family="sans-serif" font-size="11">BSK-002 MESH BASKET</text>
+  <text x="485" y="388" font-family="sans-serif" font-size="11">24 MESH | 0.0240" WIRE</text>
+  <text x="485" y="400" font-family="sans-serif" font-size="11">OPENING ~0.0177" (CONF)</text>
+
+
+  <line x1="800" y1="90" x2="800" y2="380" stroke="#000" stroke-width="1" stroke-dasharray="25,5,5,5"/>
+  <line x1="600" y1="240" x2="1000" y2="240" stroke="#000" stroke-width="1" stroke-dasharray="25,5,5,5"/>
+  <text x="800" y="110" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">2. TOP PLAN VIEW</text>
+
+  <circle cx="800" cy="240" r="140" fill="#cccccc" stroke="#000" stroke-width="2"/>
+  <circle cx="800" cy="240" r="115" fill="#e0e0e0" stroke="#000" stroke-width="1.5"/>
+
+  <g transform="rotate(0 800 240)">
+    <rect x="790" y="100" width="20" height="20" fill="#e0e0e0" stroke="#000" stroke-width="1"/>
+    <line x1="790" y1="120" x2="810" y2="120" stroke="#e0e0e0" stroke-width="3"/>
+  </g>
+  <g transform="rotate(120 800 240)">
+    <rect x="790" y="100" width="20" height="20" fill="#e0e0e0" stroke="#000" stroke-width="1"/>
+    <line x1="790" y1="120" x2="810" y2="120" stroke="#e0e0e0" stroke-width="3"/>
+  </g>
+  <g transform="rotate(240 800 240)">
+    <rect x="790" y="100" width="20" height="20" fill="#e0e0e0" stroke="#000" stroke-width="1"/>
+    <line x1="790" y1="120" x2="810" y2="120" stroke="#e0e0e0" stroke-width="3"/>
+  </g>
+
+  <circle cx="800" cy="240" r="8" fill="#ffffff" stroke="#000" stroke-width="2"/>
+  
+  <line x1="800" y1="240" x2="900" y2="160" stroke="#000" stroke-width="1" marker-start="url(#arr-l)"/>
+  <line x1="900" y1="160" x2="940" y2="160" stroke="#000" stroke-width="1"/>
+  <text x="945" y="156" font-family="sans-serif" font-size="10">CENTER HOLE Ø0.1475"</text>
+  <text x="945" y="168" font-family="sans-serif" font-size="10">(CONFIRMED)</text>
+
+  <line x1="785" y1="105" x2="700" y2="105" stroke="#000" stroke-width="1" marker-start="url(#arr-l)"/>
+  <text x="695" y="101" font-family="sans-serif" font-size="10" text-anchor="end">3 BAYONET LUGS</text>
+  <text x="695" y="113" font-family="sans-serif" font-size="10" text-anchor="end">~120° APART (CONFIRMED)</text>
+
+  <line x1="660" y1="400" x2="660" y2="385" stroke="#999" stroke-width="1"/>
+  <line x1="940" y1="400" x2="940" y2="385" stroke="#999" stroke-width="1"/>
+  <line x1="660" y1="395" x2="940" y2="395" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="800" y="415" font-family="sans-serif" font-size="12" text-anchor="middle">OD Ø 2.8025" (CONFIRMED)</text>
+
+
+  <text x="800" y="460" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">3. BAYONET LUG / J-SLOT DETAIL (FLATTENED)</text>
+
+  <rect x="650" y="480" width="300" height="120" fill="#cccccc" stroke="#000" stroke-width="2"/>
+  <line x1="650" y1="485" x2="950" y2="485" stroke="#999" stroke-width="1"/>
+  <line x1="650" y1="595" x2="950" y2="595" stroke="#999" stroke-width="1"/>
+
+  <path d="M 780 480 L 815 480 L 815 560 L 720 560 L 720 520 L 760 520 L 760 535 L 780 535 Z" fill="#ffffff" stroke="#000" stroke-width="2"/>
+
+  <circle cx="797.5" cy="480" r="12" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="4,2"/>
+  <circle cx="740" cy="535" r="12" fill="#fff" stroke="#000" stroke-width="2" stroke-dasharray="4,2"/>
+
+  <path d="M 797.5 495 L 797.5 545 L 740 545 L 740 540" fill="none" stroke="#000" stroke-width="1.5" marker-end="url(#arr-head)"/>
+
+  <line x1="740" y1="547" x2="740" y2="620" stroke="#000" stroke-width="1"/>
+  <line x1="740" y1="620" x2="680" y2="620" stroke="#000" stroke-width="1"/>
+  <text x="675" y="615" font-family="sans-serif" font-size="10" text-anchor="end">SPN-002 RETENTION PIN</text>
+  <text x="675" y="627" font-family="sans-serif" font-size="10" text-anchor="end">IN LOCKED POSITION</text>
+  <text x="675" y="639" font-family="sans-serif" font-size="10" text-anchor="end">(Ø 0.125" PIN ON 2.92" BCD)</text>
+
+  <line x1="780" y1="500" x2="815" y2="500" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="820" y="495" font-family="sans-serif" font-size="10" text-anchor="start">WIDTH: 0.1855" (CONF)</text>
+  
+  <line x1="835" y1="480" x2="835" y2="560" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <line x1="815" y1="480" x2="845" y2="480" stroke="#999" stroke-width="1"/>
+  <line x1="815" y1="560" x2="845" y2="560" stroke="#999" stroke-width="1"/>
+  <text x="840" y="525" font-family="sans-serif" font-size="10" text-anchor="start">AXIAL ENTRY: 0.420" (CONF)</text>
+  
+  <line x1="720" y1="575" x2="815" y2="575" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <line x1="720" y1="560" x2="720" y2="585" stroke="#999" stroke-width="1"/>
+  <line x1="815" y1="560" x2="815" y2="585" stroke="#999" stroke-width="1"/>
+  <text x="767.5" y="590" font-family="sans-serif" font-size="10" text-anchor="middle">HOOK RUN: 0.2700" (CONF)</text>
+
+  <rect x="800" y="650" width="375" height="125" fill="none" stroke="#000" stroke-width="2"/>
+  <line x1="800" y1="680" x2="1175" y2="680" stroke="#000" stroke-width="1"/>
+  <line x1="800" y1="710" x2="1175" y2="710" stroke="#000" stroke-width="1"/>
+  <line x1="800" y1="740" x2="1175" y2="740" stroke="#000" stroke-width="1"/>
+  <line x1="987" y1="650" x2="987" y2="680" stroke="#000" stroke-width="1"/>
+  <line x1="987" y1="680" x2="987" y2="710" stroke="#000" stroke-width="1"/>
+  <text x="810" y="670" font-family="sans-serif" font-size="12" font-weight="bold">Product: L&amp;R Precision Cleaning Machine</text>
+  <text x="997" y="670" font-family="sans-serif" font-size="12" font-weight="bold">Model: Master</text>
+  <text x="810" y="700" font-family="sans-serif" font-size="12" font-weight="bold">Serial: 13505</text>
+  <text x="997" y="700" font-family="sans-serif" font-size="12" font-weight="bold">Date: June 12, 2026</text>
+  <text x="810" y="730" font-family="sans-serif" font-size="12" font-weight="bold">Engineer: Hobbs R.E.</text>
+  <text x="810" y="760" font-family="sans-serif" font-size="12" font-weight="bold">Manufacturer: L&amp;R MFG. CO.</text>
+
+  <rect x="25" y="635" width="600" height="140" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="35" y="655" font-family="sans-serif" font-size="12" font-weight="bold">NOTES:</text>
+  <text x="35" y="675" font-family="sans-serif" font-size="11">REPRODUCTION DOCUMENT — Not an original L&amp;R Mfg. Co. technical publication.</text>
+  <text x="35" y="690" font-family="sans-serif" font-size="11">Reverse-engineered from direct physical measurement of specimen S/N 13505.</text>
+  <text x="35" y="705" font-family="sans-serif" font-size="11">Curated by Hobbs R.E., 2026. For restoration reference only.</text>
+  <text x="35" y="725" font-family="sans-serif" font-size="11" font-weight="bold">MODEL NOTE (REF):</text>
+  <text x="145" y="725" font-family="sans-serif" font-size="11">Nominal basket dia for this (early oiled-bearing) generation = 2 3/4" (2.750");</text>
+  <text x="35" y="740" font-family="sans-serif" font-size="11">later units used 2 1/4" (2.250"). Measured outer-mesh OD 2.8025". (Mark 1/2 = collector shorthand.)</text>
+
+</svg>

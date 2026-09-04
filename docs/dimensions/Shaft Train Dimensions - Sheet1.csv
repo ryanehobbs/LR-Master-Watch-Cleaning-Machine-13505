@@ -1,0 +1,69 @@
+REPRODUCTION DOCUMENT — Not an original L&R Mfg. Co. technical publication. Reverse-engineered from direct physical measurement of specimen S/N 13505. Curated by Hobbs R.E. 2026. For restoration reference only.,,,,,
+"SCOPE: Power-head parts outside the motor — spindle/drive (SPN), platform/jar-seal deck (PLT), basket (BSK). Companion to 'Shaft Train Parts Dictionary.csv'. Measured 2026-06-15 (Mitutoyo).",,,,,
+Part ID,Component,Dimension,Value,Confidence,Notes
+SPN-002,Basket Drive Spindle (aluminum one-piece),Bore ID,0.2805",CONFIRMED,Slip-fit over armature lower journal SHF-003 (Ø0.280")
+SPN-002,Basket Drive Spindle,Body OD,0.5065",CONFIRMED,Shaft body
+SPN-002,Basket Drive Spindle,Length (impeller hub to shaft end),3.05",CONFIRMED,User 2026-06-15; = the earlier 3.0505" reading (was a length not the ring OD)
+SPN-002,Basket Drive Spindle,Basket-mount ring OD,2.703",CONFIRMED,Re-measured (earlier 3.0505" was a mislabel)
+SPN-002,Basket Drive Spindle,Basket-mount ring ID,2.425",CONFIRMED,Inner face of ring band
+SPN-002,Basket Drive Spindle,Ring height/thickness,0.277",CONFIRMED,Axial thickness of ring band
+SPN-002,Basket Drive Spindle,Reading 2.6960" (discarded),—,VOID,Unclear/misread; hub-to-end confirmed 3.05"
+SPN-002,Basket Drive Spindle,Impeller + hub,cast as one piece,CONFIRMED,Hub and impeller are cast together — no discrete hub diameter measurable; earlier 0.8500" was an approx across the central boss (treat EST.)
+SPN-002,Basket Drive Spindle,Impeller vanes,3,CONFIRMED,Cast vanes integral
+SPN-002,Basket Drive Spindle,Ring retention pins,3,CONFIRMED,~120 deg apart; engage basket bayonet lugs
+SPN-002,Basket Drive Spindle,Ring pin diameter,0.125",CONFIRMED,Mates BSK-002 bayonet slot
+SPN-002,Basket Drive Spindle,Ring pin height,0.145",CONFIRMED,Protrusion
+SPN-002,Basket Drive Spindle,Ring pin-circle dia,2.92",CONFIRMED,1.46" radius x 2
+SPN-002,Basket Drive Spindle,Set-screw cross-hole,near top of shaft,CONFIRMED,SPN-005 location
+SPN-005,Spindle Set Screw,Thread,1/4-20,CONFIRMED,RH thread; locks SHF-003 in spindle bore
+SPN-005,Spindle Set Screw,Length,0.185",CONFIRMED,
+SPN-005,Spindle Set Screw,Drive type,Slotted,CONFIRMED,Right-hand turn
+SPN-006,Basket Retention Spring (3-prong steel),Leg height,0.24",CONFIRMED,Compresses as basket seats; 3 legs
+SPN-006,Basket Retention Spring,Leg length,0.95",CONFIRMED,
+SPN-006,Basket Retention Spring,Leg thickness,0.0265",CONFIRMED,
+SPN-006,Basket Retention Spring,Overall/free spread,1.91",CONFIRMED,Tip-to-tip across the 3-prong spring
+SPN-007,Spring Retaining Screw,Thread,#6-32,CONFIRMED,Corrected from #6-24; brass dome-head; holds SPN-006 to hub
+SPN-007,Spring Retaining Screw,Length,0.465",CONFIRMED,
+SPN-007,Spring Retaining Screw,Head dia,0.265",CONFIRMED,
+SPN-007,Spring Retaining Screw,Drive type,—,PENDING,Dome/round head; slotted? confirm
+PLT-001,Platform Disk (flat metal),OD,3.0085",CONFIRMED,Carries the tapered gasket
+PLT-001,Platform Disk,Thickness,0.0550",CONFIRMED,Thin sheet
+PLT-001,Platform Disk,Center-hole ID,0.370",CONFIRMED,Shaft pass-through; INTEGRAL hole in the plate (no separate bushing)
+PLT-001,Platform Disk,Hole count,6 peripheral + 1 center,CONFIRMED,Of the 6 outer holes: 2 = FLG-002 bolt holes; 4 = rivet holes for PLT-005 (mount gasket to disk)
+PLT-001,Platform Disk,Peripheral hole ID,0.310",CONFIRMED,6 holes on the 2.300" circle (eyelet collars integral)
+PLT-001,Platform Disk,Bolt circle dia,2.300",CONFIRMED,Matches FLG-002 / housing bolt circle exactly
+PLT-002,Tapered Jar Seal Gasket,Wide OD,3.5015",CONFIRMED,Molded rubber; patent 1872812 (confirm)
+PLT-002,Tapered Jar Seal Gasket,Second dia,3.2015",CONFIRMED,Step along taper
+PLT-002,Tapered Jar Seal Gasket,Center bore,1.5505",CONFIRMED,Shaft/basket pass-through
+PLT-002,Tapered Jar Seal Gasket,Height,0.8082",CONFIRMED,Tapered body
+PLT-002,Tapered Jar Seal Gasket,Wall sections,0.3510 / 0.1590 / 0.3095",CONFIRMED,Map to specific walls; characterize taper top vs bottom
+PLT-002,Tapered Jar Seal Gasket,Hole ID,0.310",CONFIRMED,Matches PLT-001 0.310" holes; FLG-002 bolts through both
+PLT-002,Tapered Jar Seal Gasket,Seat/flange thickness,0.1805",CONFIRMED,Thickness at flat face mating the metal disk
+PLT-002,Tapered Jar Seal Gasket,Taper direction,Wide->narrow into jar,CONFIRMED,Wide 3.5015" face (disk side) tapers down to narrow 3.2015" end; the narrow end inserts into the glass jar
+PLT-002,Tapered Jar Seal Gasket,Identity,= reconditioned gasket (R-1); molded mark US PAT 1872812,CONFIRMED,"Patent 1872812 = L&R 1930/1932 'Watch Cleaning Machine' patent (Frank Regero) - basket-mounting mechanism, used as maker's mark NOT a seal patent (Google Patents 2026-06-20)"
+PLT-005,Gasket Deck Fastener (x4),Original config,4 rivets (removed),CONFIRMED,Original permanent rivets drilled out to service gasket; dims unrecoverable
+PLT-005,Gasket Deck Fastener (x4),Restoration config,M4-0.7 x 10mm flat-head Phillips screw + M4-0.7 hex nut (stainless),CONFIRMED,Replaces rivet shank; reuses original washers (PLT-006); flat countersunk head = flush (no trim needed)
+PLT-006,Gasket Deck Washer (x4),OD,0.4385",CONFIRMED,ORIGINAL part; reused in restoration
+PLT-006,Gasket Deck Washer (x4),Thickness,0.0415",CONFIRMED,Thin flat washer
+PLT-006,Gasket Deck Washer (x4),ID,0.1570",CONFIRMED,"Two readings 0.155-0.157""; 0.157"" ~= M4 nominal (0.1575""/4mm) — M4 restoration screw clears cleanly, no ream needed"
+PLT-004,Mount Standoff Tube (x2),Length,0.6990",CONFIRMED,FLG-002 bolt passes through
+PLT-004,Mount Standoff Tube,OD,0.3765",CONFIRMED,
+PLT-004,Mount Standoff Tube,Bore ID,0.2020",CONFIRMED,Clears FLG-002 thread ~0.189"
+PLT-004,Mount Standoff Tube,End taper (external; OD necks in at tip),slight (tip region ~0.233-0.236),CONFIRMED,"Tapered/domed nose faces the housing (LH-001); main OD 0.3765 + bore 0.2020 unchanged"
+PLT-004,Mount Standoff Tube,Wall,0.0873",SYN,(OD-bore)/2; matches 0.0860" reading
+BSK-002,Mesh Basket,OD,2.8025",CONFIRMED,Fine SS mesh cylinder; measured outer-mesh OD
+BSK-002,Mesh Basket,Nominal/standard dia,2 3/4" (2.750"),REF,"External data: the LARGE Master basket is ~2 3/4""; our 2.8025"" measured ~matches. The SMALL basket is ~2 1/4"" (2.250""). (Sizes are by basket type, not 'Mark' generation - 'Mark 1/2' is collector shorthand, not L&R nomenclature.)"
+BSK-002,Mesh Basket,Overall height,2.25",CONFIRMED,Measured base to top of J bracket (bayonet lug)
+BSK-002,Mesh Basket,Mesh count,24,CONFIRMED,24 openings per inch
+BSK-002,Mesh Basket,Wire diameter,0.0240",CONFIRMED,Opening size = 1/24 - 0.024 = ~0.0177" (SYN)
+BSK-002,Mesh Basket,Bayonet slot width,0.1855",CONFIRMED,Clears SPN-002 ring pin (0.125")
+BSK-002,Mesh Basket,Bayonet axial entry,0.420",CONFIRMED,Straight entry length before the turn
+BSK-002,Mesh Basket,Bayonet hook run,0.2700",CONFIRMED,Circumferential lock travel
+BSK-002,Mesh Basket,Top-collar bayonet lugs,3,CONFIRMED,J-slots engage SPN-002 ring pins; lock vs spring SPN-006
+BSK-003,Basket Lid / Cover,Center-hole ID,0.1475",CONFIRMED,Lid center hole (was ~0.175" EST.)
+BSK-003,Basket Lid / Cover,OD,2.70",CONFIRMED,Flip/captive lid
+BSK-003,Basket Lid / Cover,Thickness,0.086",CONFIRMED,
+BSK-004,Multimovement Holder Insert,Diameter,2.5",CONFIRMED,"L&R Code #10118; 1 of 2 (sold as 1 set); fine mesh; holds multiple movements inside main basket"
+BSK-004,Multimovement Holder Insert,Height,0.620",CONFIRMED,
+BSK-005,Multimovement Holder Insert,Diameter,2.5",CONFIRMED,L&R Code #10118; 2 of 2
+BSK-005,Multimovement Holder Insert,Height,0.620",CONFIRMED,

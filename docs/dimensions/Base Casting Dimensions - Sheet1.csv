@@ -1,0 +1,176 @@
+REPRODUCTION DOCUMENT — Not an original L&R Mfg. Co. technical publication. Reverse-engineered from direct physical measurement of specimen S/N 13505. Curated by Hobbs R.E. 2026. For restoration reference only.,,,,
+Capture state: measured 2026-07 in PRIMED condition unless noted. Masked bores (BAS-006 socket + fastener holes) = bare metal (true). Painted faces carry ~0.003-0.005in primer. Status: CONFIRMED = caliper/tape | EST. = photo/visual | SYN = derived | (blank) = not yet measured.,,,,
+Part ID,Feature,Measurement,Status,Notes
+,,,,
+,BAS-001 MAIN BASE CASTING — OVERALL (datum: rear wall = front-back zero; well-grid centerline = left-right zero),,,
+BAS-001,Body width (left-right at well cluster),8.875 in (8-7/8),CONFIRMED,overall width
+BAS-001,Body depth (rear wall to well-cluster front; excl. tongue),9.375 in (9-3/8),CONFIRMED,zone 1 — off rear datum
+BAS-001,Overall depth (rear wall to tongue tip),12.875 in (12-7/8),CONFIRMED,tongue included
+BAS-001,Overall height (base underside to top mounting face),2.875 in (2-7/8),CONFIRMED,excl. post NCK-001
+BAS-001,Body wall thickness (outer wall),0.280 in,CONFIRMED,
+BAS-001,Base footprint — feet (3 raised pads),0.350 in proud,CONFIRMED,"3 feet: 2 rear corners + 1 front under tongue; all 3 pads raised 0.350in — casting rests on these"
+BAS-001,Weight (optional),,,ref only
+,,,,
+,"BAS-002 HEATER CYLINDER WELL (front-left; TALL raised tube — holds heater/drying cylinder)",,,
+BAS-002,Total height (base bottom to top of tube),7.375 in (7-3/8),CONFIRMED,tall raised well tube
+BAS-002,Tube height above body,4.500 in (4-1/2),CONFIRMED,cross-check: body 2.875 + 4.500 = 7.375 total ✓
+BAS-002,Top lip opening ID (curved/rolled lip; necks in),3.268 in,CONFIRMED,rolled lip restricts opening
+BAS-002,Interior bore ID (below lip),3.800 in,CONFIRMED,"CORRECTION: heater well interior (3.800) is SMALLER than jar bays (3.955), NOT larger — old ""larger bore"" note was an unverified assumption; this is the TALLER well, not wider"
+BAS-002,Bore depth (rim to cast-top ledge),4.9075 in,CONFIRMED,"CORRECTION (supersedes earlier 2.750): caliper depth from top lip to the internal CAST-TOP ledge = 4.9075. This ledge is the ring/octagonal-opening floor. Below it is an open gap where R1 (CTL-007) is suspended on its brass mount, then a deeper CAST BOTTOM. Chamber open at TOP; basket lowers partway + stops above R1."
+BAS-002,Cast-top ledge height above base bottom,2.4675 in,SYN,"= total 7.375 - 4.9075; the ring/octagonal-opening ledge sits 2.4675 above base bottom. R1 suspended in the gap BELOW this ledge (between cast top and cast bottom)."
+BAS-002,Lower section depth (cast-top ledge to cast bottom = R1 gap),2.550 in,CONFIRMED,"depth from the cast-top ledge (4.9075 down) to the cast bottom = the open gap where R1 (CTL-007) is suspended. Rim to cast bottom = 4.9075 + 2.550 = 7.458 ~= total height 7.375 (within casting tol) -> cast bottom sits ~at the base underside plane."
+BAS-002,Wall thickness,0.120 in,CONFIRMED,heater well wall — THIN (aids heat transfer to drying chamber); vs jar-well 0.300 + body 0.280
+BAS-002,Floor / R1 mount,Open bore at 4.9075 down (~3.80 opening),CONFIRMED,"at 4.9075 down the chamber floor opens the full ~3.80 bore (NOT an octagonal ring — corrected 2026-07-11). R1 (CTL-007) held by a brass mount suspended below, in the gap between this level and the deeper cast bottom. Chamber open top-to-bottom the full bore; basket parks above R1 (radiant drying; BAS-008 sets stop)."
+BAS-002,Floor central opening — across,3.80 in,CONFIRMED,"CORRECTION 2026-07-11: NOT octagonal (photo was misleading). The floor opening is ~3.80 = the full interior bore width -> the cast-top 'ledge' is minimal; the chamber is essentially open the full bore down to R1 / the cast bottom."
+BAS-002,R1 bracket mount screw hole ID,0.190 in,CONFIRMED,"hole for the brass bracket that mounts R1 (CTL-007) resistor in the heater well; ~#10"
+,,,,
+,BAS-003 SOLUTION JAR BAY (x3 equal bore),,,
+BAS-003,Bore ID (diameter),3.955 in,CONFIRMED,"jar OD 3.83in ref -> 0.125in diametral clearance (~1/16in radial); equal across all 3 (spot-check)"
+BAS-003,Bore depth,1.925 in,CONFIRMED,rim to floor
+BAS-003,Reference: solution jar OD,3.830 in,REF,glass jar — not a casting feature; clearance ref
+BAS-003,Well floor height above base bottom (foot plane),0.800 in,CONFIRMED,"vertical stack: floor 0.800 + depth 1.925 = rim 2.725; body max 2.875 so well rim sits ~0.150 below top; floor slab ~0.450 thick (0.800 - 0.350 foot recess)"
+BAS-003,Wall thickness,0.300 in,CONFIRMED,jar bay wall
+BAS-003,Bay-to-bay center spacing (grid pitch X),4.500 in,CONFIRMED,adjacent wells; square 2x2 grid
+BAS-003,Bay-to-bay center spacing (grid pitch Y),4.500 in,CONFIRMED,square grid verified by operator (diagonal check)
+BAS-003,Well-cluster diagonal (opposite bore centers),6.364 in,CONFIRMED,= 4.5 x sqrt(2); square grid confirmed by operator
+,,,,
+,BAS-004 CONTROL TONGUE,,,
+BAS-004,Tongue width — at body (widest),4.80 in,EST,"~; smooth irregular taper (not squared) — widest where it meets body"
+BAS-004,Tongue width — middle,3.80 in,CONFIRMED,across mid
+BAS-004,Tongue width — front tip,2.00 in,CONFIRMED,narrowest; rounded front
+BAS-004,Tongue projection length (from body),3.500 in,SYN,derived = overall 12.875 minus body 9.375; confirm w/ direct tape
+BAS-004,Tongue face ramp angle,26.6 deg,CONFIRMED,"forward-down slope; derived from rise 1.500 / run 3.000 -> atan(0.5) = 26.6 deg. Raw: back-to-front-tip drop 1.500 over 3.000 horizontal run."
+BAS-004,Rheostat cast recess,NONE — flat face,CONFIRMED,"CORRECTION: there is NO cast circular recess/dish. The rheostat knob mounts on the FLAT tongue face (photo 2026-07-10). Earlier 'cast circular recess' assumption VOID."
+BAS-004,Rheostat recess depth,0 (flat),CONFIRMED,no recess — face is flat around the shaft hole
+BAS-004,Rheostat shaft hole ID,0.395 in,CONFIRMED,CTL-001 rheostat shaft bushing; in recess (smaller than the 3 switch/lamp holes)
+BAS-004,Rheostat shaft hole — vertical position,~2.0 in below upper-hole line,EST,"photo1 ruler; datum = upper-hole line; CONFIRM"
+BAS-004,"Upper holes (jewel + plunger) — center-to-center",~2.5 in,EST,"photo2 horizontal ruler; ~1.25 each side of centerline; CONFIRM"
+BAS-004,Upper holes — vertical position,~1 in from top datum,EST,"photo3 ruler; CONFIRM"
+BAS-004,Jewel lens hole ID (CTL-006 upper-left),0.490 in,CONFIRMED,"= ""heater light bulb"" hole; pilot lamp DS1 behind jewel"
+BAS-004,Plunger switch hole ID (CTL-003/S1 upper-right),0.490 in,CONFIRMED,
+BAS-004,Toggle switch hole ID (CTL-004/S2 LEFT SIDE FACE),0.490 in,CONFIRMED,"= ""heater on/off switch"" hole (EST 0.5 now confirmed)"
+BAS-004,Toggle hole — height on side face,~1 in up from lower edge,EST,"photo4 ruler; CONFIRM"
+,,,,
+,BAS-005 CAST RELIEF LETTERING (for repro),,,
+BAS-005,"""L&R MASTER"" arc — chord/length + letter height",,,smile arc below rheostat recess
+BAS-005,"""OFF"" letter block size + position",,,tongue
+BAS-005,"""ON"" + arrow size + position",,,sweep arrow
+BAS-005,CALIPER READINGS (2026-07-10) — ASSIGNED/RESOLVED 2026-07-11,6 used / 2 void,CONFIRMED,"A/B/C/D/G/H assigned to features (below); E+F voided. Lettering dataset complete for repro."
+BAS-005,"""L&R MASTER"" arc — overall chord width (A)",3.1380 in,CONFIRMED,"straight-line span, end letter to end letter across the smile arc = 3.1380"
+BAS-005,"""ON->"" arrow+text overall length (B)",1.6305 in,CONFIRMED,"full sweep glyph: arrow tail -> ""ON"" -> arrow point = 1.6305 end to end"
+BAS-005,"""ON"" radius from shaft-hole center (C)",1.0975 in,CONFIRMED,"center of rheostat shaft hole to center of ""ON"" text = 1.0975"
+BAS-005,"""L&R MASTER"" / OFF / ON letter cap height (D)",0.4890 in,CONFIRMED,"RESOLVED 2026-07-11: caliper 0.489 is the letter cap height (supersedes the ~0.25 visual estimate). Applies to arc + OFF + ON letters."
+BAS-005,"""OFF"" word width",0.6300 in,CONFIRMED,"RESOLVED 2026-07-11: OFF word width = 0.63 (= reading G 0.632; earlier reading F 0.2505 was NOT OFF width — dropped)."
+BAS-005,"""L&R MASTER"" offset — shaft-hole center to mid-letter A (H)",1.2005 in,CONFIRMED,"placement offset: center of shaft hole to middle of letter ""A"" in MASTER = 1.2005. NOTE: this is a shaft-hole-to-letter offset, NOT the arc's radius of curvature (shaft hole is not the arc center; chord A 3.138 > 2xH confirms). Use as a placement datum."
+BAS-005,Readings E (0.7505) and F (0.2505),VOID,,"dropped per operator 2026-07-11 — could not be assigned to a feature; do not use."
+,BAS-005 REPRO GUIDANCE (visual estimate — REF; use for SVG layout, caliper values above take precedence),,,
+BAS-005,Arc struck radius (curve center up the casting),~2.5 to 3.0 in (use 2.75),REF,"arc center is a point further UP the casting (toward wells), NOT the shaft hole. Set ""L&R MASTER"" on a 2.75 radius circular path in SVG/Illustrator/Inkscape; adjust tracking to match casting."
+BAS-005,Arc length along baseline curve,~3.125 in (3-1/8),REF,"curved length following letter baseline; cf. chord A 3.138 (near-equal -> shallow arc)"
+BAS-005,Arc letter height (visual),~0.25 in (1/4),REF,"SUPERSEDED by caliper 0.489 (RESOLVED 2026-07-11); visual estimate ran ~2x small. Use 0.489."
+BAS-005,Letter stroke/relief width,~1/32 to 3/64 in (0.031-0.047),REF,"raised relief stroke width of the cast letters"
+BAS-005,"""OFF"" word width (visual)",~7/16 in (0.4375),REF,"SUPERSEDED by caliper 0.63 (RESOLVED 2026-07-11). Use 0.63."
+BAS-005,"""ON"" word width (visual)",~5/16 in (0.3125),REF,
+BAS-005,Directional arrow length,~5/8 in (0.625),REF,"tail to arrowhead point; matches reading G 0.632"
+BAS-005,Font style,Sans-Serif Gothic (Franklin Gothic Condensed / News Gothic),REF,"mid-century condensed gothic, stylized by sand-cast mold; use as repro typeface baseline"
+,,,,
+,"BAS-006 POST MOUNT BOSS (masked = bare). FASTENERS: all lower-unit screws = #8-32 x 1/2in (CONFIRMED by operator). Ref: 8-32 tap = 0.136in (#29 drill); clearance ~0.170-0.177in.",,,
+BAS-006,Square socket across-flats — INSIDE (bore),1.300 in,CONFIRMED,"INTERNAL across-flats of the square socket = the seat for NCK-001 post — FIT CRITICAL. Outside of boss is as-cast/rounded (not a fit dim, not measured). Post across-flats must return from rechrome just under 1.300 for slide fit."
+BAS-006,Socket depth,2.9035 in,CONFIRMED,"deep square bore, measured down the flats; ~= body height (2.875) so socket runs nearly the full height — likely through / near-through to the base bottom for deep post engagement"
+BAS-006,Center round bore (oil/access channel),NONE — does not exist,VOID,"CORRECTION 2026-07-11: there is NO oil/access hole below/adjacent the square socket. Earlier assumption VOID. The square socket is the only central bore."
+BAS-006,Through-screw thread x length,#8-32 x 0.500 in,CONFIRMED,"per operator (all lower-unit screws same); NOTE dictionary called these 'long through-casting screws' — verify length is really 1/2in for these vs a longer screw"
+BAS-006,Through-screw hole ID (x3),~0.17 in,EST,"photo-ruler; ~#8-32 clearance; tapped threads visible in square-socket boss (photo) = TAPPED not clearance; CONFIRM"
+BAS-006,Through-screw bolt pattern / spacing,~1.0 in,EST,"two screw holes stacked on boss web ~1in c-c (photo-ruler); CONFIRM w/ caliper"
+BAS-006,Set-screw / post-screw detail,SEE POST-MOUNT SCREW SET block below,CONFIRMED,"RESOLVED 2026-07-11: fully characterized in the 6-screw block (sides A/B/C, set vs post-penetrating). Old ""4th tensioning screw"" note superseded."
+,,,,
+,BAS-007 AC LINE GROMMET HOLE,,,
+BAS-007,Grommet hole ID — inner bore,0.400 in,CONFIRMED,"stepped/shouldered hole: inner (smaller) bore = 0.400 (cord passes); size replacement grommet groove ID to this"
+BAS-007,Grommet hole ID — outer bore,0.595 in,CONFIRMED,"outer (larger) counter-bore = 0.595; grommet outer flange/shoulder seats here"
+BAS-007,Hole position — lateral,4.500 in,CONFIRMED,"on REAR wall, ~centered: 4.5 ~= half body width 8.875 -> hole sits mid-wall (measured lateral from one corner/edge)."
+BAS-007,Hole position — which wall,REAR,CONFIRMED,"AC line grommet is on the REAR wall face"
+BAS-007,Hole position — height above foot plane (bench),1.000 in,CONFIRMED,"hole center is exactly 1.000 up from the flat bench (= foot/rest plane)"
+BAS-007,Rear-wall cast lower edge above bench,0.400 in,CONFIRMED,"cast body of the rear wall begins 0.400 above bench (part rests on feet; cf. feet 0.350 proud)"
+BAS-007,Hole center above cast wall lower edge,0.600 in,SYN,"= 1.000 - 0.400. With outer bore 0.595 dia (radius 0.2975): hole spans ~0.303 to ~0.898 above the wall lower edge -> ~0.30 of cast wall below the hole. Confirms adequate cast material around the grommet bore."
+,,,,
+,"TOP MOUNTING FACE — RESOLVED 2026-07-11: NOT APPLICABLE. The motor mounts to the NCK-002 carrier (which rides the post NCK-001 in the BAS-006 socket), NEVER directly to the base top. So there is NO motor register/boss or bolt pattern on the base top surface. Base top = 4 well openings + the BAS-006 square post socket only (both captured).",,,
+BAS-001,Top face register OD / boss,NONE — n/a,VOID,"no motor interface on base top; mounting is via post+carrier. (Confirm by eye: base top has only wells + post socket, no raised pad/extra holes.)"
+BAS-001,Mount hole pattern on top face,NONE — n/a,VOID,"no bracket bolts to the base top"
+,,,,
+,NCK-001 POST / MAST (chrome-plated brass — OUT FOR RECHROME),,,
+NCK-001,Square bar cross-section (across flats),,,MEASURE BEFORE PLATING if still on hand; else on return note added chrome
+NCK-001,Overall length,,,
+NCK-001,Rounded top profile radius,,,
+NCK-001,Base-end thread / engagement features,,,
+,,,,
+,"NCK-002 MOTOR-MOUNT CARRIER (complex cast part: square socket slides on post top NCK-001; open concave saddle cradles the ROUND UPPER HOUSING UH-001, retained by 2 screws through the ears into UH-001's 2 mount holes; NCK-003 clamp screw closes the split clevis to grip the post). Captured via operator sketch + caliper, in BATCHES 2026-07-11.",,,
+NCK-002,Square bore — inside across-flats (clamps post top),1.26 in,CONFIRMED,"FIT-CRITICAL: inside across-flats of the square sleeve — slides onto the post top (NCK-001). cf. base socket BAS-006 = 1.300 across-flats (carrier bore 1.26 is slightly tighter -> carrier grips higher on the post)."
+NCK-002,Saddle / upper-housing cradle,OPEN CONCAVE CRADLE — no bore dim,CONFIRMED,"central feature is an OPEN, CURVED concave cradle (not a bored/clamping hole) that seats against the ROUND UPPER MOTOR HOUSING (UH-001); motor retained by the 2 counterbored ear screws into UH-001's 2 mount holes. Curved surface is very hard to caliper directly."
+NCK-002,Saddle cradle radius,DERIVE from mating UH-001 housing OD,SYN,"do NOT chase a direct caliper read of the curve. The concave radius = the OD of the round upper housing (UH-001) section it cradles (UH-001 outer dia 3.200 -> R1.600, or the local turned seat). Set the drawing's cradle radius to match the mating housing OD."
+NCK-002,Motor-mount screw holes (x2) — STEPPED/counterbored,0.300-0.305 in thru / 0.565 in c'bore,CONFIRMED,"the 2 holes for the screws that mount the MOTOR to the carrier are COUNTERBORED: ~0.300-0.305 dia through (mates screw shank to motor) + 0.565 dia counterbore that seats the screw HEAD. (cf. batch1 reading b ~0.304 = the thru dia.)"
+NCK-002,Motor-mount hole spacing (center-to-center),2.30 in,CONFIRMED,"between the two mount ears / counterbored holes. RESOLVED 2026-07-11: 2.30 (earlier 2.20 was an operator misread). MATES cleanly to UH-001's 2 mount holes on the 2.300 bolt circle -> agreement confirmed, no discrepancy."
+NCK-002,Clamp tightener hole — clearance side (outer),0.450 in dia,CONFIRMED,"NCK-003 clamp screw passes THROUGH this larger clearance hole on one ear of the split clevis; sketch 0.450 callout"
+NCK-002,Clamp tightener hole — threaded side,0.305 in dia,CONFIRMED,"the hole on the other ear (threaded) that NCK-003 screws INTO to draw the clevis shut; sketch 0.305 callout"
+NCK-002,Clamp slot gap (internal),0.1020 in,CONFIRMED,"see 'Clamp shim/slot gap' above — the saw-cut gap the tightener closes"
+NCK-002,Overall envelope — length (across ears),3.04 in,CONFIRMED,"long axis, ear tip to ear tip (matches sketch 3.04)"
+NCK-002,Overall envelope — ear/flange plate thickness,0.25 in,CONFIRMED,"thickness of the flat mounting-ear plate (the wings carrying the 2 counterbored holes)"
+NCK-002,Overall envelope — height (variable),0.95 in ends / 1.50 in max,CONFIRMED,"height varies: 0.95 at the two ends, slopes up to 1.50 max at the center saddle hump"
+NCK-002,Overall envelope — depth (sleeve),2.2320 in,CONFIRMED,"= square-sleeve outer width (front-to-back depth of the body)"
+NCK-002,--- RAW CAPTURE BATCH 1 (2026-07-11) — pending feature assignment ---,5 caliper readings + sketch callouts,EST,"sketch shows: overall top width ~3.04; span ~2.35; square-socket body height ~1.67; hole dia 0.310; plus 0.305 / 0.105 / 0.450 / 0.300 / 0.145 callouts. Caliper readings below refine these. Label once all batches in."
+NCK-002,Batch1 reading a,3.0390 in,EST,"across the top / arched-clamp span; matches sketch ~3.04 (overall width across the saddle arms)"
+NCK-002,Batch1 reading b,~0.304 in,EST,"small; arm/wall thickness or a 0.30x sketch callout (confirm last digit)"
+NCK-002,Batch1 reading c,2.3650 in,EST,"matches sketch ~2.35 span (hole-to-hole or inner clamp width)"
+NCK-002,Batch1 reading d,0.4360 in,EST,"arm/flange width or thickness"
+NCK-002,Batch1 reading e,2.2525 in,EST,"a body/width dimension (square-socket outer body?)"
+NCK-002,--- RAW CAPTURE BATCH 2 (2026-07-11) — pending feature assignment ---,9 caliper readings,EST,"more caliper reads on the same carrier; label once complete"
+NCK-002,Batch2 reading f,0.6815 in,EST,"~0.68 — saddle arm depth/width?"
+NCK-002,Batch2 reading g,1.6665 in,EST,"~1.67 — matches sketch square-socket body height (one face)"
+NCK-002,Batch2 reading h,1.6730 in,EST,"~1.67 — square-socket body height (other face); pairs with g"
+NCK-002,Square sleeve OUTER width,2.2320 in,CONFIRMED,"total outer width of the square-sleeve casting (the socket body). cf. batch1 e 2.2525 = near-duplicate read of same feature (~2.23-2.25)."
+NCK-002,Clevis / split-clamp opening (total width),0.6220 in,CONFIRMED,"total outer span across the split clamp (clevis) portion that closes on the motor foot"
+NCK-002,Clamp shim/slot gap (internal),0.1020 in,CONFIRMED,"internal clearance gap inside the split clamp section (the saw-cut that lets NCK-003 squeeze it); ~sketch 0.105"
+NCK-002,Alignment tab — base width (root),0.3000 in,CONFIRMED,"base width of the small interlocking tab/alignment key protruding from the edge of the square sleeve"
+NCK-002,Alignment tab — top thickness (tip),0.1975 in,CONFIRMED,"tip width of the alignment key (tapered profile, nom 0.20). NOTE: an earlier caliper photo of this feature read 0.1915 — taper means value depends on measurement height; use ~0.1975 tip."
+NCK-002,Alignment tab — height/protrusion,0.3905 in,CONFIRMED,"total protrusion of the alignment key from the main vertical face (nom 0.40)"
+,,,,
+,"BAS-006 POST-MOUNT SCREW SET (6 screws total around the square post socket). SIDE CONVENTION (top-view, ref photo 2026-07-11): the square socket has 4 sides; 3 carry screws = A (faces rear/upper-left well), B (faces right well), C (faces lower well); the 4th side (D, faces lower-left well) has NO holes. TWO FUNCTIONS: (1) SET screws — bear against / touch the post to center+tension it, do NOT penetrate it; (2) POST screws — pass all the way THROUGH into the metal post to fasten it. Diameters do NOT match #8-32 — own set.",,,
+BAS-006,Large SET screw (x1) — 3/8 nominal,0.480 in L / 0.315 in dia,CONFIRMED,"SIDE A only. 3/8-nominal set screw (measured dia 0.315). SET type — touches post, does not penetrate. The single largest fastener."
+BAS-006,1/2 SET screws (x3),0.430 in L / 0.185 in dia,CONFIRMED,"one each on SIDES A, B, C. ~1/2in-long set screws (~#10 dia 0.185); sit LOW, near the top of the well. SET type — touch post, do not penetrate."
+BAS-006,POST screws (x2) — fasten into post,0.190 in L / 0.130 in dia,CONFIRMED,"one each on SIDES B and C only. SMALLER screws (~#5-6 dia 0.130) that go ALL THE WAY into the metal post — these actually fasten/pin the post (vs the set screws which only touch it)."
+BAS-006,Per-side hole map,"A: large set + 1/2 set (2) | B: 1/2 set + post screw (2) | C: 1/2 set + post screw (2) | D: none",CONFIRMED,"6 holes total = 2 per side on A/B/C; side D blank. A holds both set screws (large + 1/2); B and C each hold one 1/2 set screw + one post-penetrating screw."
+,,,,
+,NCK-003 CARRIER CLAMP SCREW (chrome brass — OUT FOR RECHROME),,,
+NCK-003,Thread size,,,mask/chase threads at plating
+NCK-003,Overall length,,,
+NCK-003,T-handle dimensions,,,
+,,,,
+,"PLT-001 PLATFORM DISK — ALREADY CAPTURED ELSEWHERE (deck/basket assembly, NOT a base-casting part). Listed here only because it was in the same strip/refinish batch. Full dims live in CLAUDE.md Parts Dictionary + drawn as PLT-001 Rev D. Do NOT re-measure.",,,
+PLT-001,Disk OD,3.0085 in,CONFIRMED,"from deck-phase capture (CLAUDE.md); PLT-001 Rev D"
+PLT-001,Disk thickness,0.0550 in,CONFIRMED,deck-phase capture
+PLT-001,Center bore ID,0.370 in,CONFIRMED,"integral collar (hole formed in plate; no separate bushing)"
+PLT-001,Bolt hole count + ID,6 holes x 0.310 in,CONFIRMED,"of the 6: 2 = FLG-002 tie-bolt holes, 4 = PLT-005 rivet holes (mount PLT-002 gasket to disk)"
+PLT-001,Bolt circle diameter,2.300 in BCD,CONFIRMED,"matches housing bolt circle"
+PLT-001,Notch / D-slot feature,SEE PLT-001 Rev D drawing,CONFIRMED,"captured on the component sheet; not a base-casting feature"
+,,,,
+,"BAS-008 HEATER-WELL MOTOR STOP (tang bracket). Flat profile per operator sketch 2026-07-11: wide mounting HEAD (2 holes) -> tapered shoulder -> narrow BLADE/tang. Sketch datum lines A (right, overall) + F/G/H (left, vertical segments) + B/C/D/E (widths at stations).",,,
+BAS-008,Overall length (A),4.60 in,CONFIRMED,"tip of blade to top of head; sketch A. (Segment sum F+G+H=0.84+0.95+2.90=4.69 vs overall 4.60 — hand-sketch rounding; trust 4.60 overall.)"
+BAS-008,Head width (B — widest),1.45 in,CONFIRMED,"flat mounting head, widest point (carries the 2 mount holes)"
+BAS-008,Width at shoulder (C),0.90 in,CONFIRMED,"just below head where taper begins"
+BAS-008,Width at neck (D),0.70 in,CONFIRMED,"lower end of shoulder taper -> start of blade"
+BAS-008,Blade width (E),0.45 in,CONFIRMED,"narrow tang/blade width (down the length)"
+BAS-008,Head height (F),0.84 in,CONFIRMED,"vertical height of the wide head zone"
+BAS-008,Shoulder/taper height (G),0.95 in,CONFIRMED,"vertical span of the tapering shoulder (B/C -> D)"
+BAS-008,Blade length (H),2.90 in,CONFIRMED,"straight narrow blade from neck D down to rounded tip"
+BAS-008,Blade thickness,0.255 in,CONFIRMED,"material thickness (caliper across the flat)"
+BAS-008,Mount screw thread x length,#8-32 x 0.500 in,CONFIRMED,per operator (all lower-unit screws same)
+BAS-008,Mount hole ID (x2),0.195 in,CONFIRMED,"operator ""heater-well mounting holes"" (x2); 0.195 ~ #10 clearance; in the head (B)"
+BAS-008,Mount hole spacing (center-to-center),0.830 in,CONFIRMED,between the two heater-well mounting holes
+BAS-008,Tang projection height (installed),,,"how far blade stands up alongside post — still need (installed geometry)"
+,,,,
+,"SHAPE / GEOMETRY NOTES (from primed-state photos, 2026-07-10) — casting is ROUNDED / organic, NOT squared",,,
+BAS-001,Overall form,ROUNDED,REF,"rounded-rectangle body, soft-filleted corners, no sharp edges; all transitions blended"
+BAS-002/003,Well rims,RAISED ROLLED,REF,"wells have rolled rims standing proud of top face (esp. heater lip that necks to 3.268)"
+BAS-006,Post-socket boss form,RAISED + FILLETED,REF,"square bore in a raised boss w/ heavily rounded corners blending into inter-well webs; 2 visible screw holes (1 in raised boss face + 1 lower on sloped web) — supports multi-screw count"
+BAS-004,Tongue form,TEARDROP/PADDLE,REF,"smooth teardrop, rounded front, taper 4.80->3.80->2.00; NOT squared"
+BAS-004,Control layout (tongue),PER PHOTOS,REF,"rheostat center-low in circular recess (L&R MASTER arc + OFF + ON-> relief); jewel upper-left; plunger upper-right; toggle on LEFT SIDE FACE"
+BAS-001,Feet form,ROUNDED PADS,REF,"3 rounded foot pads (not square blocks), 0.350 proud"
+BAS-001,Manufacturing / edge character,SAND-CAST ALUMINUM,REF,"as-cast: soft radiused edges, DRAFT angles on walls, grainy surface, NO crisp machined corners. Draw with generous radii + draft, not tight fillets. As-cast dims = loose (casting) tolerance."
+BAS-001,Machined-after-cast features (crisp),"drilled/tapped holes + post socket",REF,"only these read crisp/tight-tolerance: screw holes (#8-32), BAS-006 square socket (post seat). Everything else as-cast."

@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <marker id="arr-l" markerWidth="10" markerHeight="10" refX="0" refY="5" orient="auto">
+      <path d="M 10 0 L 0 5 L 10 10 Z" fill="#000"/>
+    </marker>
+    <marker id="arr-r" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#000"/>
+    </marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#333" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch-dense" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#666" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="#ffffff"/>
+
+  <rect x="20" y="20" width="1160" height="760" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="25" y="25" width="1150" height="750" fill="none" stroke="#000" stroke-width="1"/>
+
+  <text x="12" y="150" font-family="sans-serif" font-size="12" text-anchor="middle">A</text>
+  <text x="12" y="350" font-family="sans-serif" font-size="12" text-anchor="middle">B</text>
+  <text x="12" y="550" font-family="sans-serif" font-size="12" text-anchor="middle">C</text>
+  <text x="12" y="750" font-family="sans-serif" font-size="12" text-anchor="middle">D</text>
+
+  <text x="1188" y="150" font-family="sans-serif" font-size="12" text-anchor="middle">A</text>
+  <text x="1188" y="350" font-family="sans-serif" font-size="12" text-anchor="middle">B</text>
+  <text x="1188" y="550" font-family="sans-serif" font-size="12" text-anchor="middle">C</text>
+  <text x="1188" y="750" font-family="sans-serif" font-size="12" text-anchor="middle">D</text>
+
+  <text x="200" y="15" font-family="sans-serif" font-size="12" text-anchor="middle">1</text>
+  <text x="600" y="15" font-family="sans-serif" font-size="12" text-anchor="middle">2</text>
+  <text x="1000" y="15" font-family="sans-serif" font-size="12" text-anchor="middle">3</text>
+
+  <text x="200" y="795" font-family="sans-serif" font-size="12" text-anchor="middle">1</text>
+  <text x="600" y="795" font-family="sans-serif" font-size="12" text-anchor="middle">2</text>
+  <text x="1000" y="795" font-family="sans-serif" font-size="12" text-anchor="middle">3</text>
+
+  <rect x="25" y="25" width="1150" height="40" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="600" y="52" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">PLT-001 PLATFORM &amp; JAR-SEAL DECK ASSEMBLY (REV D)</text>
+
+  <line x1="600" y1="65" x2="600" y2="650" stroke="#000" stroke-width="2"/>
+  <line x1="25" y1="340" x2="1175" y2="340" stroke="#000" stroke-width="2"/>
+
+  <line x1="300" y1="90" x2="300" y2="320" stroke="#000" stroke-width="1" stroke-dasharray="20,5,5,5"/>
+  <text x="300" y="85" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">1. ASSEMBLY CROSS-SECTION</text>
+
+  <rect x="175.5" y="80" width="19" height="195" fill="#e2e8f0" stroke="#000" stroke-width="1.5"/>
+  <rect x="405.5" y="80" width="19" height="195" fill="#e2e8f0" stroke="#000" stroke-width="1.5"/>
+  
+  <rect x="166.2" y="110" width="9.3" height="67" fill="url(#hatch)" stroke="#000" stroke-width="1.5"/>
+  <rect x="194.5" y="110" width="9.3" height="67" fill="url(#hatch)" stroke="#000" stroke-width="1.5"/>
+  <rect x="396.2" y="110" width="9.3" height="67" fill="url(#hatch)" stroke="#000" stroke-width="1.5"/>
+  <rect x="424.5" y="110" width="9.3" height="67" fill="url(#hatch)" stroke="#000" stroke-width="1.5"/>
+
+  <rect x="149.6" y="180" width="10.4" height="5.5" fill="url(#hatch)" stroke="#000" stroke-width="1.5"/>
+  <path d="M 160 180 L 160 177 L 169.5 177 L 169.5 185.5 L 160 185.5 Z" fill="url(#hatch)" stroke="#000" stroke-width="1.5"/>
+  <path d="M 200.5 177 L 210 177 L 210 180 L 281.5 180 L 281.5 185.5 L 200.5 185.5 Z" fill="url(#hatch)" stroke="#000" stroke-width="1.5"/>
+  <path d="M 318.5 180 L 390 180 L 390 177 L 399.5 177 L 399.5 185.5 L 318.5 185.5 Z" fill="url(#hatch)" stroke="#000" stroke-width="1.5"/>
+  <path d="M 430.5 177 L 440 177 L 440 180 L 450.4 180 L 450.4 185.5 L 430.5 185.5 Z" fill="url(#hatch)" stroke="#000" stroke-width="1.5"/>
+
+  <path d="M 125 185.5 L 169.5 185.5 L 169.5 266.3 L 140 266.3 Z" fill="#333" stroke="#000" stroke-width="1"/>
+  <path d="M 200.5 185.5 L 222.5 185.5 L 222.5 266.3 L 200.5 266.3 Z" fill="#333" stroke="#000" stroke-width="1"/>
+  <path d="M 377.5 185.5 L 399.5 185.5 L 399.5 266.3 L 377.5 266.3 Z" fill="#333" stroke="#000" stroke-width="1"/>
+  <path d="M 430.5 185.5 L 475 185.5 L 460 266.3 L 430.5 266.3 Z" fill="#333" stroke="#000" stroke-width="1"/>
+
+  <text x="475" y="240" font-family="sans-serif" font-size="10" text-anchor="start">TAPER DOWN</text>
+  <text x="475" y="252" font-family="sans-serif" font-size="10" text-anchor="start">INTO JAR</text>
+
+  <line x1="185" y1="80" x2="185" y2="290" stroke="#000" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="415" y1="80" x2="415" y2="290" stroke="#000" stroke-width="1" stroke-dasharray="8,4"/>
+  <text x="185" y="285" font-family="sans-serif" font-size="10" text-anchor="middle">FLG-002 TIE-BOLT</text>
+  <text x="415" y="285" font-family="sans-serif" font-size="10" text-anchor="middle">FLG-002 TIE-BOLT</text>
+
+  <text x="115" y="145" font-family="sans-serif" font-size="10" text-anchor="end">PLT-004 STANDOFF TUBE (x2)</text>
+  <line x1="120" y1="141" x2="166" y2="141" stroke="#000" stroke-width="1"/>
+  
+  <text x="115" y="186" font-family="sans-serif" font-size="10" text-anchor="end">PLT-001 PLATFORM DISK</text>
+  <line x1="120" y1="182" x2="150" y2="182" stroke="#000" stroke-width="1"/>
+  
+  <text x="115" y="235" font-family="sans-serif" font-size="10" text-anchor="end">PLT-002 JAR SEAL GASKET</text>
+  <line x1="120" y1="231" x2="132" y2="231" stroke="#000" stroke-width="1"/>
+
+
+  <line x1="300" y1="390" x2="300" y2="640" stroke="#000" stroke-width="1" stroke-dasharray="20,5,5,5"/>
+  <line x1="120" y1="490" x2="480" y2="490" stroke="#000" stroke-width="1" stroke-dasharray="20,5,5,5"/>
+  <text x="300" y="365" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">2. PLT-001 PLAN VIEW</text>
+
+  <circle cx="300" cy="490" r="150.42" fill="none" stroke="#000" stroke-width="2"/>
+  <circle cx="300" cy="490" r="115" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="10,5"/>
+  <circle cx="300" cy="490" r="18.5" fill="none" stroke="#000" stroke-width="2"/> 
+
+  <circle cx="185" cy="490" r="15.5" fill="#fff" stroke="#000" stroke-width="2"/>
+  <circle cx="185" cy="490" r="18.8" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="4,2"/>
+  <circle cx="415" cy="490" r="15.5" fill="#fff" stroke="#000" stroke-width="2"/>
+  <circle cx="415" cy="490" r="18.8" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="4,2"/>
+
+  <g transform="rotate(60 300 490)">
+    <circle cx="185" cy="490" r="22" fill="none" stroke="#000" stroke-width="1.5"/>
+    <circle cx="185" cy="490" r="18" fill="none" stroke="#000" stroke-width="1.5"/>
+  </g>
+  <g transform="rotate(120 300 490)">
+    <circle cx="185" cy="490" r="22" fill="none" stroke="#000" stroke-width="1.5"/>
+    <circle cx="185" cy="490" r="18" fill="none" stroke="#000" stroke-width="1.5"/>
+  </g>
+  <g transform="rotate(240 300 490)">
+    <circle cx="185" cy="490" r="22" fill="none" stroke="#000" stroke-width="1.5"/>
+    <circle cx="185" cy="490" r="18" fill="none" stroke="#000" stroke-width="1.5"/>
+  </g>
+  <g transform="rotate(300 300 490)">
+    <circle cx="185" cy="490" r="22" fill="none" stroke="#000" stroke-width="1.5"/>
+    <circle cx="185" cy="490" r="18" fill="none" stroke="#000" stroke-width="1.5"/>
+  </g>
+
+  <line x1="300" y1="640" x2="450.42" y2="640" stroke="#999" stroke-width="1"/>
+  <line x1="300" y1="490" x2="300" y2="650" stroke="#999" stroke-width="1"/>
+  <line x1="450.42" y1="490" x2="450.42" y2="650" stroke="#999" stroke-width="1"/>
+  <line x1="300" y1="645" x2="450.42" y2="645" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="375" y="635" font-family="sans-serif" font-size="10" text-anchor="middle">OD Ø 3.0085" (CONFIRMED)</text>
+
+  <line x1="300" y1="440" x2="328" y2="440" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="333" y="443" font-family="sans-serif" font-size="10">CENTER BORE Ø 0.370" (CONFIRMED)</text>
+
+  <text x="165" y="395" font-family="sans-serif" font-size="10" text-anchor="end">4x PLT-005 RIVET (WITH PLT-006 WASHER)</text>
+  <text x="165" y="410" font-family="sans-serif" font-size="10" text-anchor="end">ON 2.300" B.C. (CONFIRMED)</text>
+
+  <text x="160" y="485" font-family="sans-serif" font-size="10" text-anchor="end">2x FLG-002 TIE-BOLT PASS-THROUGH</text>
+  <text x="160" y="497" font-family="sans-serif" font-size="10" text-anchor="end">WITH PLT-004 STANDOFF</text>
+  <line x1="165" y1="490" x2="185" y2="490" stroke="#000" stroke-width="1"/>
+
+  <text x="625" y="365" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">5. PLT-005 RIVET JOINT DETAIL</text>
+  <text x="625" y="380" font-family="sans-serif" font-size="10" text-anchor="middle">(SCALE ~2X)</text>
+
+  <rect x="525" y="420" width="69" height="11" fill="url(#hatch)" stroke="#000" stroke-width="1.5"/>
+  <rect x="656" y="420" width="69" height="11" fill="url(#hatch)" stroke="#000" stroke-width="1.5"/>
+  <text x="515" y="430" font-family="sans-serif" font-size="10" text-anchor="end">PLT-001 DISK</text>
+
+  <rect x="525" y="431" width="69" height="36" fill="#333" stroke="#000" stroke-width="1.5"/>
+  <rect x="656" y="431" width="69" height="36" fill="#333" stroke="#000" stroke-width="1.5"/>
+  <text x="515" y="455" font-family="sans-serif" font-size="10" text-anchor="end">PLT-002 GASKET</text>
+
+  <rect x="581" y="467" width="28.5" height="8" fill="url(#hatch-dense)" stroke="#000" stroke-width="1.5"/>
+  <rect x="640.5" y="467" width="28.5" height="8" fill="url(#hatch-dense)" stroke="#000" stroke-width="1.5"/>
+  <line x1="581" y1="467" x2="669" y2="467" stroke="#000" stroke-width="1"/>
+  <text x="680" y="475" font-family="sans-serif" font-size="10" text-anchor="start">PLT-006 WASHER</text>
+  <text x="680" y="487" font-family="sans-serif" font-size="9" text-anchor="start">OD 0.4385" / ID 0.157"</text>
+
+  <path d="M 585 420 Q 625 400 665 420 Z" fill="#e2e8f0" stroke="#000" stroke-width="1.5"/>
+  <rect x="609.5" y="420" width="31" height="47" fill="#e2e8f0" stroke="#000" stroke-width="1.5"/>
+  <path d="M 609.5 467 Q 595 485 625 485 Q 655 485 640.5 467 Z" fill="#e2e8f0" stroke="#000" stroke-width="1.5"/>
+  <text x="625" y="395" font-family="sans-serif" font-size="10" text-anchor="middle">PLT-005 RIVET (ORIGINAL)</text>
+
+  <line x1="625" y1="390" x2="625" y2="500" stroke="#000" stroke-width="1" stroke-dasharray="10,5,3,5"/>
+
+
+  <line x1="900" y1="90" x2="900" y2="320" stroke="#000" stroke-width="1" stroke-dasharray="20,5,5,5"/>
+  <text x="900" y="85" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">3. PLT-002 JAR SEAL GASKET (SECTION)</text>
+
+  <path d="M 725 180 L 769.5 180 L 769.5 260.8 L 740 260.8 Z" fill="#333" stroke="#000" stroke-width="1.5"/>
+  <path d="M 800.5 180 L 822.5 180 L 822.5 260.8 L 800.5 260.8 Z" fill="#333" stroke="#000" stroke-width="1.5"/>
+
+  <path d="M 977.5 180 L 999.5 180 L 999.5 260.8 L 977.5 260.8 Z" fill="#333" stroke="#000" stroke-width="1.5"/>
+  <path d="M 1030.5 180 L 1075 180 L 1060 260.8 L 1030.5 260.8 Z" fill="#333" stroke="#000" stroke-width="1.5"/>
+
+  <line x1="769.5" y1="180" x2="769.5" y2="150" stroke="#999" stroke-width="1"/>
+  <line x1="800.5" y1="180" x2="800.5" y2="150" stroke="#999" stroke-width="1"/>
+  <line x1="769.5" y1="160" x2="800.5" y2="160" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="785" y="145" font-family="sans-serif" font-size="10" text-anchor="middle">HOLE ID Ø0.310" (CONF)</text>
+
+  <line x1="822.5" y1="198.05" x2="840" y2="198.05" stroke="#999" stroke-width="1"/>
+  <line x1="835" y1="180" x2="835" y2="198.05" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="840" y="193" font-family="sans-serif" font-size="10" text-anchor="start">SEAT THICKNESS 0.1805" (CONF)</text>
+
+  <line x1="725" y1="180" x2="725" y2="110" stroke="#999" stroke-width="1"/>
+  <line x1="1075" y1="180" x2="1075" y2="110" stroke="#999" stroke-width="1"/>
+  <line x1="725" y1="120" x2="1075" y2="120" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="900" y="115" font-family="sans-serif" font-size="11" text-anchor="middle">WIDE OD 3.5015" (CONFIRMED)</text>
+
+  <line x1="822.5" y1="180" x2="822.5" y2="130" stroke="#999" stroke-width="1"/>
+  <line x1="977.5" y1="180" x2="977.5" y2="130" stroke="#999" stroke-width="1"/>
+  <line x1="822.5" y1="140" x2="977.5" y2="140" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="900" y="135" font-family="sans-serif" font-size="11" text-anchor="middle">BORE ID 1.5505" (CONFIRMED)</text>
+
+  <line x1="740" y1="260.8" x2="740" y2="310" stroke="#999" stroke-width="1"/>
+  <line x1="1060" y1="260.8" x2="1060" y2="310" stroke="#999" stroke-width="1"/>
+  <line x1="740" y1="300" x2="1060" y2="300" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="900" y="295" font-family="sans-serif" font-size="11" text-anchor="middle">NARROW OD 3.2015" (CONFIRMED)</text>
+
+  <line x1="1075" y1="180" x2="1120" y2="180" stroke="#999" stroke-width="1"/>
+  <line x1="1060" y1="260.8" x2="1120" y2="260.8" stroke="#999" stroke-width="1"/>
+  <line x1="1110" y1="180" x2="1110" y2="260.8" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="1120" y="225" font-family="sans-serif" font-size="11" transform="rotate(-90 1120 225)" text-anchor="middle">HEIGHT 0.8082" (CONFIRMED)</text>
+
+
+  <text x="900" y="365" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">4. PLT-004 MOUNT STANDOFF TUBE (SCALE 2.5X)</text>
+  <line x1="900" y1="390" x2="900" y2="640" stroke="#000" stroke-width="1" stroke-dasharray="20,5,5,5"/>
+
+  <rect x="852.9" y="440" width="94.2" height="140" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M 900 440 L 947.1 440 L 947.1 580 L 900 580 Z" fill="url(#hatch-dense)" stroke="#000" stroke-width="1"/>
+  <path d="M 900 440 L 925.2 440 L 925.2 580 L 900 580 Z" fill="#fff" stroke="#000" stroke-width="1"/>
+  <line x1="874.8" y1="440" x2="874.8" y2="580" stroke="#000" stroke-width="1" stroke-dasharray="10,5"/>
+
+  <line x1="852.9" y1="440" x2="800" y2="440" stroke="#999" stroke-width="1"/>
+  <line x1="852.9" y1="580" x2="800" y2="580" stroke="#999" stroke-width="1"/>
+  <line x1="810" y1="440" x2="810" y2="580" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="800" y="510" font-family="sans-serif" font-size="11" transform="rotate(-90 800 510)" text-anchor="middle">L 0.6990" (CONFIRMED)</text>
+
+  <line x1="852.9" y1="440" x2="852.9" y2="410" stroke="#999" stroke-width="1"/>
+  <line x1="947.1" y1="440" x2="947.1" y2="410" stroke="#999" stroke-width="1"/>
+  <line x1="852.9" y1="420" x2="947.1" y2="420" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="900" y="415" font-family="sans-serif" font-size="11" text-anchor="middle">OD 0.3765" (CONFIRMED)</text>
+
+  <line x1="874.8" y1="580" x2="874.8" y2="610" stroke="#999" stroke-width="1"/>
+  <line x1="925.2" y1="580" x2="925.2" y2="610" stroke="#999" stroke-width="1"/>
+  <line x1="874.8" y1="600" x2="925.2" y2="600" stroke="#000" stroke-width="1" marker-start="url(#arr-l)" marker-end="url(#arr-r)"/>
+  <text x="900" y="615" font-family="sans-serif" font-size="11" text-anchor="middle">ID 0.2020" (CONFIRMED)</text>
+
+  <line x1="947.1" y1="510" x2="975" y2="510" stroke="#000" stroke-width="1"/>
+  <text x="980" y="505" font-family="sans-serif" font-size="10">WALL ~0.087"</text>
+  <text x="980" y="517" font-family="sans-serif" font-size="10">(SYN)</text>
+
+  <rect x="800" y="650" width="375" height="125" fill="none" stroke="#000" stroke-width="2"/>
+  <line x1="800" y1="680" x2="1175" y2="680" stroke="#000" stroke-width="1"/>
+  <line x1="800" y1="710" x2="1175" y2="710" stroke="#000" stroke-width="1"/>
+  <line x1="800" y1="740" x2="1175" y2="740" stroke="#000" stroke-width="1"/>
+  <line x1="987" y1="650" x2="987" y2="680" stroke="#000" stroke-width="1"/>
+  <line x1="987" y1="680" x2="987" y2="710" stroke="#000" stroke-width="1"/>
+  <text x="810" y="670" font-family="sans-serif" font-size="12" font-weight="bold">Product: L&amp;R Precision Cleaning Machine</text>
+  <text x="997" y="670" font-family="sans-serif" font-size="12" font-weight="bold">Model: Master</text>
+  <text x="810" y="700" font-family="sans-serif" font-size="12" font-weight="bold">Serial: 13505</text>
+  <text x="997" y="700" font-family="sans-serif" font-size="12" font-weight="bold">Date: June 12, 2026</text>
+  <text x="810" y="730" font-family="sans-serif" font-size="12" font-weight="bold">Engineer: Hobbs R.E.</text>
+  <text x="810" y="760" font-family="sans-serif" font-size="12" font-weight="bold">Manufacturer: L&amp;R MFG. CO.</text>
+
+  <rect x="25" y="635" width="750" height="140" fill="none" stroke="#000" stroke-width="2"/>
+  <text x="35" y="655" font-family="sans-serif" font-size="12" font-weight="bold">NOTES:</text>
+  <text x="35" y="675" font-family="sans-serif" font-size="11">REPRODUCTION DOCUMENT — Not an original L&amp;R Mfg. Co. technical publication.</text>
+  <text x="35" y="690" font-family="sans-serif" font-size="11">Reverse-engineered from direct physical measurement of specimen S/N 13505.</text>
+  <text x="35" y="705" font-family="sans-serif" font-size="11">Curated by Hobbs R.E., 2026. For restoration reference only.</text>
+  <text x="35" y="725" font-family="sans-serif" font-size="11">MATERIAL: PLT-001 / PLT-004 METAL (HATCHED) | PLT-002 RUBBER (SOLID FILL).</text>
+  <text x="35" y="745" font-family="sans-serif" font-size="11" font-weight="bold">RESTORATION:</text>
+  <text x="125" y="745" font-family="sans-serif" font-size="11">Original rivets (PLT-005) drilled out to service gasket; replaced with stainless</text>
+  <text x="35" y="760" font-family="sans-serif" font-size="11">M4-0.7 x 10mm flat-head Phillips screw + stainless M4-0.7 hex nut, reusing original</text>
+  <text x="35" y="775" font-family="sans-serif" font-size="11">washers PLT-006 (see restoration-log R-6).</text>
+</svg>

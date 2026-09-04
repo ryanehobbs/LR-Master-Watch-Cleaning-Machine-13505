@@ -1,0 +1,25 @@
+# Superseded drafts / working backup — not part of the published project
+archive/
+
+# --- Photos policy ---------------------------------------------------------
+# The raw bench-photo trove (~730 MB) stays local. Publish ONLY the curated
+# highlight set and the finished "beauty" shots.
+/photos/*
+!/photos/highlights/
+!/photos/finished/
+
+# Never publish video (large; near GitHub's file-size limit)
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.heic
+*.HEIC
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+.vscode/
+.idea/

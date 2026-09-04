@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+    <defs>
+        <style>
+            .header-text { font-family: sans-serif; font-weight: bold; font-size: 16px; fill: #111; text-anchor: middle; letter-spacing: 1px; }
+            .label-text { font-family: sans-serif; font-weight: bold; font-size: 10px; fill: #333; }
+            .value-text { font-family: monospace; font-size: 12px; fill: #111; }
+            .notes-text { font-family: sans-serif; font-size: 10px; fill: #111; }
+            .grid-label { font-family: sans-serif; font-weight: bold; font-size: 10px; fill: #666; text-anchor: middle; }
+            .disclaimer-text { font-family: sans-serif; font-style: italic; font-size: 9px; fill: #666; text-anchor: middle; }
+            
+            .border-heavy { stroke: #000000; stroke-width: 2.5; fill: none; }
+            .border-medium { stroke: #000000; stroke-width: 1.5; fill: none; }
+            .border-thin { stroke: #000000; stroke-width: 0.75; fill: none; }
+            .line-visible { stroke: #000000; stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+            .line-background { stroke: #555555; stroke-width: 1.0; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+            .line-hidden { stroke: #000000; stroke-width: 1.0; stroke-dasharray: 4, 3; fill: none; }
+            .line-center { stroke: #0369a1; stroke-width: 0.75; stroke-dasharray: 12, 3, 3, 3; fill: none; }
+            .line-dim { stroke: #444444; stroke-width: 0.6; fill: none; }
+            .txt-title { font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px; fill: #000000; text-anchor: middle; }
+            .txt-label { font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 11px; fill: #000000; text-anchor: middle; letter-spacing: 0.5px; }
+            .txt-dim { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 10px; fill: #000000; text-anchor: middle; font-weight: 500; }
+            .txt-block { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 10px; fill: #000000; }
+            .txt-block-bold { font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 10px; fill: #000000; }
+        </style>
+
+        <marker id="arr-start" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 10 2 L 0 5 L 10 8 z" fill="#000000" />
+        </marker>
+        <marker id="arr-end" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+            <path d="M 0 2 L 10 5 L 0 8 z" fill="#000000" />
+        </marker>
+    </defs>
+
+    <rect width="1200" height="800" fill="#f8f9fa" />
+
+    <rect x="15" y="15" width="1170" height="770" fill="none" stroke="#111" stroke-width="1" />
+    <rect x="35" y="35" width="1130" height="730" fill="none" stroke="#111" stroke-width="2" />
+
+    <line x1="320" y1="15" x2="320" y2="35" stroke="#111" stroke-width="1" />
+    <line x1="600" y1="15" x2="600" y2="35" stroke="#111" stroke-width="1" />
+    <line x1="880" y1="15" x2="880" y2="35" stroke="#111" stroke-width="1" />
+    <text x="177" y="28" class="grid-label">A</text>
+    <text x="460" y="28" class="grid-label">B</text>
+    <text x="740" y="28" class="grid-label">C</text>
+    <text x="1020" y="28" class="grid-label">D</text>
+
+    <line x1="15" y1="230" x2="35" y2="230" stroke="#111" stroke-width="1" />
+    <line x1="15" y1="425" x2="35" y2="425" stroke="#111" stroke-width="1" />
+    <line x1="15" y1="620" x2="35" y2="620" stroke="#111" stroke-width="1" />
+    <text x="25" y="137" class="grid-label">1</text>
+    <text x="25" y="332" class="grid-label">2</text>
+    <text x="25" y="527" class="grid-label">3</text>
+
+    <line x1="1165" y1="230" x2="1185" y2="230" stroke="#111" stroke-width="1" />
+    <line x1="1165" y1="425" x2="1185" y2="425" stroke="#111" stroke-width="1" />
+    <line x1="1165" y1="620" x2="1185" y2="620" stroke="#111" stroke-width="1" />
+
+    <line x1="320" y1="765" x2="320" y2="785" stroke="#111" stroke-width="1" />
+    <line x1="600" y1="765" x2="600" y2="785" stroke="#111" stroke-width="1" />
+    <line x1="880" y1="765" x2="880" y2="785" stroke="#111" stroke-width="1" />
+
+    <line x1="600" y1="35" x2="600" y2="620" stroke="#ccc" stroke-width="1" stroke-dasharray="15,5,5,5" />
+    <line x1="35" y1="327" x2="1165" y2="327" stroke="#ccc" stroke-width="1" stroke-dasharray="15,5,5,5" />
+
+    <g id="view-top-plan" transform="translate(317, 181)">
+        <circle cx="0" cy="0" r="85.3" class="line-visible" />
+        <circle cx="0" cy="0" r="23" class="line-visible" />
+        <circle cx="0" cy="0" r="12.2" class="line-visible" />
+        
+        <circle cx="0" cy="0" r="19" class="line-dim" stroke-dasharray="2, 2" />
+        <circle cx="-19" cy="0" r="1.5" fill="#000000" />
+        <circle cx="19" cy="0" r="1.5" fill="#000000" />
+        <circle cx="0" cy="-19" r="1.5" fill="#000000" />
+        <circle cx="0" cy="19" r="1.5" fill="#000000" />
+
+        <g transform="rotate(135)"><path d="M -3 -35 C -6 -35, -9 -50, -6 -62 C 0 -65, 6 -62, 9 -50 C 6 -35, 3 -35, -3 -35 Z" class="line-visible" /></g>
+        <g transform="rotate(165)"><path d="M -3 -35 C -6 -35, -9 -50, -6 -62 C 0 -65, 6 -62, 9 -50 C 6 -35, 3 -35, -3 -35 Z" class="line-visible" /></g>
+        <g transform="rotate(195)"><path d="M -3 -35 C -6 -35, -9 -50, -6 -62 C 0 -65, 6 -62, 9 -50 C 6 -35, 3 -35, -3 -35 Z" class="line-visible" /></g>
+        <g transform="rotate(225)"><path d="M -3 -35 C -6 -35, -9 -50, -6 -62 C 0 -65, 6 -62, 9 -50 C 6 -35, 3 -35, -3 -35 Z" class="line-visible" /></g>
+
+        <rect x="85.3" y="-14.1" width="13.3" height="28.2" class="line-visible" />
+        <rect x="-98.6" y="-14.1" width="13.3" height="28.2" class="line-visible" />
+
+        <circle cx="-61.3" cy="40" r="4.5" class="line-visible" fill="#f8f9fa" />
+        <circle cx="61.3" cy="40" r="4.5" class="line-visible" fill="#f8f9fa" />
+
+        <line x1="-120" y1="0" x2="120" y2="0" class="line-center" />
+        <line x1="0" y1="-100" x2="0" y2="100" class="line-center" />
+        <text x="0" y="130" class="txt-label">EXTERNAL TOP PLAN VIEW</text>
+
+        <line x1="-85.3" y1="0" x2="-85.3" y2="-120" class="line-dim" />
+        <line x1="85.3" y1="0" x2="85.3" y2="-120" class="line-dim" />
+        <line x1="-85.3" y1="-115" x2="85.3" y2="-115" class="line-dim" marker-start="url(#arr-start)" marker-end="url(#arr-end)" />
+        <text x="0" y="-121" class="txt-dim">Ø 3.200" [81.28mm] (CONFIRMED)</text>
+    </g>
+
+    <g id="view-bottom-plan" transform="translate(317, 473)">
+        <circle cx="0" cy="0" r="85.3" class="line-visible" />
+        <circle cx="0" cy="0" r="80" class="line-visible" />
+        <circle cx="0" cy="0" r="23" class="line-visible" />
+
+        <g transform="rotate(0)">
+            <path d="M -15 80 L -12 45 C -6 42, 6 42, 12 45 L 15 80 Z" class="line-visible" />
+            <circle cx="0" cy="61.3" r="3.5" class="line-visible" fill="#f8f9fa" />
+        </g>
+        <g transform="rotate(180)">
+            <path d="M -15 80 L -12 45 C -6 42, 6 42, 12 45 L 15 80 Z" class="line-visible" />
+            <circle cx="0" cy="61.3" r="3.5" class="line-visible" fill="#f8f9fa" />
+        </g>
+
+        <circle cx="-61.3" cy="40" r="4.5" class="line-visible" fill="#f8f9fa" />
+        <circle cx="61.3" cy="40" r="4.5" class="line-visible" fill="#f8f9fa" />
+
+        <g transform="rotate(32)"><rect x="74" y="-5" width="6" height="10" class="line-visible" /></g>
+        <g transform="rotate(148)"><rect x="74" y="-5" width="6" height="10" class="line-visible" /></g>
+        <g transform="rotate(212)"><rect x="74" y="-5" width="6" height="10" class="line-visible" /></g>
+        <g transform="rotate(328)"><rect x="74" y="-5" width="6" height="10" class="line-visible" /></g>
+
+        <line x1="-110" y1="0" x2="110" y2="0" class="line-center" />
+        <line x1="0" y1="-110" x2="0" y2="110" class="line-center" />
+        <text x="0" y="130" class="txt-label">INTERNAL BOTTOM PLAN VIEW</text>
+    </g>
+
+    <g id="view-front-elevation" transform="translate(882, 181)">
+        <path d="M -85.3 20.7 L -85.3 -30 C -85.3 -75, -24 -90, -24 -120.6 L 24 -120.6 C 24 -90, 85.3 -75, 85.3 -30 L 85.3 20.7 Z" class="line-visible" />
+        <rect x="-24" y="-120.6" width="48" height="13.3" class="line-visible" />
+        <rect x="-21.5" y="-128.6" width="43" height="8" class="line-visible" />
+
+        <rect x="85.3" y="-30" width="13.3" height="28.2" class="line-visible" />
+        <rect x="-98.6" y="-30" width="13.3" height="28.2" class="line-visible" />
+        
+        <rect x="-85.3" y="7.4" width="170.6" height="13.3" fill="none" stroke="#000000" stroke-width="1.0" />
+        <circle cx="-65" y="14" r="1.2" fill="#000000" />
+        <circle cx="65" y="14" r="1.2" fill="#000000" />
+
+        <line x1="0" y1="-140" x2="0" y2="60" class="line-center" />
+        <text x="0" y="130" class="txt-label">FRONT ELEVATION (CLEAN DOME FACE)</text>
+    </g>
+
+    <g id="view-rear-elevation" transform="translate(882, 473)">
+        <path d="M -85.3 20.7 L -85.3 -30 C -85.3 -75, -24 -90, -24 -120.6 L 24 -120.6 C 24 -90, 85.3 -75, 85.3 -30 L 85.3 20.7 Z" class="line-visible" />
+        <rect x="-24" y="-120.6" width="48" height="13.3" class="line-visible" />
+        <rect x="-21.5" y="-128.6" width="43" height="8" class="line-visible" />
+
+        <rect x="85.3" y="-30" width="13.3" height="28.2" class="line-visible" />
+        <rect x="-98.6" y="-30" width="13.3" height="28.2" class="line-visible" />
+        
+        <rect x="-25.3" y="-43.2" width="50.6" height="37.3" class="line-visible" fill="#e9ecef" />
+
+        <circle cx="-61.3" cy="-24.6" r="4.5" class="line-visible" fill="#f8f9fa" />
+        <circle cx="61.3" cy="-24.6" r="4.5" class="line-visible" fill="#f8f9fa" />
+        
+        <line x1="-65.8" y1="-55" x2="-65.8" y2="20.7" class="line-hidden" />
+        <line x1="-56.8" y1="-55" x2="-56.8" y2="20.7" class="line-hidden" />
+        <line x1="56.8" y1="-55" x2="56.8" y2="20.7" class="line-hidden" />
+        <line x1="65.8" y1="-55" x2="65.8" y2="20.7" class="line-hidden" />
+
+        <rect x="-85.3" y="7.4" width="170.6" height="13.3" fill="none" stroke="#000000" stroke-width="1.0" />
+
+        <line x1="0" y1="-140" x2="0" y2="60" class="line-center" />
+        <text x="0" y="130" class="txt-label">REAR ELEVATION (FLOATING PORT &amp; SCREW HOLES)</text>
+
+        <line x1="-61.3" y1="-24.6" x2="-61.3" y2="55" class="line-dim" />
+        <line x1="61.3" y1="-24.6" x2="61.3" y2="55" class="line-dim" />
+        <line x1="-61.3" y1="50" x2="61.3" y2="50" class="line-dim" marker-start="url(#arr-start)" marker-end="url(#arr-end)" />
+        <text x="0" y="65" class="txt-dim">PITCH C-C: 2.300" [58.42mm] (CONFIRMED)</text>
+
+        <line x1="25.3" y1="20.7" x2="115" y2="20.7" class="line-dim" />
+        <line x1="25.3" y1="-5.9" x2="115" y2="-5.9" class="line-dim" />
+        <line x1="110" y1="-5.9" x2="110" y2="20.7" class="line-dim" marker-start="url(#arr-start)" marker-end="url(#arr-end)" />
+        <text x="150" y="11" class="txt-dim">0.500" BRIDGE (CONFIRMED)</text>
+    </g>
+
+    <line x1="35" y1="620" x2="1165" y2="620" stroke="#111" stroke-width="2" />
+    
+    <rect x="45" y="630" width="530" height="120" fill="#fff" stroke="#111" stroke-width="2" />
+    <text x="55" y="648" class="label-text">NOTES &amp; SPECIFICATIONS:</text>
+    <text x="55" y="665" class="notes-text">1. MATERIAL: Cast Aluminum Alloy / Smooth organic bell dome taper geometry.</text>
+    <text x="55" y="680" class="notes-text">2. DIMENSIONS: 3.200" OD, 2.650" Overall Height, 1.850" Interior Depth.</text>
+    <text x="55" y="695" class="notes-text">3. WIRE ENTRY (UH-002): 0.950"W x 0.700"H slot, placed 0.500" above bottom flange.</text>
+    <text x="55" y="710" class="notes-text">4. BRUSH PORTS (UH-003): Ø0.435" ID / Ø0.530" OD ports at 180° axis.</text>
+    <text x="55" y="725" class="notes-text">5. MOUNTING: 2x Mount screws (UH-006) on 2.300" bolt circle.</text>
+    <text x="55" y="740" class="notes-text">6. METROLOGY ANCHOR: Dimensional properties synced directly with reference specimen S/N 13505.</text>
+
+    <rect x="585" y="630" width="570" height="120" fill="#fff" stroke="#111" stroke-width="2" />
+    
+    <line x1="585" y1="660" x2="1155" y2="660" stroke="#111" stroke-width="2" />
+    <line x1="585" y1="705" x2="1155" y2="705" stroke="#111" stroke-width="1" />
+    
+    <line x1="755" y1="660" x2="755" y2="750" stroke="#111" stroke-width="1" />
+    <line x1="965" y1="660" x2="965" y2="750" stroke="#111" stroke-width="1" />
+    <line x1="1065" y1="705" x2="1065" y2="750" stroke="#111" stroke-width="1" />
+
+    <text x="870" y="650" class="header-text">L&amp;R PRECISION CLEANING MACHINE — MASTER</text>
+    
+    <text x="595" y="675" class="label-text">MANUFACTURER:</text>
+    <text x="595" y="695" class="value-text" font-weight="bold">L&amp;R MFG. CO.</text>
+    
+    <text x="765" y="675" class="label-text">DRAWING TITLE:</text>
+    <text x="765" y="695" class="value-text" font-weight="bold" font-size="10px" textLength="185" lengthAdjust="spacingAndGlyphs">UPPER MOTOR HOUSING COMPONENT SHEET (REV L)</text>
+    
+    <text x="975" y="675" class="label-text">PART NUMBER / ID:</text>
+    <text x="975" y="695" class="value-text" font-weight="bold" fill="#ff3333">UH-001</text>
+
+    <text x="595" y="720" class="label-text">ENGINEER:</text>
+    <text x="595" y="740" class="value-text">Hobbs R.E.</text>
+    
+    <text x="765" y="720" class="label-text">METADATA CONTROL:</text>
+    <text x="765" y="735" class="value-text" font-size="10px">SCALE: 1:1 TRUE SCALE</text>
+    <text x="765" y="748" class="value-text" font-size="10px">SERIAL NUMBER: S/N 13505</text>
+    
+    <text x="975" y="720" class="label-text">DATE:</text>
+    <text x="975" y="740" class="value-text">June 12, 2026</text>
+    
+    <text x="1075" y="720" class="label-text">STATUS:</text>
+    <text x="1075" y="740" class="value-text" font-weight="bold" fill="#228b22">RELEASED</text>
+
+    <text x="600" y="760" class="disclaimer-text">REPRODUCTION DOCUMENT — Not an original L&amp;R Mfg. Co. technical publication. Reverse-engineered from direct physical measurement of specimen S/N 13505. Curated by Hobbs R.E., 2026. For restoration reference only.</text>
+</svg>

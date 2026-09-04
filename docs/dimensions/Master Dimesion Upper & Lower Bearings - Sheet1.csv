@@ -1,0 +1,9 @@
+REPRODUCTION DOCUMENT — Not an original L&R Mfg. Co. technical publication. Reverse-engineered from direct physical measurement of specimen S/N 13505. Curated by Hobbs R.E. 2026. For restoration reference only.,,,,,
+Feature,Part ID,Upper Bearing,Lower Bearing,Upper Housing Socket,Lower Housing Socket
+ID (Center Bore),BRG-004,"0.250""","0.280""",na,na
+OD (Spherical Ball),BRG-003,"0.560""","0.560""","0.750""","0.750"""
+Height,BRG-001 / BRG-002,"0.670""","0.700""","0.845""","0.845"""
+OD (Top Collar),BRG-005,"0.410""","0.440""","0.640""","0.640"""
+OD (Bottom Collar),BRG-006,"0.410""","0.405""","0.465""","0.500"""
+GEOMETRY NOTES: Spherical ball (0.560") larger than both housing bottom openings (0.465" / 0.500") — ball seats on socket and self-retains. Bearing-to-housing height delta (~0.145-0.175") provides pocket space for felt washers each end. Housing socket OD 0.750" (CONFIRMED) matches BRG-012 spring large OD exactly. All values CONFIRMED by direct bench measurement.,,,,,
+FELT/RETAINER STACK per bearing — Upper: BRG-009 large felt washer (top) / BRG-001 bearing + BRG-012 spring at equator / BRG-010 small felt solid disc (below). Lower: BRG-009 large felt washer (top) / BRG-002 bearing + BRG-012 spring at equator / BRG-010 small felt with cutout (below) / BRG-011 metal retaining washer (bottom).,,,,,
